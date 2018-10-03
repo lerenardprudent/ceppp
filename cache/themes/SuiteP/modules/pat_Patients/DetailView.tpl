@@ -165,6 +165,166 @@
 
 
 
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_EMAIL_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="email_perso"  >
+
+{if !$fields.email_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.email_perso.value) <= 0}
+{assign var="value" value=$fields.email_perso.default_value }
+{else}
+{assign var="value" value=$fields.email_perso.value }
+{/if} 
+<span class="sugar_field" id="{$fields.email_perso.name}">{$fields.email_perso.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_DOM_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_dom_perso"  class="phone">
+
+{if !$fields.tel_dom_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_dom_perso.value)}
+{assign var="phone_value" value=$fields.tel_dom_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_TRAVAIL_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_travail_perso"  class="phone">
+
+{if !$fields.tel_travail_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_travail_perso.value)}
+{assign var="phone_value" value=$fields.tel_travail_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_MOBILE_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_mobile_perso"  class="phone">
+
+{if !$fields.tel_mobile_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_mobile_perso.value)}
+{assign var="phone_value" value=$fields.tel_mobile_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
 <div class="col-xs-12 col-sm-12 detail-view-row-item">
 
 
@@ -310,6 +470,166 @@
 
 
 
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_EMAIL_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="email_perso"  >
+
+{if !$fields.email_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.email_perso.value) <= 0}
+{assign var="value" value=$fields.email_perso.default_value }
+{else}
+{assign var="value" value=$fields.email_perso.value }
+{/if} 
+<span class="sugar_field" id="{$fields.email_perso.name}">{$fields.email_perso.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_DOM_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_dom_perso"  class="phone">
+
+{if !$fields.tel_dom_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_dom_perso.value)}
+{assign var="phone_value" value=$fields.tel_dom_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_TRAVAIL_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_travail_perso"  class="phone">
+
+{if !$fields.tel_travail_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_travail_perso.value)}
+{assign var="phone_value" value=$fields.tel_travail_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_TEL_MOBILE_PERSO' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="phone" field="tel_mobile_perso"  class="phone">
+
+{if !$fields.tel_mobile_perso.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if !empty($fields.tel_mobile_perso.value)}
+{assign var="phone_value" value=$fields.tel_mobile_perso.value }
+{sugar_phone value=$phone_value usa_format="0"}
+{/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
 <div class="col-xs-12 col-sm-12 detail-view-row-item">
 
 
@@ -358,11 +678,11 @@
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse" href="#top-panel-0" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
-{sugar_translate label='LBL_ADDRESS_INFORMATION' module='pat_Patients'}
+{sugar_translate label='LBL_EDITVIEW_PANEL1' module='pat_Patients'}
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-0"  data-id="LBL_ADDRESS_INFORMATION">
+<div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-0"  data-id="LBL_EDITVIEW_PANEL1">
 <div class="tab-content">
 <!-- TAB CONTENT -->
 
@@ -380,41 +700,22 @@
 <div class="col-xs-12 col-sm-4 label col-1-label">
 
 
-{capture name="label" assign="label"}{sugar_translate label='LBL_PRIMARY_ADDRESS' module='pat_Patients'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO' module='pat_Patients'}{/capture}
 {$label|strip_semicolon}:
 </div>
 
 
-<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="primary_address_street"  >
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso"  >
 
-{if !$fields.primary_address_street.hidden}
+{if !$fields.adresse_perso.hidden}
 {counter name="panelFieldCount" print=false}
 
-<table border='0' cellpadding='0' cellspacing='0' width='100%'>
-<tr>
-<td width='99%'>
-<input type="hidden" class="sugar_field" id="primary_address_street"
-value="{$fields.primary_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_city"
-value="{$fields.primary_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_state"
-value="{$fields.primary_address_state.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_country"
-value="{$fields.primary_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_postalcode"
-value="{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-{$fields.primary_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-<br>
-{$fields.primary_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.primary_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-&nbsp;&nbsp;{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-<br>
-{$fields.primary_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-</td>
-<td class='dataField' width='1%'>
-{$custom_code_primary}
-</td>
-</tr>
-</table>
+{if strlen($fields.adresse_perso.value) <= 0}
+{assign var="value" value=$fields.adresse_perso.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso.name}">{$fields.adresse_perso.value}</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">
@@ -434,41 +735,135 @@ value="{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|esc
 <div class="col-xs-12 col-sm-4 label col-2-label">
 
 
-{capture name="label" assign="label"}{sugar_translate label='LBL_ALT_ADDRESS' module='pat_Patients'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_CITY' module='pat_Patients'}{/capture}
 {$label|strip_semicolon}:
 </div>
 
 
-<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="alt_address_street"  >
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_city"  >
 
-{if !$fields.alt_address_street.hidden}
+{if !$fields.adresse_perso_city.hidden}
 {counter name="panelFieldCount" print=false}
 
-<table border='0' cellpadding='0' cellspacing='0' width='100%'>
-<tr>
-<td width='99%'>
-<input type="hidden" class="sugar_field" id="alt_address_street"
-value="{$fields.alt_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_city"
-value="{$fields.alt_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_state"
-value="{$fields.alt_address_state.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_country"
-value="{$fields.alt_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_postalcode"
-value="{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-{$fields.alt_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-<br>
-{$fields.alt_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.alt_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-&nbsp;&nbsp;{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-<br>
-{$fields.alt_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-</td>
-<td class='dataField' width='1%'>
-{$custom_code_alt}
-</td>
-</tr>
-</table>
+{if strlen($fields.adresse_perso_city.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_city.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_city.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_city.name}">{$fields.adresse_perso_city.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_STATE' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_state"  >
+
+{if !$fields.adresse_perso_state.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_state.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_state.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_state.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_state.name}">{$fields.adresse_perso_state.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_POSTALCODE' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_postalcode"  >
+
+{if !$fields.adresse_perso_postalcode.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_postalcode.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_postalcode.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_postalcode.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_postalcode.name}">{$fields.adresse_perso_postalcode.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_COUNTRY' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="adresse_perso_country" colspan='3' >
+
+{if !$fields.adresse_perso_country.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_country.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_country.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_country.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_country.name}">{$fields.adresse_perso_country.value}</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">
@@ -489,11 +884,11 @@ value="{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|escape:
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse" href="#top-panel-0" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
-{sugar_translate label='LBL_ADDRESS_INFORMATION' module='pat_Patients'}
+{sugar_translate label='LBL_EDITVIEW_PANEL1' module='pat_Patients'}
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-0" data-id="LBL_ADDRESS_INFORMATION">
+<div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-0" data-id="LBL_EDITVIEW_PANEL1">
 <div class="tab-content">
 <!-- TAB CONTENT -->
 
@@ -511,41 +906,22 @@ value="{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|escape:
 <div class="col-xs-12 col-sm-4 label col-1-label">
 
 
-{capture name="label" assign="label"}{sugar_translate label='LBL_PRIMARY_ADDRESS' module='pat_Patients'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO' module='pat_Patients'}{/capture}
 {$label|strip_semicolon}:
 </div>
 
 
-<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="primary_address_street"  >
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso"  >
 
-{if !$fields.primary_address_street.hidden}
+{if !$fields.adresse_perso.hidden}
 {counter name="panelFieldCount" print=false}
 
-<table border='0' cellpadding='0' cellspacing='0' width='100%'>
-<tr>
-<td width='99%'>
-<input type="hidden" class="sugar_field" id="primary_address_street"
-value="{$fields.primary_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_city"
-value="{$fields.primary_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_state"
-value="{$fields.primary_address_state.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_country"
-value="{$fields.primary_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="primary_address_postalcode"
-value="{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-{$fields.primary_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-<br>
-{$fields.primary_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.primary_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-&nbsp;&nbsp;{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-<br>
-{$fields.primary_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-</td>
-<td class='dataField' width='1%'>
-{$custom_code_primary}
-</td>
-</tr>
-</table>
+{if strlen($fields.adresse_perso.value) <= 0}
+{assign var="value" value=$fields.adresse_perso.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso.name}">{$fields.adresse_perso.value}</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">
@@ -565,41 +941,135 @@ value="{$fields.primary_address_postalcode.value|escape:'html_entity_decode'|esc
 <div class="col-xs-12 col-sm-4 label col-2-label">
 
 
-{capture name="label" assign="label"}{sugar_translate label='LBL_ALT_ADDRESS' module='pat_Patients'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_CITY' module='pat_Patients'}{/capture}
 {$label|strip_semicolon}:
 </div>
 
 
-<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="alt_address_street"  >
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_city"  >
 
-{if !$fields.alt_address_street.hidden}
+{if !$fields.adresse_perso_city.hidden}
 {counter name="panelFieldCount" print=false}
 
-<table border='0' cellpadding='0' cellspacing='0' width='100%'>
-<tr>
-<td width='99%'>
-<input type="hidden" class="sugar_field" id="alt_address_street"
-value="{$fields.alt_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_city"
-value="{$fields.alt_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_state"
-value="{$fields.alt_address_state.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_country"
-value="{$fields.alt_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-<input type="hidden" class="sugar_field" id="alt_address_postalcode"
-value="{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-{$fields.alt_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-<br>
-{$fields.alt_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.alt_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-&nbsp;&nbsp;{$fields.alt_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
-<br>
-{$fields.alt_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
-</td>
-<td class='dataField' width='1%'>
-{$custom_code_alt}
-</td>
-</tr>
-</table>
+{if strlen($fields.adresse_perso_city.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_city.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_city.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_city.name}">{$fields.adresse_perso_city.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_STATE' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_state"  >
+
+{if !$fields.adresse_perso_state.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_state.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_state.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_state.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_state.name}">{$fields.adresse_perso_state.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-2-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_POSTALCODE' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="varchar" field="adresse_perso_postalcode"  >
+
+{if !$fields.adresse_perso_postalcode.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_postalcode.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_postalcode.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_postalcode.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_postalcode.name}">{$fields.adresse_perso_postalcode.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_ADRESSE_PERSO_COUNTRY' module='pat_Patients'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="adresse_perso_country" colspan='3' >
+
+{if !$fields.adresse_perso_country.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.adresse_perso_country.value) <= 0}
+{assign var="value" value=$fields.adresse_perso_country.default_value }
+{else}
+{assign var="value" value=$fields.adresse_perso_country.value }
+{/if} 
+<span class="sugar_field" id="{$fields.adresse_perso_country.name}">{$fields.adresse_perso_country.value}</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">

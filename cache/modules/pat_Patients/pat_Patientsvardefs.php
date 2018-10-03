@@ -984,6 +984,32 @@
       'len' => '255',
       'size' => '20',
     ),
+    'email_perso' => 
+    array (
+      'required' => false,
+      'name' => 'email_perso',
+      'vname' => 'LBL_EMAIL_PERSO',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+      'validation' => 
+      array (
+        'type' => 'callback',
+        'callback' => 'function(formname,nameIndex){ console.log(formname, nameIndex, "WTF???"); return true; }',
+      ),
+    ),
     'pat_partenariats_pat_patients' => 
     array (
       'name' => 'pat_partenariats_pat_patients',
