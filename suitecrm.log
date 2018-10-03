@@ -1,0 +1,39 @@
+Fri Sep 21 21:19:40 2018 [5924][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Fri Sep 21 21:28:00 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 21:28:49 2018 [5924][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:450 - styleChecked is not set
+Fri Sep 21 21:29:38 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:06:48 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:11:33 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:16:00 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:24:41 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:25:17 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:26:15 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:27:51 2018 [5924][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Fri Sep 21 22:28:33 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:29:56 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:35:59 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:37:56 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:38:49 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:39:05 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:40:28 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 22:56:45 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:17:23 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:34:14 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:35:23 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:36:13 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:37:00 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:37:14 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:37:40 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:38:50 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:40:19 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:45:13 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:55:05 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/02/18 18:41:32 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/02/18 19:03:26 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/02/18 19:35:54 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/02/18 19:38:55 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/02/18 20:02:37 [1812][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+10/02/18 20:02:37 [1812][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+10/02/18 21:01:20 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

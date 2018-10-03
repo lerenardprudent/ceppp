@@ -1,0 +1,9 @@
+<?php
+// created: 2018-10-02 21:11:04
+$mod_strings = array (
+  'LBL_EDITVIEW_PANEL1' => 'LBL_ACCOUNTS_PAT_PATIENTS_1_FROM_PAT_PATIENTS_TITLE',
+  'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
+  'LBL_DETAILVIEW_PANEL1' => 'Patient',
+  'LBL_EDITVIEW_PANEL2' => 'Patients',
+  'LBL_EDITVIEW_PANEL3' => 'Patients',
+);
