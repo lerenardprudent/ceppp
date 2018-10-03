@@ -153,6 +153,7 @@ $mod_strings = array(
     'LBL_PROSPECT_LIST' => 'Liste de cibles',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Comptes',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projets',
+	'LBL_PATIENT_SUBPANEL_TITLE' => 'Goodbye',
     //For export labels
     'LBL_PARENT_ID' => 'Parent (ID)',
     // SNIP

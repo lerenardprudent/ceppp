@@ -1,7 +1,7 @@
 <?php
-// created: 2018-10-03 17:45:29
+// created: 2018-10-03 19:17:24
 $mod_strings = array (
-  'LBL_EDITVIEW_PANEL1' => 'Patient',
+  'LBL_EDITVIEW_PANEL1' => 'LBL_PATIENT_SUBPANEL_TITLE',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
   'LBL_DETAILVIEW_PANEL1' => 'Patient',
   'LBL_EDITVIEW_PANEL2' => 'Patient',

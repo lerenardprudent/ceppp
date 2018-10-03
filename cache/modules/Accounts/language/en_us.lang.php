@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-03 17:45:50
+// created: 2018-10-03 19:59:39
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -129,13 +129,14 @@ $mod_strings = array (
   'LBL_PROSPECT_LIST' => 'Prospect List',
   'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
   'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+  'LBL_PATIENT_SUBPANEL_TITLE' => 'Hello',
   'LBL_PARENT_ID' => 'Parent ID',
   'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Products and Services Purchased',
   'LBL_AOS_CONTRACTS' => 'Contracts',
   'LBL_AOS_INVOICES' => 'Invoices',
   'LBL_AOS_QUOTES' => 'Quotes',
-  'LBL_EDITVIEW_PANEL1' => 'Patient',
-  'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
+  'LBL_EDITVIEW_PANEL1' => 'LBL_PATIENT_SUBPANEL_TITLE',
+  'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patients',
   'LBL_DETAILVIEW_PANEL1' => 'Patient',
   'LBL_EDITVIEW_PANEL2' => 'Patient',
   'LBL_EDITVIEW_PANEL3' => 'Patient',
