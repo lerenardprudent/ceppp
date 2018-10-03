@@ -39,4 +39,4 @@
  */
 
 $app_list_strings['moduleList']['pat_Partenariats'] = 'Partenariats';
-$app_list_strings['moduleList']['pat_Patients'] = 'Patients';
+$app_list_strings['moduleList']['pat_Patients'] = 'Patient';

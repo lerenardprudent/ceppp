@@ -49,6 +49,6 @@ $config = array (
     'basic' => 1,
     'person' => 1,
   ),
-  'label' => 'Patients',
+  'label' => 'Patient',
   'importable' => false,
 );

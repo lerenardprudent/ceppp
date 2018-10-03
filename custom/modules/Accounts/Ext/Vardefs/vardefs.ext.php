@@ -36,7 +36,7 @@ $dictionary["Account"]["fields"]["accounts_am_projecttemplates_1am_projecttempla
 );
 
 
-// created: 2018-10-02 20:42:37
+// created: 2018-10-03 17:43:52
 $dictionary["Account"]["fields"]["pat_patients_accounts"] = array (
   'name' => 'pat_patients_accounts',
   'type' => 'link',

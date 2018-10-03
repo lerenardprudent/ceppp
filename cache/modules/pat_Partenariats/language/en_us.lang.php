@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-02 21:11:44
+// created: 2018-10-03 17:44:05
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -38,5 +38,5 @@ $mod_strings = array (
   'LBL_PAT_PARTENARIATS_SUBPANEL_TITLE' => 'Partenariats',
   'LBL_NEW_FORM_TITLE' => 'New Partenariats',
   'LBL_PAT_PARTENARIATS_PAT_PATIENTS_FROM_PAT_PATIENTS_TITLE' => 'Patients',
-  'LBL_PAT_PATIENTS_PAT_PARTENARIATS_FROM_PAT_PATIENTS_TITLE' => 'Patients',
+  'LBL_PAT_PATIENTS_PAT_PARTENARIATS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
 );
