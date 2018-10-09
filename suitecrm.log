@@ -37,3 +37,7 @@ Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/in
 10/02/18 20:02:37 [1812][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
 10/02/18 20:02:37 [1812][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
 10/02/18 21:01:20 [1812][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/05/18 14:18:24 [19180][1][FATAL] IP Address mismatch: SESSION IP: ::1 CLIENT IP: 127.0.0.1
+10/09/18 15:21:14 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/09/18 20:01:36 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/09/18 20:08:28 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
