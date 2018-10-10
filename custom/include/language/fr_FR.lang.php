@@ -2,7 +2,7 @@
 
 $db = DBManagerFactory::getInstance();
 $cond = "1"; // "code like '100%'"
-$query = "select code, desc_short_en as descr from cim9 where $cond order by desc_short_en";
+$query = "select code, desc_short_fr as descr from cim9 where $cond order by desc_short_fr";
 $result= $db->query($query);
 
 $GLOBALS['app_list_strings']['cim9_list']=array ();
