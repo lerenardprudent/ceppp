@@ -150,6 +150,26 @@ array (
           ),
           1 => '',
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'med_2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MED_2',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'med_3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MED_3',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

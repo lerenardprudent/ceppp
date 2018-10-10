@@ -468,3 +468,6 @@ Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/in
 10/10/18 20:28:24 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
 10/10/18 20:28:40 [13096][-none-][FATAL] Mysqli_query failed.
 10/10/18 20:28:40 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:36:16 [13096][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/10/18 20:49:54 [13096][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/10/18 20:50:21 [13096][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
