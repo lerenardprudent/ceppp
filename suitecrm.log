@@ -123,3 +123,348 @@ Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/in
 10/10/18 17:40:29 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
 10/10/18 17:40:29 [22872][1][FATAL] Mysqli_query failed.
 10/10/18 17:40:29 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 19:56:37 [13096][1][FATAL] IP Address mismatch: SESSION IP: ::1 CLIENT IP: 127.0.0.1
+10/10/18 20:15:33 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:15:33 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:15:44 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:15:44 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:15:51 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:15:51 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:09 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:09 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:16 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:16:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:16:17 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:17 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:33 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:33 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:45 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:45 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:16:52 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:16:52 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:10 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:10 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:16 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:17:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:17:17 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:17 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:33 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:33 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:46 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:46 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:17:52 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:17:52 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:10 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:10 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:16 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:18:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:18:18 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:18 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:34 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:34 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:46 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:46 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:18:52 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:18:52 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:11 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:11 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:16 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:19:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_fr as descr from cim9 where 1 order by desc_short_fr: MySQL error 1054: Champ 'desc_short_fr' inconnu dans field list
+10/10/18 20:19:18 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:18 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:35 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:35 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:47 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:47 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:19:53 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:19:53 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:12 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:12 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:16 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:16 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:19 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:19 [13096][-none-][FATAL]  Query Failed: select code, desc_short_en as descr from cim9 where code like '100%' order by desc_short_en: MySQL error 1054: Champ 'desc_short_en' inconnu dans field list
+10/10/18 20:20:32 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:32 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:32 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:32 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:32 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:32 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:34 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:35 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:35 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:20:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:47 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:47 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:20:54 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:20:54 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:13 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:13 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:19 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:19 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:36 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:36 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:21:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:21:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:47 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:47 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:21:55 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:21:55 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:13 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:13 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:20 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:20 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:22:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:22:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:48 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:48 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:22:55 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:22:55 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:14 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:14 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:21 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:21 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:23:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:23:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:49 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:49 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:23:55 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:23:55 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:15 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:15 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:22 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:22 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:24:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:24:37 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:37 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:37 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:49 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:49 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:24:56 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:24:56 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:07 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:07 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:07 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:07 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:08 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:08 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:12 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:12 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:25:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:16 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:16 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:22 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:22 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:38 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:38 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:50 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:50 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:25:56 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:25:56 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:12 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:12 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:17 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:17 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:23 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:23 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:38 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:38 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:40 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:40 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:40 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:40 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:40 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:40 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:41 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:41 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:41 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:41 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:42 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:44 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:44 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:44 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:44 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:44 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:44 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:50 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:50 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:50 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:50 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:50 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:50 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:50 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:50 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:51 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:51 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:51 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:51 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:53 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:53 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:57 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:57 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:58 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:58 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:59 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:59 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:59 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:26:59 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:26:59 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:26:59 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:02 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:02 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:02 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:02 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:03 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:03 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:03 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:03 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:05 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:05 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:05 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:05 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:08 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:08 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:08 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:08 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:09 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:09 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:09 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:11 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:11 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:11 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:11 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:11 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:11 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:11 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:11 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:12 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:12 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:12 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:17 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:17 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:20 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:20 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:20 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:20 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:23 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:23 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:23 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:27:23 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:24 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:24 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:39 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:39 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:51 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:51 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:27:57 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:27:57 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:28:18 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:28:18 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:28:23 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:28:23 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:28:23 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 20:28:23 [13096][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:28:24 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:28:24 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1
+10/10/18 20:28:40 [13096][-none-][FATAL] Mysqli_query failed.
+10/10/18 20:28:40 [13096][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where  order by desc_en: MySQL error 1064: Erreur de syntaxe près de 'order by desc_en' à la ligne 1

@@ -1,11 +1,14 @@
 <?php
 
 $db = DBManagerFactory::getInstance();
-$cond = "1"; // "code like '100%'"
-$query = "select code, desc_short_fr as descr from cim9 where $cond order by desc_short_fr";
+$cond = "1";
+$codeCol = "code";
+$descCol = "desc_fr";
+$tableName = "cim9";
+$query = "select $codeCol, $descCol from $tableName where $cond order by $descCol";
 $result= $db->query($query);
 
 $GLOBALS['app_list_strings']['cim9_list']=array ();
 while ( $row= $db->fetchRow($result) ) {
-  $GLOBALS['app_list_strings']['cim9_list'][$row['code']] = $row['descr'];
+  $GLOBALS['app_list_strings']['cim9_list'][$row[$codeCol]] = $row[$descCol];
 }
