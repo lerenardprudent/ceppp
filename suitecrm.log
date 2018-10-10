@@ -41,3 +41,85 @@ Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/in
 10/09/18 15:21:14 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 10/09/18 20:01:36 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 10/09/18 20:08:28 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/10/18 16:29:02 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/10/18 17:33:17 [22872][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+10/10/18 17:39:04 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:04 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 17:39:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 17:39:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:07 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:07 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:07 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:07 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:09 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:09 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:09 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:09 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:10 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:10 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:10 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:10 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:11 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:11 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:11 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:11 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:14 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:14 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:14 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:14 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:24 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:24 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:37 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:37 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:38 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:38 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:38 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:38 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:39 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:39 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:39 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:39 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:40 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:40 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:40 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:40 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:40 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:40 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:40 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:40 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:41 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:41 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:41 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:41 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:47 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:47 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:47 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:47 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:58 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:39:58 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:39:59 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:39:59 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:04 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:40:04 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 17:40:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Mysqli_query failed.
+10/10/18 17:40:04 [22872][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:09 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:40:09 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:09 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:40:09 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:20 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:40:20 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:20 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:40:20 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:20 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:40:20 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:20 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:40:20 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:29 [22872][-none-][FATAL] Mysqli_query failed.
+10/10/18 17:40:29 [22872][-none-][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1
+10/10/18 17:40:29 [22872][1][FATAL] Mysqli_query failed.
+10/10/18 17:40:29 [22872][1][FATAL]  Query Failed: select code, desc_short_en as desc from cim9 where code like '100%' order by desc_short_en: MySQL error 1064: Erreur de syntaxe près de 'desc from cim9 where code like '100%' order by desc_short_en' à la ligne 1

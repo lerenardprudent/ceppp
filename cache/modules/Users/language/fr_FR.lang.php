@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-09 21:06:35
+// created: 2018-10-10 17:41:25
 $mod_strings = array (
   'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Le modèle d\'email à 2 facteurs n\'a pas été configuré, veuillez changer les paramètres sur la page d\'administration de mot de passe.',
   'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Le modèle d\'email à 2 facteurs devrait au moins contenir un $code.',

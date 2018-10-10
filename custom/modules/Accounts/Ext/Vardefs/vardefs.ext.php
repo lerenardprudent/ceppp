@@ -75,15 +75,27 @@ $dictionary["Account"]["fields"]["pat_patients_accountspat_patients_ida"] = arra
 );
 
 
- // created: 2018-10-09 20:31:37
-$dictionary['Account']['fields']['domaine_soin_c']['inline_edit']='1';
-$dictionary['Account']['fields']['domaine_soin_c']['labelValue']='Spécialité domaine de soins 1';
+ // created: 2018-10-10 15:56:02
+$dictionary['Account']['fields']['domaine_soin_2_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_2_c']['labelValue']='Healthcare Speciality #2';
 
  
 
- // created: 2018-10-09 20:19:57
+ // created: 2018-10-10 15:56:34
+$dictionary['Account']['fields']['domaine_soin_3_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_3_c']['labelValue']='Healthcare Speciality #3';
+
+ 
+
+ // created: 2018-10-10 15:51:49
+$dictionary['Account']['fields']['domaine_soin_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_c']['labelValue']='Healthcare Speciality #1';
+
+ 
+
+ // created: 2018-10-10 16:04:02
 $dictionary['Account']['fields']['experience_maladie_c']['inline_edit']='1';
-$dictionary['Account']['fields']['experience_maladie_c']['labelValue']='Expérience du partenariat patient avec la maladie';
+$dictionary['Account']['fields']['experience_maladie_c']['labelValue']='PP experience w/ sickness';
 
  
 
@@ -104,6 +116,12 @@ $dictionary['Account']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  // created: 2018-09-21 21:19:30
 $dictionary['Account']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
+
+ 
+
+ // created: 2018-10-10 16:36:51
+$dictionary['Account']['fields']['med_1_c']['inline_edit']='1';
+$dictionary['Account']['fields']['med_1_c']['labelValue']='Médicamments';
 
  
 ?>

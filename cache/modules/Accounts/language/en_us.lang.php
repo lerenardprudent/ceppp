@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-09 20:34:06
+// created: 2018-10-10 16:42:40
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -143,5 +143,8 @@ $mod_strings = array (
   'LBL_ACCOUNTS_PAT_PATIENTS_1_FROM_PAT_PATIENTS_TITLE' => 'Patients',
   'LBL_EXPERIENCE_MALADIE' => 'PP experience w/ sickness',
   'LBL_DOMAINE_SOIN' => 'Healthcare Speciality #1',
+  'LBL_DOMAINE_SOIN_2' => 'Healthcare Speciality #2',
+  'LBL_DOMAINE_SOIN_3' => 'Healthcare Speciality #3',
+  'LBL_MED_1' => 'Medicine',
   'LBL_ACCOUNTS_AM_PROJECTTEMPLATES_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Projects - Templates',
 );
