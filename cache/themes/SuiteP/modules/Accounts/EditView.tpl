@@ -1189,6 +1189,45 @@ onclick="SUGAR.clearRelateField(this.form, '{$fields.med_3_c.name}-input', '{$fi
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
+
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_DOUL_CHRON">
+
+{minify}
+{capture name="label" assign="label"}{sugar_translate label='LBL_DOUL_CHRON' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+
+{/minify}
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="radioenum" field="doul_chron_c"  >
+{counter name="panelFieldCount" print=false}
+
+{if empty($fields.doul_chron_c.value)}
+{assign var="value" value=$fields.doul_chron_c.default_value }
+{else}
+{assign var="value" value=$fields.doul_chron_c.value }
+{/if}
+{capture name=idname assign=idname}{$fields.doul_chron_c.name}{/capture}
+{if isset($fields.doul_chron_c.value) && $fields.doul_chron_c.value != ''}
+{html_radios id="$idname"    name="$idname" title="Le pp a-t-il des douleurs chroniques?" options=$fields.doul_chron_c.options selected=$fields.doul_chron_c.value separator="<br>"}
+{else}
+{html_radios id="$idname"   name="$idname" title="Le pp a-t-il des douleurs chroniques?" options=$fields.doul_chron_c.options selected=$fields.doul_chron_c.default separator="<br>"}
+{/if}
+</div>
+
+<!-- [/hide] -->
+</div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
 </div>                    </div>
 </div>
 </div>
@@ -1285,8 +1324,8 @@ $(document).ready(function() {ldelim}
 {/literal}{literal}
 <script type="text/javascript">
 addForm('EditView');addToValidate('EditView', 'name', 'name', true,'{/literal}{sugar_translate label='LBL_NAME' module='Accounts' for_js=true}{literal}' );
-addToValidate('EditView', 'date_entered_date', 'date', false,'Date de création ' );
-addToValidate('EditView', 'date_modified_date', 'date', false,'Date de modification ' );
+addToValidate('EditView', 'date_entered_date', 'date', false,'Date Created' );
+addToValidate('EditView', 'date_modified_date', 'date', false,'Date Modified' );
 addToValidate('EditView', 'modified_user_id', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_MODIFIED' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'modified_by_name', 'relate', false,'{/literal}{sugar_translate label='LBL_MODIFIED_NAME' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'created_by', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_CREATED' module='Accounts' for_js=true}{literal}' );
@@ -1337,6 +1376,7 @@ addToValidate('EditView', 'pat_patients_accounts_name', 'relate', false,'{/liter
 addToValidate('EditView', 'domaine_soin_2_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DOMAINE_SOIN_2' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'domaine_soin_3_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DOMAINE_SOIN_3' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'domaine_soin_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_DOMAINE_SOIN' module='Accounts' for_js=true}{literal}' );
+addToValidate('EditView', 'doul_chron_c', 'radioenum', false,'{/literal}{sugar_translate label='LBL_DOUL_CHRON' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'experience_maladie_c', 'text', false,'{/literal}{sugar_translate label='LBL_EXPERIENCE_MALADIE' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'jjwg_maps_address_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_ADDRESS' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'jjwg_maps_geocode_status_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_GEOCODE_STATUS' module='Accounts' for_js=true}{literal}' );
@@ -1346,4 +1386,4 @@ addToValidate('EditView', 'med_1_c', 'enum', false,'{/literal}{sugar_translate l
 addToValidate('EditView', 'med_2_c', 'enum', false,'{/literal}{sugar_translate label='LBL_MED_2' module='Accounts' for_js=true}{literal}' );
 addToValidate('EditView', 'med_3_c', 'enum', false,'{/literal}{sugar_translate label='LBL_MED_3' module='Accounts' for_js=true}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Accounts' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Accounts' for_js=true}{literal}', 'assigned_user_id' );
-</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_assigned_user_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Pas de correspondance"};</script>{/literal}
+</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_assigned_user_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>{/literal}

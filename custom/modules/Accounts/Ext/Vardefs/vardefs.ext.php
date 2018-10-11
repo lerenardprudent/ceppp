@@ -93,6 +93,12 @@ $dictionary['Account']['fields']['domaine_soin_c']['labelValue']='Healthcare Spe
 
  
 
+ // created: 2018-10-11 14:33:02
+$dictionary['Account']['fields']['doul_chron_c']['inline_edit']='1';
+$dictionary['Account']['fields']['doul_chron_c']['labelValue']='Douleur chronique';
+
+ 
+
  // created: 2018-10-10 16:04:02
 $dictionary['Account']['fields']['experience_maladie_c']['inline_edit']='1';
 $dictionary['Account']['fields']['experience_maladie_c']['labelValue']='PP experience w/ sickness';

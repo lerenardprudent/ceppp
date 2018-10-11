@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2018-10-10 20:44:03
+<?php /* Smarty version 2.6.31, created on 2018-10-11 15:51:53
          compiled from cache/themes/SuiteP/modules/Accounts/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 42, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 51, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 112, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 105, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 153, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 153, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 153, false),)), $this); ?>
@@ -93,7 +93,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 <?php endif; ?>
 <?php if ($this->_tpl_vars['config']['enable_action_menu'] && $this->_tpl_vars['config']['enable_action_menu'] != false): ?>
 <li id="tab-actions" class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Actions<span class="suitepicon suitepicon-action-caret"></span></a>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">ACTIONS<span class="suitepicon suitepicon-action-caret"></span></a>
 <ul class="dropdown-menu">
 <li><?php if ($this->_tpl_vars['bean']->aclAccess('edit')): ?><input title="<?php echo $this->_tpl_vars['APP']['LBL_EDIT_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_EDIT_BUTTON_KEY']; ?>
@@ -806,6 +806,54 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 
 <div class="clear"></div>
 </div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_DOUL_CHRON','module' => 'Accounts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="radioenum" field="doul_chron_c"  >
+
+<?php if (! $this->_tpl_vars['fields']['doul_chron_c']['hidden']): ?>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<span class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['doul_chron_c']['name']; ?>
+">
+<?php echo $this->_tpl_vars['fields']['doul_chron_c']['options'][$this->_tpl_vars['fields']['doul_chron_c']['value']]; ?>
+
+</span>
+<?php endif; ?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
                                 </div>
 </div>
 </div>
@@ -1150,6 +1198,54 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 <?php echo $this->_tpl_vars['fields']['med_3_c']['options'][$this->_tpl_vars['fields']['med_3_c']['value']]; ?>
 
 <?php endif; ?>
+<?php endif; ?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_DOUL_CHRON','module' => 'Accounts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="radioenum" field="doul_chron_c"  >
+
+<?php if (! $this->_tpl_vars['fields']['doul_chron_c']['hidden']): ?>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<span class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['doul_chron_c']['name']; ?>
+">
+<?php echo $this->_tpl_vars['fields']['doul_chron_c']['options'][$this->_tpl_vars['fields']['doul_chron_c']['value']]; ?>
+
+</span>
 <?php endif; ?>
 
 <div class="inlineEditIcon col-xs-hidden">

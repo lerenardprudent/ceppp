@@ -170,6 +170,16 @@ array (
           ),
           1 => '',
         ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'doul_chron_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DOUL_CHRON',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

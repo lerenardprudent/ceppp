@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2018-10-10 20:46:00
+<?php /* Smarty version 2.6.31, created on 2018-10-11 15:51:39
          compiled from cache/themes/SuiteP/modules/Accounts/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 102, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 410, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 512, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 63, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 84, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 109, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 385, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 413, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 100, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 102, false),array('modifier', 'lookup', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 410, false),array('modifier', 'count', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 512, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 63, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 84, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 109, false),array('function', 'html_options', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 385, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 413, false),array('function', 'html_radios', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 1217, false),array('block', 'minify', 'cache/themes/SuiteP/modules/Accounts/EditView.tpl', 100, false),)), $this); ?>
 
 
 <script>
@@ -1727,6 +1727,51 @@ SUGAR.AutoComplete.<?php echo $this->_tpl_vars['ac_key']; ?>
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
+
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_DOUL_CHRON">
+
+<?php $this->_tag_stack[] = array('minify', array()); $_block_repeat=true;smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+<?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_DOUL_CHRON','module' => 'Accounts'), $this);?>
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean(); ?>
+<?php echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+
+<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="radioenum" field="doul_chron_c"  >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
+
+
+<?php if (empty ( $this->_tpl_vars['fields']['doul_chron_c']['value'] )): ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['doul_chron_c']['default_value']); ?>
+<?php else: ?>
+<?php $this->assign('value', $this->_tpl_vars['fields']['doul_chron_c']['value']); ?>
+<?php endif; ?>
+<?php ob_start(); ?><?php echo $this->_tpl_vars['fields']['doul_chron_c']['name']; ?>
+<?php $this->_smarty_vars['capture']['idname'] = ob_get_contents();  $this->assign('idname', ob_get_contents());ob_end_clean(); ?>
+<?php if (isset ( $this->_tpl_vars['fields']['doul_chron_c']['value'] ) && $this->_tpl_vars['fields']['doul_chron_c']['value'] != ''): ?>
+<?php echo smarty_function_html_radios(array('id' => ($this->_tpl_vars['idname']),'name' => ($this->_tpl_vars['idname']),'title' => "Le pp a-t-il des douleurs chroniques?",'options' => $this->_tpl_vars['fields']['doul_chron_c']['options'],'selected' => $this->_tpl_vars['fields']['doul_chron_c']['value'],'separator' => "<br>"), $this);?>
+
+<?php else: ?>
+<?php echo smarty_function_html_radios(array('id' => ($this->_tpl_vars['idname']),'name' => ($this->_tpl_vars['idname']),'title' => "Le pp a-t-il des douleurs chroniques?",'options' => $this->_tpl_vars['fields']['doul_chron_c']['options'],'selected' => $this->_tpl_vars['fields']['doul_chron_c']['default'],'separator' => "<br>"), $this);?>
+
+<?php endif; ?>
+</div>
+
+<!-- [/hide] -->
+</div>
+
+
+<div class="col-xs-12 col-sm-6 edit-view-row-item">
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
 </div>                    </div>
 </div>
 </div>
@@ -1865,8 +1910,8 @@ $(document).ready(function() {
 addForm(\'EditView\');addToValidate(\'EditView\', \'name\', \'name\', true,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_NAME','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\' );
-addToValidate(\'EditView\', \'date_entered_date\', \'date\', false,\'Date de création \' );
-addToValidate(\'EditView\', \'date_modified_date\', \'date\', false,\'Date de modification \' );
+addToValidate(\'EditView\', \'date_entered_date\', \'date\', false,\'Date Created\' );
+addToValidate(\'EditView\', \'date_modified_date\', \'date\', false,\'Date Modified\' );
 addToValidate(\'EditView\', \'modified_user_id\', \'assigned_user_name\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_MODIFIED','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\' );
@@ -2017,6 +2062,9 @@ addToValidate(\'EditView\', \'domaine_soin_3_c\', \'varchar\', false,\''; ?>
 addToValidate(\'EditView\', \'domaine_soin_c\', \'varchar\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_DOMAINE_SOIN','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\' );
+addToValidate(\'EditView\', \'doul_chron_c\', \'radioenum\', false,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_DOUL_CHRON','module' => 'Accounts','for_js' => true), $this);?>
+<?php echo '\' );
 addToValidate(\'EditView\', \'experience_maladie_c\', \'text\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_EXPERIENCE_MALADIE','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\' );
@@ -2046,4 +2094,4 @@ addToValidateBinaryDependency(\'EditView\', \'assigned_user_name\', \'alpha\', f
 <?php echo ': '; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO','module' => 'Accounts','for_js' => true), $this);?>
 <?php echo '\', \'assigned_user_id\' );
-</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_assigned_user_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Pas de correspondance"};</script>'; ?>
+</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_assigned_user_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>'; ?>

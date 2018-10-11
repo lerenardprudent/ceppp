@@ -58,7 +58,7 @@
 {/if}
 {if $config.enable_action_menu and $config.enable_action_menu != false}
 <li id="tab-actions" class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Actions<span class="suitepicon suitepicon-action-caret"></span></a>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">ACTIONS<span class="suitepicon suitepicon-action-caret"></span></a>
 <ul class="dropdown-menu">
 <li>{if $bean->aclAccess("edit")}<input title="{$APP.LBL_EDIT_BUTTON_TITLE}" accessKey="{$APP.LBL_EDIT_BUTTON_KEY}" class="button primary" onclick="var _form = document.getElementById('formDetailView'); _form.return_module.value='Accounts'; _form.return_action.value='DetailView'; _form.return_id.value='{$id}'; _form.action.value='EditView';SUGAR.ajaxUI.submitForm(_form);" type="button" name="Edit" id="edit_button" value="{$APP.LBL_EDIT_BUTTON_LABEL}">{/if} </li>
 <li>{if $bean->aclAccess("edit")}<input title="{$APP.LBL_DUPLICATE_BUTTON_TITLE}" accessKey="{$APP.LBL_DUPLICATE_BUTTON_KEY}" class="button" onclick="var _form = document.getElementById('formDetailView'); _form.return_module.value='Accounts'; _form.return_action.value='DetailView'; _form.isDuplicate.value=true; _form.action.value='EditView'; _form.return_id.value='{$id}';SUGAR.ajaxUI.submitForm(_form);" type="button" name="Duplicate" value="{$APP.LBL_DUPLICATE_BUTTON_LABEL}" id="duplicate_button">{/if} </li>
@@ -669,6 +669,49 @@
 
 <div class="clear"></div>
 </div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_DOUL_CHRON' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="radioenum" field="doul_chron_c"  >
+
+{if !$fields.doul_chron_c.hidden}
+{counter name="panelFieldCount" print=false}
+
+<span class="sugar_field" id="{$fields.doul_chron_c.name}">
+{ $fields.doul_chron_c.options[$fields.doul_chron_c.value]}
+</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
                                 </div>
 </div>
 </div>
@@ -965,6 +1008,49 @@
 <input type="hidden" class="sugar_field" id="{$fields.med_3_c.name}" value="{ $fields.med_3_c.value }">
 { $fields.med_3_c.options[$fields.med_3_c.value]}
 {/if}
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-6 detail-view-row-item">
+
+
+<div class="col-xs-12 col-sm-4 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_DOUL_CHRON' module='Accounts'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-8 detail-view-field inlineEdit" type="radioenum" field="doul_chron_c"  >
+
+{if !$fields.doul_chron_c.hidden}
+{counter name="panelFieldCount" print=false}
+
+<span class="sugar_field" id="{$fields.doul_chron_c.name}">
+{ $fields.doul_chron_c.options[$fields.doul_chron_c.value]}
+</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">

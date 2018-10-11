@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-10 20:39:30
+// created: 2018-10-11 14:35:38
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Experience With Sickness - Patient Partnership',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
@@ -14,4 +14,5 @@ $mod_strings = array (
   'LBL_MED_1' => 'Medicine #1',
   'LBL_MED_2' => 'Medicine #2',
   'LBL_MED_3' => 'Medicine #3',
+  'LBL_DOUL_CHRON' => 'Chronic pain',
 );
