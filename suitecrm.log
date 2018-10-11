@@ -477,3 +477,4 @@ Fri Sep 21 23:55:10 2018 [5924][1][FATAL] log call at: modules/Administration/in
 10/11/18 14:33:16 [14284][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 10/11/18 14:33:46 [14284][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 10/11/18 14:34:54 [14284][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+Thu Oct 11 16:39:31 2018 [13900][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

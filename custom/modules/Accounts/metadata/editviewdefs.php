@@ -158,6 +158,56 @@ array (
           ),
           1 => '',
         ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prob_somm_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROB_SOMM',
+          ),
+          1 => '',
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prob_resp_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROB_RESP',
+          ),
+          1 => '',
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etabl_sante_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE',
+          ),
+          1 => '',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etabl_prem_ligne_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE',
+          ),
+          1 => '',
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'exp_decision_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EXP_DECISION',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-11 14:35:38
+// created: 2018-10-11 17:13:46
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Experience With Sickness - Patient Partnership',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
@@ -15,4 +15,9 @@ $mod_strings = array (
   'LBL_MED_2' => 'Medicine #2',
   'LBL_MED_3' => 'Medicine #3',
   'LBL_DOUL_CHRON' => 'Chronic pain',
+  'LBL_PROB_SOMM' => 'Sleep difficulties',
+  'LBL_PROB_RESP' => 'Breathing difficulties',
+  'LBL_ETABL_SANTE' => 'Main health institution',
+  'LBL_ETABL_PREM_LIGNE' => 'Preferred health institution',
+  'LBL_EXP_DECISION' => 'Ability to make decisions about own health',
 );

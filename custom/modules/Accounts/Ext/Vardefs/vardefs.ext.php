@@ -99,9 +99,27 @@ $dictionary['Account']['fields']['doul_chron_c']['labelValue']='Douleur chroniqu
 
  
 
+ // created: 2018-10-11 16:49:57
+$dictionary['Account']['fields']['etabl_prem_ligne_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_prem_ligne_c']['labelValue']='XX';
+
+ 
+
+ // created: 2018-10-11 16:43:04
+$dictionary['Account']['fields']['etabl_sante_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_sante_c']['labelValue']='XX';
+
+ 
+
  // created: 2018-10-10 16:04:02
 $dictionary['Account']['fields']['experience_maladie_c']['inline_edit']='1';
 $dictionary['Account']['fields']['experience_maladie_c']['labelValue']='PP experience w/ sickness';
+
+ 
+
+ // created: 2018-10-11 17:10:36
+$dictionary['Account']['fields']['exp_decision_c']['inline_edit']='1';
+$dictionary['Account']['fields']['exp_decision_c']['labelValue']='XX';
 
  
 
@@ -140,6 +158,18 @@ $dictionary['Account']['fields']['med_2_c']['labelValue']='Médicamments #2';
  // created: 2018-10-10 20:38:45
 $dictionary['Account']['fields']['med_3_c']['inline_edit']='1';
 $dictionary['Account']['fields']['med_3_c']['labelValue']='Médicamments #3';
+
+ 
+
+ // created: 2018-10-11 16:08:46
+$dictionary['Account']['fields']['prob_resp_c']['inline_edit']='1';
+$dictionary['Account']['fields']['prob_resp_c']['labelValue']='Problème respiratoire';
+
+ 
+
+ // created: 2018-10-11 16:02:41
+$dictionary['Account']['fields']['prob_somm_c']['inline_edit']='1';
+$dictionary['Account']['fields']['prob_somm_c']['labelValue']='Problèmes de sommeil';
 
  
 ?>
