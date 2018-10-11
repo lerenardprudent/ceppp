@@ -10,7 +10,6 @@
 
 
 
-
 $db = DBManagerFactory::getInstance();
 
 
