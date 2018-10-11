@@ -2,13 +2,6 @@
 
 
 
-
-
-
-
-
-
-
 $db = DBManagerFactory::getInstance();
 
 
