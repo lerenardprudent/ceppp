@@ -40,12 +40,17 @@ array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
         ),
       ),
       'syncDetailEditViews' => true,
@@ -126,7 +131,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MED_1',
           ),
-          1 => '',
         ),
         5 => 
         array (
@@ -136,7 +140,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MED_2',
           ),
-          1 => '',
         ),
         6 => 
         array (
@@ -146,7 +149,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MED_3',
           ),
-          1 => '',
         ),
         7 => 
         array (
@@ -156,7 +158,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DOUL_CHRON',
           ),
-          1 => '',
         ),
         8 => 
         array (
@@ -166,7 +167,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SOMM',
           ),
-          1 => '',
         ),
         9 => 
         array (
@@ -176,7 +176,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_RESP',
           ),
-          1 => '',
         ),
         10 => 
         array (
@@ -186,7 +185,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ETABL_SANTE',
           ),
-          1 => '',
         ),
         11 => 
         array (
@@ -196,7 +194,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
-          1 => '',
         ),
         12 => 
         array (
@@ -206,7 +203,117 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EXP_DECISION',
           ),
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'exprience_maladie_proche_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EXPRIENCE_MALADIE_PROCHE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'rel_patient_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REL_PATIENT',
+          ),
+          1 => 
+          array (
+            'name' => 'rel_patient_autre__precision_c',
+            'label' => 'LBL_REL_PATIENT_AUTRE__PRECISION',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'domaine_soin_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DOMAINE_SOIN_PA',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'domaine_soin_pa_2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DOMAINE_SOIN_PA_2',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'domaine_soin_pa_3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DOMAINE_SOIN_PA_3',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prob_sant_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROB_SANT_PA',
+          ),
           1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prob_sant_pa_2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROB_SANT_PA_2',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prob_sant_pa_3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROB_SANT_PA_3',
+          ),
+          1 => '',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etabl_sante_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE_PA',
+          ),
+          1 => 
+          array (
+            'name' => 'etabl_sante_pa_autre__prec_c',
+            'label' => 'LBL_ETABL_SANTE_PA_AUTRE__PREC',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etabl_prem_ligne_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA',
+          ),
+          1 => 
+          array (
+            'name' => 'etabl_prem_ligne_pa_autre__p_c',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P',
+          ),
         ),
       ),
     ),

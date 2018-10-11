@@ -93,6 +93,24 @@ $dictionary['Account']['fields']['domaine_soin_c']['labelValue']='Healthcare Spe
 
  
 
+ // created: 2018-10-11 20:44:32
+$dictionary['Account']['fields']['domaine_soin_pa_2_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_pa_2_c']['labelValue']='YY';
+
+ 
+
+ // created: 2018-10-11 20:45:02
+$dictionary['Account']['fields']['domaine_soin_pa_3_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_pa_3_c']['labelValue']='ZZ';
+
+ 
+
+ // created: 2018-10-11 20:42:50
+$dictionary['Account']['fields']['domaine_soin_pa_c']['inline_edit']='1';
+$dictionary['Account']['fields']['domaine_soin_pa_c']['labelValue']='XX';
+
+ 
+
  // created: 2018-10-11 14:33:02
 $dictionary['Account']['fields']['doul_chron_c']['inline_edit']='1';
 $dictionary['Account']['fields']['doul_chron_c']['labelValue']='Douleur chronique';
@@ -105,15 +123,45 @@ $dictionary['Account']['fields']['etabl_prem_ligne_c']['labelValue']='XX';
 
  
 
+ // created: 2018-10-11 20:58:16
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_autre__p_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_autre__p_c']['labelValue']='WW';
+
+ 
+
+ // created: 2018-10-11 20:56:15
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_c']['labelValue']='YY';
+
+ 
+
  // created: 2018-10-11 16:43:04
 $dictionary['Account']['fields']['etabl_sante_c']['inline_edit']='1';
 $dictionary['Account']['fields']['etabl_sante_c']['labelValue']='XX';
 
  
 
+ // created: 2018-10-11 20:57:37
+$dictionary['Account']['fields']['etabl_sante_pa_autre__prec_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_sante_pa_autre__prec_c']['labelValue']='ZZ';
+
+ 
+
+ // created: 2018-10-11 20:55:38
+$dictionary['Account']['fields']['etabl_sante_pa_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_sante_pa_c']['labelValue']='XX';
+
+ 
+
  // created: 2018-10-10 16:04:02
 $dictionary['Account']['fields']['experience_maladie_c']['inline_edit']='1';
 $dictionary['Account']['fields']['experience_maladie_c']['labelValue']='PP experience w/ sickness';
+
+ 
+
+ // created: 2018-10-11 19:28:55
+$dictionary['Account']['fields']['exprience_maladie_proche_c']['inline_edit']='1';
+$dictionary['Account']['fields']['exprience_maladie_proche_c']['labelValue']='XX';
 
  
 
@@ -161,15 +209,45 @@ $dictionary['Account']['fields']['med_3_c']['labelValue']='Médicamments #3';
 
  
 
- // created: 2018-10-11 16:08:46
+ // created: 2018-10-11 19:25:22
 $dictionary['Account']['fields']['prob_resp_c']['inline_edit']='1';
-$dictionary['Account']['fields']['prob_resp_c']['labelValue']='Problème respiratoire';
+$dictionary['Account']['fields']['prob_resp_c']['labelValue']='Breathing difficulties';
+
+ 
+
+ // created: 2018-10-11 20:50:32
+$dictionary['Account']['fields']['prob_sant_pa_2_c']['inline_edit']='1';
+$dictionary['Account']['fields']['prob_sant_pa_2_c']['labelValue']='YY';
+
+ 
+
+ // created: 2018-10-11 20:51:00
+$dictionary['Account']['fields']['prob_sant_pa_3_c']['inline_edit']='1';
+$dictionary['Account']['fields']['prob_sant_pa_3_c']['labelValue']='ZZ';
+
+ 
+
+ // created: 2018-10-11 20:50:01
+$dictionary['Account']['fields']['prob_sant_pa_c']['inline_edit']='1';
+$dictionary['Account']['fields']['prob_sant_pa_c']['labelValue']='XX';
 
  
 
  // created: 2018-10-11 16:02:41
 $dictionary['Account']['fields']['prob_somm_c']['inline_edit']='1';
 $dictionary['Account']['fields']['prob_somm_c']['labelValue']='Problèmes de sommeil';
+
+ 
+
+ // created: 2018-10-11 20:31:55
+$dictionary['Account']['fields']['rel_patient_autre__precision_c']['inline_edit']='1';
+$dictionary['Account']['fields']['rel_patient_autre__precision_c']['labelValue']='YY';
+
+ 
+
+ // created: 2018-10-11 20:30:18
+$dictionary['Account']['fields']['rel_patient_c']['inline_edit']='1';
+$dictionary['Account']['fields']['rel_patient_c']['labelValue']='XX';
 
  
 ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-11 17:14:20
+// created: 2018-10-11 20:59:30
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Infos expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
@@ -15,4 +15,19 @@ $mod_strings = array (
   'LBL_ETABL_PREM_LIGNE' => 'Établissement de première ligne',
   'LBL_ETABL_SANTE' => 'Établissement de santé principal',
   'LBL_EXP_DECISION' => 'Expérience prise de décision',
+  'LBL_EXPRIENCE_MALADIE_PROCHE' => 'Expérience maladie proche',
+  'LBL_EDITVIEW_PANEL2' => 'Infos expérience maladie - Proche Aidant',
+  'LBL_EDITVIEW_PANEL3' => 'Patient',
+  'LBL_REL_PATIENT' => 'Relation avec le patient',
+  'LBL_REL_PATIENT_AUTRE__PRECISION' => 'Autre (préciser)',
+  'LBL_PROB_SANT_PA' => 'Problématique de santé #1',
+  'LBL_PROB_SANT_PA_2' => 'Problématique de santé #2',
+  'LBL_PROB_SANT_PA_3' => 'Problématique de santé #3',
+  'LBL_DOMAINE_SOIN_PA' => 'Spécialité domaine de soins #1',
+  'LBL_DOMAINE_SOIN_PA_2' => 'Spécialité domaine de soins #2',
+  'LBL_DOMAINE_SOIN_PA_3' => 'Spécialité domaine de soins #3',
+  'LBL_ETABL_PREM_LIGNE_PA' => 'Établissement de première ligne',
+  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Autre (préciser)',
+  'LBL_ETABL_SANTE_PA' => 'Établissement de santé principal',
+  'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Autre (préciser)',
 );
