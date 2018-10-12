@@ -32,5 +32,5 @@ $mod_strings = array (
   'LBL_ETABL_SANTE_PA' => 'Main health institution',
   'LBL_ETABL_PREM_LIGNE_PA' => 'Preferred health institution',
   'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Other (specify)',
-  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Other (Specify)',
+  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Other (Specify)'
 );
