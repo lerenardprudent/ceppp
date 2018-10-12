@@ -40,7 +40,7 @@
 $relationships = array (
   'campaign_accounts' => 
   array (
-    'id' => '86cb13c6-8d37-a295-2019-5ba573455c62',
+    'id' => '16a40691-da19-3ced-3714-5bc0f46c151d',
     'relationship_name' => 'campaign_accounts',
     'lhs_module' => 'Campaigns',
     'lhs_table' => 'campaigns',
@@ -66,7 +66,7 @@ $relationships = array (
   ),
   'accounts_modified_user' => 
   array (
-    'id' => 'c2de3507-8a47-41bc-5744-5ba5733a1000',
+    'id' => '46c042f0-ea00-834e-5dfd-5bc0f4414617',
     'relationship_name' => 'accounts_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -92,7 +92,7 @@ $relationships = array (
   ),
   'accounts_created_by' => 
   array (
-    'id' => 'c31cbaac-2f85-ab0c-c1b4-5ba573953fba',
+    'id' => '46feca12-093b-28c1-9a34-5bc0f4969744',
     'relationship_name' => 'accounts_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -118,7 +118,7 @@ $relationships = array (
   ),
   'accounts_assigned_user' => 
   array (
-    'id' => 'c31cb7be-3c02-3021-c1a2-5ba5736790c4',
+    'id' => '473d46a2-9868-3773-5c14-5bc0f41d1b31',
     'relationship_name' => 'accounts_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -144,7 +144,7 @@ $relationships = array (
   ),
   'securitygroups_accounts' => 
   array (
-    'id' => 'c35b349e-9d8f-cc6f-c065-5ba5737229ad',
+    'id' => '473d492b-f763-49e3-c1ba-5bc0f423f5e4',
     'relationship_name' => 'securitygroups_accounts',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -162,7 +162,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => NULL,
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -170,7 +170,7 @@ $relationships = array (
   ),
   'member_accounts' => 
   array (
-    'id' => 'c3d83885-9253-f4f4-aa61-5ba5735175cb',
+    'id' => '47f8c882-1482-dcd6-ab68-5bc0f4b5075b',
     'relationship_name' => 'member_accounts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -196,7 +196,7 @@ $relationships = array (
   ),
   'account_cases' => 
   array (
-    'id' => 'c3d83586-18d0-ee92-eb9e-5ba573d096db',
+    'id' => '48374094-cdc8-ba69-17e9-5bc0f42fea14',
     'relationship_name' => 'account_cases',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -213,7 +213,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -222,7 +222,7 @@ $relationships = array (
   ),
   'account_tasks' => 
   array (
-    'id' => 'c416b43b-c447-998b-9ea1-5ba573a729af',
+    'id' => '4875cee4-1ce3-229e-70d0-5bc0f4f63d22',
     'relationship_name' => 'account_tasks',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -248,7 +248,7 @@ $relationships = array (
   ),
   'account_notes' => 
   array (
-    'id' => 'c416b331-0d7b-c27e-a2fe-5ba573596b6f',
+    'id' => '48b445b0-d22b-2f0a-7854-5bc0f4f3df3d',
     'relationship_name' => 'account_notes',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -274,7 +274,7 @@ $relationships = array (
   ),
   'account_meetings' => 
   array (
-    'id' => 'c45536eb-e065-9035-a8d2-5ba573f0ba7f',
+    'id' => '493149f3-9ca8-ab5c-c55f-5bc0f49aa88e',
     'relationship_name' => 'account_meetings',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -300,7 +300,7 @@ $relationships = array (
   ),
   'account_calls' => 
   array (
-    'id' => 'c4553208-e538-85fa-87e3-5ba57300ccc3',
+    'id' => '496fc3c8-8b38-4fcb-f86c-5bc0f4b01b34',
     'relationship_name' => 'account_calls',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -326,7 +326,7 @@ $relationships = array (
   ),
   'account_emails' => 
   array (
-    'id' => 'c493ba4a-0f08-40f2-f129-5ba57332d1f6',
+    'id' => '49ae4e3a-621c-29de-0c2c-5bc0f4565d97',
     'relationship_name' => 'account_emails',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -352,7 +352,7 @@ $relationships = array (
   ),
   'account_leads' => 
   array (
-    'id' => 'c493be50-e519-50fb-c000-5ba573b10b01',
+    'id' => '49ecc947-315f-90ec-e687-5bc0f4b22e80',
     'relationship_name' => 'account_leads',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -369,7 +369,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -378,7 +378,7 @@ $relationships = array (
   ),
   'account_aos_quotes' => 
   array (
-    'id' => 'c4d23774-c97f-a281-ab9d-5ba5737f448a',
+    'id' => '4aa849b9-1c06-6c62-5d61-5bc0f452d961',
     'relationship_name' => 'account_aos_quotes',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -395,7 +395,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -404,7 +404,7 @@ $relationships = array (
   ),
   'account_aos_invoices' => 
   array (
-    'id' => 'c510bfbc-20dc-26c3-b81e-5ba573199740',
+    'id' => '4ae6cce0-15ec-e048-ab01-5bc0f449941f',
     'relationship_name' => 'account_aos_invoices',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -421,7 +421,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -430,7 +430,7 @@ $relationships = array (
   ),
   'account_aos_contracts' => 
   array (
-    'id' => 'c510b80a-5b42-0a31-77f1-5ba573bcced8',
+    'id' => '4b254d70-a66e-e50c-a82d-5bc0f473ff6c',
     'relationship_name' => 'account_aos_contracts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -447,7 +447,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -456,7 +456,7 @@ $relationships = array (
   ),
   'emails_accounts_rel' => 
   array (
-    'id' => 'ebe33de8-051c-fd17-93db-5ba573e23ade',
+    'id' => '76d8c188-837f-ea6d-294b-5bc0f4629638',
     'relationship_name' => 'emails_accounts_rel',
     'lhs_module' => 'Emails',
     'lhs_table' => 'emails',
@@ -482,7 +482,7 @@ $relationships = array (
   ),
   'jjwg_Maps_accounts' => 
   array (
-    'id' => '41826d63-024e-3b89-2055-5ba573f15db6',
+    'id' => 'e3004da9-ea9c-305e-1d6a-5bc0f4c71500',
     'relationship_name' => 'jjwg_Maps_accounts',
     'lhs_module' => 'jjwg_Maps',
     'lhs_table' => 'jjwg_Maps',
@@ -508,7 +508,7 @@ $relationships = array (
   ),
   'accounts_bugs' => 
   array (
-    'id' => 'bd8b8dc1-3c76-a440-5df8-5ba573508744',
+    'id' => '7429427a-d5a2-19f5-919e-5bc0f438cdfd',
     'relationship_name' => 'accounts_bugs',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -525,7 +525,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => 'default',
     'relationship_only' => false,
     'for_activities' => false,
@@ -534,7 +534,7 @@ $relationships = array (
   ),
   'accounts_contacts' => 
   array (
-    'id' => 'bdca05f9-695d-46fa-fd5e-5ba57372cfd8',
+    'id' => '7467c375-58d4-485c-38e5-5bc0f4406c37',
     'relationship_name' => 'accounts_contacts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -551,7 +551,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -560,7 +560,7 @@ $relationships = array (
   ),
   'accounts_opportunities' => 
   array (
-    'id' => 'be089023-f82a-fed7-8954-5ba573a396e5',
+    'id' => '74a64cac-3f8f-e9fc-5292-5bc0f44252c4',
     'relationship_name' => 'accounts_opportunities',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -577,7 +577,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -586,7 +586,7 @@ $relationships = array (
   ),
   'projects_accounts' => 
   array (
-    'id' => 'c22f233e-f47e-b47f-da3d-5ba573bf2c88',
+    'id' => '7ac0c2fe-a988-64b8-9b20-5bc0f435c7c7',
     'relationship_name' => 'projects_accounts',
     'lhs_module' => 'Project',
     'lhs_table' => 'project',
@@ -604,7 +604,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => 'default',
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -612,7 +612,7 @@ $relationships = array (
   ),
   'documents_accounts' => 
   array (
-    'id' => 'c3a637f8-d153-7ec2-4291-5ba57372d8c8',
+    'id' => '7c37c1a3-6d12-e4f5-88e6-5bc0f4ba7b7b',
     'relationship_name' => 'documents_accounts',
     'lhs_module' => 'Documents',
     'lhs_table' => 'documents',
@@ -630,7 +630,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => 'default',
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -638,7 +638,7 @@ $relationships = array (
   ),
   'accounts_am_projecttemplates_1' => 
   array (
-    'id' => 'c982579b-ed57-c0b1-6816-5ba573840b7c',
+    'id' => '82524ddb-1035-a670-b432-5bc0f4050011',
     'relationship_name' => 'accounts_am_projecttemplates_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -664,7 +664,7 @@ $relationships = array (
   ),
   'pat_patients_accounts' => 
   array (
-    'id' => 'c9ff5642-98d4-ad8d-d194-5ba5739261c0',
+    'id' => '8290c193-5214-efd8-1986-5bc0f4dff90c',
     'relationship_name' => 'pat_patients_accounts',
     'lhs_module' => 'pat_Patients',
     'lhs_table' => 'pat_patients',
@@ -688,17 +688,20 @@ $relationships = array (
     'for_activities' => false,
     'from_studio' => true,
   ),
-  'accounts_pat_patients_1' => 
+  'accounts_ent_entrevues_1' => 
   array (
+    'rhs_label' => 'Entrevues',
+    'lhs_label' => 'Accounts',
+    'rhs_subpanel' => 'default',
     'lhs_module' => 'Accounts',
-    'rhs_module' => 'pat_Patients',
-    'relationship_type' => 'one-to-one',
+    'rhs_module' => 'ent_Entrevues',
+    'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'accounts_pat_patients_1',
+    'relationship_name' => 'accounts_ent_entrevues_1',
   ),
 );

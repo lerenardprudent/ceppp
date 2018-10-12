@@ -1,11 +1,11 @@
 <?php
-// created: 2018-10-11 21:01:58
+// created: 2018-10-12 20:55:03
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Experience with Illness - Patient Partnership',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
   'LBL_DETAILVIEW_PANEL1' => 'Patient',
   'LBL_EDITVIEW_PANEL2' => 'Experience with Illness - Caregiver',
-  'LBL_EDITVIEW_PANEL3' => 'New Panel 3',
+  'LBL_EDITVIEW_PANEL3' => 'Patient',
   'LBL_ACCOUNTS_PAT_PATIENTS_1_FROM_PAT_PATIENTS_TITLE' => 'Patient',
   'LBL_EXPERIENCE_MALADIE' => 'PP experience w/ illness',
   'LBL_DOMAINE_SOIN' => 'Healthcare speciality #1',
@@ -32,5 +32,6 @@ $mod_strings = array (
   'LBL_ETABL_SANTE_PA' => 'Main health institution',
   'LBL_ETABL_PREM_LIGNE_PA' => 'Preferred health institution',
   'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Other (specify)',
-  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Other (Specify)'
+  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Other (Specify)',
+  'LBL_ENT_ENTREVUES_ACCOUNTS_FROM_ENT_ENTREVUES_TITLE' => 'Interviews',
 );

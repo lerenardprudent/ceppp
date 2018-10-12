@@ -36,6 +36,19 @@ $dictionary["Account"]["fields"]["accounts_am_projecttemplates_1am_projecttempla
 );
 
 
+// created: 2018-10-12 20:39:53
+$dictionary["Account"]["fields"]["ent_entrevues_accounts"] = array (
+  'name' => 'ent_entrevues_accounts',
+  'type' => 'link',
+  'relationship' => 'ent_entrevues_accounts',
+  'source' => 'non-db',
+  'module' => 'ent_Entrevues',
+  'bean_name' => 'ent_Entrevues',
+  'side' => 'right',
+  'vname' => 'LBL_ENT_ENTREVUES_ACCOUNTS_FROM_ENT_ENTREVUES_TITLE',
+);
+
+
 // created: 2018-10-03 20:48:34
 $dictionary["Account"]["fields"]["pat_patients_accounts"] = array (
   'name' => 'pat_patients_accounts',

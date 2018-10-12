@@ -1,7 +1,7 @@
 <?php
-// created: 2018-10-11 20:59:30
+// created: 2018-10-12 21:00:34
 $mod_strings = array (
-  'LBL_EDITVIEW_PANEL1' => 'Infos expérience maladie - Partenariat patient',
+  'LBL_EDITVIEW_PANEL1' => 'Expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
   'LBL_DOMAINE_SOIN' => 'Spécialité domaine de soins #1',
   'LBL_MED_1' => 'Médicaments #1',
@@ -16,7 +16,7 @@ $mod_strings = array (
   'LBL_ETABL_SANTE' => 'Établissement de santé principal',
   'LBL_EXP_DECISION' => 'Expérience prise de décision',
   'LBL_EXPRIENCE_MALADIE_PROCHE' => 'Expérience maladie proche',
-  'LBL_EDITVIEW_PANEL2' => 'Infos expérience maladie - Proche Aidant',
+  'LBL_EDITVIEW_PANEL2' => 'Expérience maladie - Proche Aidant',
   'LBL_EDITVIEW_PANEL3' => 'Patient',
   'LBL_REL_PATIENT' => 'Relation avec le patient',
   'LBL_REL_PATIENT_AUTRE__PRECISION' => 'Autre (préciser)',

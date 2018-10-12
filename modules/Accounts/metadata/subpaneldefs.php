@@ -44,9 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $layout_defs['Accounts'] = array(
     // list of what Subpanels to show in the DetailView
+    
+    // DMARG: Hack to hide subpanels
     'subpanel_setup' => array(
 
-        'activities' => array(
+        /*'activities' => array(
             'order' => 10,
             'sort_order' => 'desc',
             'sort_by' => 'date_due',
@@ -336,6 +338,6 @@ $layout_defs['Accounts'] = array(
             'get_subpanel_data' => 'SecurityGroups',
             'add_subpanel_data' => 'securitygroup_id',
             'title_key' => 'LBL_SECURITYGROUPS_SUBPANEL_TITLE',
-        ),
+        ),*/
     ),
 );
