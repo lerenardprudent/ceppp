@@ -135,5 +135,5 @@ $mod_strings = array (
   'LBL_EMPLOI_PERSO' => 'Emploi du temps',
   'LBL_EDUCATION_PERSO' => 'Niveau d&#039;éducation',
   'LBL_EDUCATION_PERSO_AUTRE' => 'Autre niveau (préciser)',
-  'LBL_GROUPE_DESIGNE' => 'groupe designe',
+  'LBL_GROUPE_DESIGNE' => 'Groupe désigné',
 );

@@ -6,9 +6,10 @@
 .admin-panel .suitepicon, .admin-panel .button-toggle-expanded span, .button-toggle-expanded .admin-panel span, .admin-panel .button-toggle-collapsed span, .button-toggle-collapsed .admin-panel span, .admin-panel .panel-heading a.collapsed, .panel-heading .admin-panel a.collapsed, .admin-panel .panel-heading a, .panel-heading .admin-panel a {
   color: #f08377; }
 /* CUSTOM CSS BY DMARG */
+/* Put radio buttons horizontally */
 div[type="radioenum"] > br {
   display: none; }
-
+/* Put date input and calendar button on one line */
 div.edit-view-field[type="date"] > span.dateTime > input.date_input {
   width: 80%; }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
