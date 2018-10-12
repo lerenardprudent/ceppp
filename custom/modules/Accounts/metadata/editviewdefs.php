@@ -57,6 +57,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -91,18 +96,6 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO',
           ),
-        ),
-      ),
-      'lbl_editview_panel3' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'pat_patients_accounts_name',
-            'label' => 'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE',
-          ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel1' => 
@@ -282,7 +275,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA',
           ),
-          1 => '',
         ),
         6 => 
         array (
@@ -292,7 +284,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA_2',
           ),
-          1 => '',
         ),
         7 => 
         array (
@@ -302,7 +293,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA_3',
           ),
-          1 => '',
         ),
         8 => 
         array (
@@ -330,6 +320,45 @@ array (
           array (
             'name' => 'etabl_prem_ligne_pa_autre__p_c',
             'label' => 'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P',
+          ),
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_dcpp_recrut_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_DCPP_RECRUT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_miseajour_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_MISEAJOUR',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_recherche_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_RECHERCHE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_usage_donnees_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_USAGE_DONNEES',
           ),
         ),
       ),

@@ -2,3 +2,7 @@
 div[type="radioenum"] > br {
   display: none;
 }
+
+div.edit-view-field[type="date"] > span.dateTime > input.date_input {
+  width: 80%;
+}

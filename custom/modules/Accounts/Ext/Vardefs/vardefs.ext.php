@@ -36,7 +36,7 @@ $dictionary["Account"]["fields"]["accounts_am_projecttemplates_1am_projecttempla
 );
 
 
-// created: 2018-10-12 20:39:53
+// created: 2018-10-12 21:15:08
 $dictionary["Account"]["fields"]["ent_entrevues_accounts"] = array (
   'name' => 'ent_entrevues_accounts',
   'type' => 'link',
@@ -49,7 +49,7 @@ $dictionary["Account"]["fields"]["ent_entrevues_accounts"] = array (
 );
 
 
-// created: 2018-10-03 20:48:34
+// created: 2018-10-12 22:24:06
 $dictionary["Account"]["fields"]["pat_patients_accounts"] = array (
   'name' => 'pat_patients_accounts',
   'type' => 'link',
@@ -87,6 +87,30 @@ $dictionary["Account"]["fields"]["pat_patients_accountspat_patients_ida"] = arra
   'vname' => 'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE',
 );
 
+
+ // created: 2018-10-12 21:27:49
+$dictionary['Account']['fields']['consentement_dcpp_recrut_c']['inline_edit']='1';
+$dictionary['Account']['fields']['consentement_dcpp_recrut_c']['labelValue']='consss';
+
+ 
+
+ // created: 2018-10-12 21:33:55
+$dictionary['Account']['fields']['consentement_miseajour_c']['inline_edit']='1';
+$dictionary['Account']['fields']['consentement_miseajour_c']['labelValue']='conmmm';
+
+ 
+
+ // created: 2018-10-12 21:32:22
+$dictionary['Account']['fields']['consentement_recherche_c']['inline_edit']='1';
+$dictionary['Account']['fields']['consentement_recherche_c']['labelValue']='conrrr';
+
+ 
+
+ // created: 2018-10-12 21:33:12
+$dictionary['Account']['fields']['consentement_usage_donnees_c']['inline_edit']='1';
+$dictionary['Account']['fields']['consentement_usage_donnees_c']['labelValue']='consentement usage donnees';
+
+ 
 
  // created: 2018-10-10 15:56:02
 $dictionary['Account']['fields']['domaine_soin_2_c']['inline_edit']='1';

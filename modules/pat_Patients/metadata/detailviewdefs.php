@@ -43,6 +43,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -138,6 +143,52 @@ array (
             'name' => 'adresse_perso_country',
             'label' => 'LBL_ADRESSE_PERSO_COUNTRY',
           ),
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'naissance_perso',
+            'label' => 'LBL_NAISSANCE_PERSO',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'emploi_perso',
+            'studio' => 'visible',
+            'label' => 'LBL_EMPLOI_PERSO',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'education_perso',
+            'studio' => 'visible',
+            'label' => 'LBL_EDUCATION_PERSO',
+          ),
+          1 => 
+          array (
+            'name' => 'education_perso_autre',
+            'label' => 'LBL_EDUCATION_PERSO_AUTRE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'groupe_designe',
+            'studio' => 'visible',
+            'label' => 'LBL_GROUPE_DESIGNE',
+          ),
+          1 => '',
         ),
       ),
     ),

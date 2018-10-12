@@ -504,3 +504,8 @@ Fri Oct 12 20:39:53 2018 [15188][1][FATAL] DeployedMetaDataImplementation: view 
 Fri Oct 12 20:39:54 2018 [15188][1][FATAL] DeployedMetaDataImplementation: cannot convert from EditView to QuickCreate for Module Groups - definitions for EditView are missing
 Fri Oct 12 20:39:54 2018 [15188][1][FATAL] DeployedMetaDataImplementation: view definitions for View basic_search and Module Groups are missing
 Fri Oct 12 20:39:54 2018 [15188][1][FATAL] DeployedMetaDataImplementation: view definitions for View advanced_search and Module Groups are missing
+Fri Oct 12 21:15:09 2018 [16324][1][FATAL] DeployedMetaDataImplementation: view definitions for View basic_search and Module Groups are missing
+Fri Oct 12 21:15:09 2018 [16324][1][FATAL] DeployedMetaDataImplementation: view definitions for View advanced_search and Module Groups are missing
+Fri Oct 12 21:15:09 2018 [16324][1][FATAL] DeployedMetaDataImplementation: cannot convert from EditView to QuickCreate for Module Groups - definitions for EditView are missing
+Fri Oct 12 21:15:09 2018 [16324][1][FATAL] DeployedMetaDataImplementation: view definitions for View basic_search and Module Groups are missing
+Fri Oct 12 21:15:09 2018 [16324][1][FATAL] DeployedMetaDataImplementation: view definitions for View advanced_search and Module Groups are missing

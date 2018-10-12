@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-12 20:55:03
+// created: 2018-10-12 21:37:41
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Experience with Illness - Patient Partnership',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
@@ -34,4 +34,9 @@ $mod_strings = array (
   'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Other (specify)',
   'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Other (Specify)',
   'LBL_ENT_ENTREVUES_ACCOUNTS_FROM_ENT_ENTREVUES_TITLE' => 'Interviews',
+  'LBL_EDITVIEW_PANEL4' => 'Consent',
+  'LBL_CONSENTEMENT_DCPP_RECRUT' => 'Consent - Participation',
+  'LBL_CONSENTEMENT_RECHERCHE' => 'Consent - Research',
+  'LBL_CONSENTEMENT_USAGE_DONNEES' => 'Consent - Use of data',
+  'LBL_CONSENTEMENT_MISEAJOUR' => 'Consent - Updating of information',
 );

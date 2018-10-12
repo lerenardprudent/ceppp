@@ -131,4 +131,9 @@ $mod_strings = array (
   'LBL_NOM' => 'Nom de famille',
   'LBL_PRENOM' => 'Prénom',
   'LBL_EMAIL_PERSO' => 'Adresse courriel',
+  'LBL_NAISSANCE_PERSO' => 'Date de naissance',
+  'LBL_EMPLOI_PERSO' => 'Emploi du temps',
+  'LBL_EDUCATION_PERSO' => 'Niveau d&#039;éducation',
+  'LBL_EDUCATION_PERSO_AUTRE' => 'Autre niveau (préciser)',
+  'LBL_GROUPE_DESIGNE' => 'groupe designe',
 );

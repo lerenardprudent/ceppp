@@ -8,6 +8,9 @@
 /* CUSTOM CSS BY DMARG */
 div[type="radioenum"] > br {
   display: none; }
+
+div.edit-view-field[type="date"] > span.dateTime > input.date_input {
+  width: 80%; }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;

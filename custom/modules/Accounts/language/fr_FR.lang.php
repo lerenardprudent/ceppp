@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-12 21:00:34
+// created: 2018-10-12 21:41:13
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
@@ -30,4 +30,9 @@ $mod_strings = array (
   'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Autre (préciser)',
   'LBL_ETABL_SANTE_PA' => 'Établissement de santé principal',
   'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Autre (préciser)',
+  'LBL_CONSENTEMENT_DCPP_RECRUT' => 'Consentement - Participation',
+  'LBL_EDITVIEW_PANEL4' => 'Consentement',
+  'LBL_CONSENTEMENT_MISEAJOUR' => 'Consentement - Mises à jour',
+  'LBL_CONSENTEMENT_RECHERCHE' => 'Consentement - Recherche',
+  'LBL_CONSENTEMENT_USAGE_DONNEES' => 'Consentement - Usage de données',
 );
