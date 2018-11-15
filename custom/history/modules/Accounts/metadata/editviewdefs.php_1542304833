@@ -42,6 +42,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
@@ -186,19 +191,19 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_pp_c',
-            'label' => 'LBL_ETABL_SANTE_PP',
+            'name' => 'etabl_sante_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE',
           ),
-          1 => '',
         ),
         11 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_pp_c',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PP',
+            'name' => 'etabl_prem_ligne_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
-          1 => '',
         ),
         12 => 
         array (
@@ -293,19 +298,29 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_pa__c',
-            'label' => 'LBL_ETABL_SANTE_PA_',
+            'name' => 'etabl_sante_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE_PA',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'etabl_sante_pa_autre__prec_c',
+            'label' => 'LBL_ETABL_SANTE_PA_AUTRE__PREC',
+          ),
         ),
         9 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_pa__c',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PA_',
+            'name' => 'etabl_prem_ligne_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'etabl_prem_ligne_pa_autre__p_c',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P',
+          ),
         ),
       ),
       'lbl_editview_panel4' => 

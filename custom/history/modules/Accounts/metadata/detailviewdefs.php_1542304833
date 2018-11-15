@@ -1,7 +1,7 @@
 <?php
 $viewdefs ['Accounts'] = 
 array (
-  'EditView' => 
+  'DetailView' => 
   array (
     'templateMeta' => 
     array (
@@ -9,8 +9,32 @@ array (
       array (
         'buttons' => 
         array (
-          0 => 'SAVE',
-          1 => 'CANCEL',
+          'SEND_CONFIRM_OPT_IN_EMAIL' => 
+          array (
+            'customCode' => '<input type="submit" class="button hidden" disabled="disabled" title="{$APP.LBL_SEND_CONFIRM_OPT_IN_EMAIL}" onclick="this.form.return_module.value=\'Accounts\'; this.form.return_action.value=\'Accounts\'; this.form.return_id.value=\'{$fields.id.value}\'; this.form.action.value=\'sendConfirmOptInEmail\'; this.form.module.value=\'Accounts\'; this.form.module_tab.value=\'Accounts\';" name="send_confirm_opt_in_email" value="{$APP.LBL_SEND_CONFIRM_OPT_IN_EMAIL}"/>',
+            'sugar_html' => 
+            array (
+              'type' => 'submit',
+              'value' => '{$APP.LBL_SEND_CONFIRM_OPT_IN_EMAIL}',
+              'htmlOptions' => 
+              array (
+                'class' => 'button hidden',
+                'id' => 'send_confirm_opt_in_email',
+                'title' => '{$APP.LBL_SEND_CONFIRM_OPT_IN_EMAIL}',
+                'onclick' => 'this.form.return_module.value=\'Accounts\'; this.form.return_action.value=\'DetailView\'; this.form.return_id.value=\'{$fields.id.value}\'; this.form.action.value=\'sendConfirmOptInEmail\'; this.form.module.value=\'Accounts\'; this.form.module_tab.value=\'Accounts\';',
+                'name' => 'send_confirm_opt_in_email',
+                'disabled' => true,
+              ),
+            ),
+          ),
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+          'AOS_GENLET' => 
+          array (
+            'customCode' => '<input type="button" class="button" onClick="showPopup();" value="{$APP.LBL_PRINT_AS_PDF}">',
+          ),
         ),
       ),
       'maxColumns' => '2',
@@ -42,6 +66,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
@@ -69,11 +98,8 @@ array (
           0 => 
           array (
             'name' => 'name',
+            'comment' => 'Name of the Company',
             'label' => 'LBL_NAME',
-            'displayParams' => 
-            array (
-              'required' => true,
-            ),
           ),
         ),
         1 => 
@@ -81,6 +107,7 @@ array (
           0 => 
           array (
             'name' => 'description',
+            'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
@@ -186,19 +213,19 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_pp_c',
-            'label' => 'LBL_ETABL_SANTE_PP',
+            'name' => 'etabl_sante_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE',
           ),
-          1 => '',
         ),
         11 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_pp_c',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PP',
+            'name' => 'etabl_prem_ligne_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
-          1 => '',
         ),
         12 => 
         array (
@@ -293,19 +320,29 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_pa__c',
-            'label' => 'LBL_ETABL_SANTE_PA_',
+            'name' => 'etabl_sante_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_SANTE_PA',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'etabl_sante_pa_autre__prec_c',
+            'label' => 'LBL_ETABL_SANTE_PA_AUTRE__PREC',
+          ),
         ),
         9 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_pa__c',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PA_',
+            'name' => 'etabl_prem_ligne_pa_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'etabl_prem_ligne_pa_autre__p_c',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P',
+          ),
         ),
       ),
       'lbl_editview_panel4' => 

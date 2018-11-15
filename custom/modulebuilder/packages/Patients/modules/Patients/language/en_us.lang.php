@@ -143,4 +143,5 @@ $mod_strings = array (
   'LBL_EDUCATION_PERSO' => 'Education level',
   'LBL_EDUCATION_PERSO_AUTRE' => 'Other level (specify)',
   'LBL_GROUPE_DESIGNE' => 'Designated group',
+  'LBL_ETABL_SANTE_PA' => 'Établissement de santé principal',
 );

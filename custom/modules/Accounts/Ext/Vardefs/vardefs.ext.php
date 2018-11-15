@@ -154,39 +154,63 @@ $dictionary['Account']['fields']['doul_chron_c']['labelValue']='Douleur chroniqu
 
  
 
- // created: 2018-10-11 16:49:57
+ // created: 2018-11-15 17:54:54
 $dictionary['Account']['fields']['etabl_prem_ligne_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_prem_ligne_c']['labelValue']='XX';
+$dictionary['Account']['fields']['etabl_prem_ligne_c']['labelValue']='!! Établissement de première ligne';
 
  
 
- // created: 2018-10-11 20:58:16
+ // created: 2018-11-15 17:54:23
 $dictionary['Account']['fields']['etabl_prem_ligne_pa_autre__p_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_prem_ligne_pa_autre__p_c']['labelValue']='WW';
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_autre__p_c']['labelValue']='!! Autre (préciser)';
 
  
 
- // created: 2018-10-11 20:56:15
+ // created: 2018-11-15 17:54:00
 $dictionary['Account']['fields']['etabl_prem_ligne_pa_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_prem_ligne_pa_c']['labelValue']='YY';
+$dictionary['Account']['fields']['etabl_prem_ligne_pa_c']['labelValue']='!! Établissement de première ligne';
 
  
 
- // created: 2018-10-11 16:43:04
+ // created: 2018-11-15 17:48:20
+$dictionary['Account']['fields']['etabl_prem_ligne_pa__c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_prem_ligne_pa__c']['labelValue']='Établissement de première ligne';
+
+ 
+
+ // created: 2018-11-15 17:57:26
+$dictionary['Account']['fields']['etabl_prem_ligne_pp_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_prem_ligne_pp_c']['labelValue']='Établissement de première ligne (PP)';
+
+ 
+
+ // created: 2018-11-15 17:51:04
 $dictionary['Account']['fields']['etabl_sante_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_sante_c']['labelValue']='XX';
+$dictionary['Account']['fields']['etabl_sante_c']['labelValue']='!! Établissement de santé principal';
 
  
 
- // created: 2018-10-11 20:57:37
+ // created: 2018-11-15 17:51:35
 $dictionary['Account']['fields']['etabl_sante_pa_autre__prec_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_sante_pa_autre__prec_c']['labelValue']='ZZ';
+$dictionary['Account']['fields']['etabl_sante_pa_autre__prec_c']['labelValue']='!! Autre (préciser)';
 
  
 
- // created: 2018-10-11 20:55:38
+ // created: 2018-11-15 17:52:56
 $dictionary['Account']['fields']['etabl_sante_pa_c']['inline_edit']='1';
-$dictionary['Account']['fields']['etabl_sante_pa_c']['labelValue']='XX';
+$dictionary['Account']['fields']['etabl_sante_pa_c']['labelValue']='!! Établissement de santé principal';
+
+ 
+
+ // created: 2018-11-15 17:50:17
+$dictionary['Account']['fields']['etabl_sante_pa__c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_sante_pa__c']['labelValue']='Établissement de santé principal';
+
+ 
+
+ // created: 2018-11-15 17:58:10
+$dictionary['Account']['fields']['etabl_sante_pp_c']['inline_edit']='1';
+$dictionary['Account']['fields']['etabl_sante_pp_c']['labelValue']='Établissement de santé principal (PP)';
 
  
 

@@ -39,4 +39,8 @@ $mod_strings = array (
   'LBL_CONSENTEMENT_RECHERCHE' => 'Consent - Research',
   'LBL_CONSENTEMENT_USAGE_DONNEES' => 'Consent - Use of data',
   'LBL_CONSENTEMENT_MISEAJOUR' => 'Consent - Updating of information',
+  'LBL_ETABL_SANTE_PP' => 'Main health institution',
+  'LBL_ETABL_SANTE_PA_' => 'Main health institution',
+  'LBL_ETABL_PREM_LIGNE_PP' => 'Preferred health institution',
+  'LBL_ETABL_PREM_LIGNE_PA_' => 'Preferred health institution'
 );

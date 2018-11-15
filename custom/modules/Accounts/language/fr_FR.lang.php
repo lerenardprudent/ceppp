@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-12 21:41:13
+// created: 2018-11-15 17:58:10
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
@@ -12,8 +12,8 @@ $mod_strings = array (
   'LBL_DOUL_CHRON' => 'Douleur chronique',
   'LBL_PROB_SOMM' => 'Problèmes de sommeil',
   'LBL_PROB_RESP' => 'Problème respiratoire',
-  'LBL_ETABL_PREM_LIGNE' => 'Établissement de première ligne',
-  'LBL_ETABL_SANTE' => 'Établissement de santé principal',
+  'LBL_ETABL_PREM_LIGNE' => '!! Établissement de première ligne',
+  'LBL_ETABL_SANTE' => '!! Établissement de santé principal',
   'LBL_EXP_DECISION' => 'Expérience prise de décision',
   'LBL_EXPRIENCE_MALADIE_PROCHE' => 'Expérience maladie proche',
   'LBL_EDITVIEW_PANEL2' => 'Expérience maladie - Proche Aidant',
@@ -26,13 +26,17 @@ $mod_strings = array (
   'LBL_DOMAINE_SOIN_PA' => 'Spécialité domaine de soins #1',
   'LBL_DOMAINE_SOIN_PA_2' => 'Spécialité domaine de soins #2',
   'LBL_DOMAINE_SOIN_PA_3' => 'Spécialité domaine de soins #3',
-  'LBL_ETABL_PREM_LIGNE_PA' => 'Établissement de première ligne',
-  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => 'Autre (préciser)',
-  'LBL_ETABL_SANTE_PA' => 'Établissement de santé principal',
-  'LBL_ETABL_SANTE_PA_AUTRE__PREC' => 'Autre (préciser)',
+  'LBL_ETABL_PREM_LIGNE_PA' => '!! Établissement de première ligne',
+  'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P' => '!! Autre (préciser)',
+  'LBL_ETABL_SANTE_PA' => '!! Établissement de santé principal',
+  'LBL_ETABL_SANTE_PA_AUTRE__PREC' => '!! Autre (préciser)',
   'LBL_CONSENTEMENT_DCPP_RECRUT' => 'Consentement - Participation',
   'LBL_EDITVIEW_PANEL4' => 'Consentement',
   'LBL_CONSENTEMENT_MISEAJOUR' => 'Consentement - Mises à jour',
   'LBL_CONSENTEMENT_RECHERCHE' => 'Consentement - Recherche',
   'LBL_CONSENTEMENT_USAGE_DONNEES' => 'Consentement - Usage de données',
+  'LBL_ETABL_SANTE_PP' => 'Établissement de santé principal (PP)',
+  'LBL_ETABL_PREM_LIGNE_PP' => 'Établissement de première ligne (PP)',
+  'LBL_ETABL_SANTE_PA_' => 'Établissement de santé principal',
+  'LBL_ETABL_PREM_LIGNE_PA_' => 'Établissement de première ligne',
 );
