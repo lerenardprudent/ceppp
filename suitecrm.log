@@ -1592,3 +1592,4 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 11/16/18 18:26:19 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
 11/16/18 18:26:19 [12792][-none-][FATAL] Mysqli_query failed.
 11/16/18 18:26:19 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 20:03:14 [12792][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

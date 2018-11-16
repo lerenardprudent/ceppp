@@ -1,5 +1,5 @@
 <?php
-// created: 2018-11-15 17:58:10
+// created: 2018-11-16 21:25:41
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
@@ -39,4 +39,5 @@ $mod_strings = array (
   'LBL_ETABL_PREM_LIGNE_PP' => 'Établissement de première ligne (PP)',
   'LBL_ETABL_SANTE_PA_' => 'Établissement de santé principal',
   'LBL_ETABL_PREM_LIGNE_PA_' => 'Établissement de première ligne',
+  'LBL_EDITVIEW_PANEL5' => 'Patient',
 );
