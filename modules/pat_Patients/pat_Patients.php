@@ -116,4 +116,10 @@ class pat_Patients extends Person
         return false;
     }
 	
+    public function save($check_notify = false) {
+      $this->first_name = $this->prenom;
+      $this->last_name = $this->nom;
+      
+      parent::save($check_notify);
+    }
 }

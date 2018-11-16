@@ -1543,3 +1543,52 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 11/16/18 13:48:11 [1280][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 11/16/18 14:36:11 [1280][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 11/16/18 15:40:02 [1280][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+11/16/18 18:25:55 [12792][-none-][FATAL] Could not connect to DB server localhost as root. port : Base 'ceppp' inconnue
+11/16/18 18:26:05 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:05 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:05 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:05 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:05 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:05 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:08 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:08 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:08 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:08 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:08 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:08 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:09 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:09 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:09 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:09 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:09 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:09 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:11 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:11 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:16 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:16 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:16 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:16 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:16 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:16 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
+11/16/18 18:26:19 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:19 [12792][-none-][FATAL]  Query Failed: select code, desc_en from cim9 where 1 order by desc_en: MySQL error 1146: La table 'ceppp.cim9' n'existe pas
+11/16/18 18:26:19 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:19 [12792][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: La table 'ceppp.currencies' n'existe pas
+11/16/18 18:26:19 [12792][-none-][FATAL] Mysqli_query failed.
+11/16/18 18:26:19 [12792][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: La table 'ceppp.config' n'existe pas
