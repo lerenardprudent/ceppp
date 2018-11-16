@@ -38,4 +38,24 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+$app_list_strings['moduleList']['pat_Partenariats'] = 'Partenariats';
 $app_list_strings['moduleList']['pat_Patients'] = 'Patients';
+$app_list_strings['emploi_temps_list']['nul'] = ' ';
+$app_list_strings['emploi_temps_list']['emploi'] = 'Employment';
+$app_list_strings['emploi_temps_list']['benevolat'] = 'Volunteering';
+$app_list_strings['emploi_temps_list']['famille'] = 'Family';
+$app_list_strings['emploi_temps_list']['proche'] = 'Friends';
+$app_list_strings['emploi_temps_list']['sante'] = 'Health / Sport';
+$app_list_strings['niveau_education_list']['aucun'] = ' ';
+$app_list_strings['niveau_education_list']['primaire'] = 'Primary school';
+$app_list_strings['niveau_education_list']['secondaire'] = 'High school';
+$app_list_strings['niveau_education_list']['formation_professionnelle'] = 'Professional training';
+$app_list_strings['niveau_education_list']['post_secondaire'] = 'College';
+$app_list_strings['niveau_education_list']['maitrise'] = 'Masters degree';
+$app_list_strings['niveau_education_list']['doctorat'] = 'PhD';
+$app_list_strings['niveau_education_list']['certificat'] = 'Undergraduate degree';
+$app_list_strings['niveau_education_list']['autre'] = 'Other';
+$app_list_strings['groupe_minoritaire_list'][''] = '';
+$app_list_strings['groupe_minoritaire_list']['premiere_nation'] = 'First Nations';
+$app_list_strings['groupe_minoritaire_list']['minorite_visible'] = 'Visible minority';
+$app_list_strings['groupe_minoritaire_list']['handicape'] = 'Disabled';

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-12 21:37:41
+// created: 2018-11-16 14:51:57
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Experience with Illness - Patient Partnership',
   'LBL_PAT_PATIENTS_ACCOUNTS_FROM_PAT_PATIENTS_TITLE' => 'Patient',
@@ -42,5 +42,6 @@ $mod_strings = array (
   'LBL_ETABL_SANTE_PP' => 'Main health institution',
   'LBL_ETABL_SANTE_PA_' => 'Main health institution',
   'LBL_ETABL_PREM_LIGNE_PP' => 'Preferred health institution',
-  'LBL_ETABL_PREM_LIGNE_PA_' => 'Preferred health institution'
+  'LBL_ETABL_PREM_LIGNE_PA_' => 'Preferred health institution',
+  'LBL_EDITVIEW_PANEL5' => 'Contact',
 );
