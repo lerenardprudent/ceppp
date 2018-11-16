@@ -72,12 +72,22 @@ array (
         array (
           0 => 
           array (
+            'name' => 'salutation',
+            'comment' => 'Contact salutation (e.g., Mr, Ms)',
+            'label' => 'LBL_SALUTATION',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'email_perso',
             'label' => 'LBL_EMAIL_PERSO',
           ),
           1 => '',
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -86,7 +96,7 @@ array (
           ),
           1 => '',
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -99,7 +109,7 @@ array (
             'label' => 'LBL_TEL_MOBILE_PERSO',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
