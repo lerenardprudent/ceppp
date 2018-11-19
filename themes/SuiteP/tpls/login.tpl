@@ -63,7 +63,7 @@
 
     <div id="loginform">
         
-        <form class="form-signin" role="form" action="index.php" method="post" name="DetailView" id="form"
+        <form class="form-signin" role="form" action="index.php" method="post" name="DetailView" id="form-signin1"
               onsubmit="return document.getElementById('cant_login').value == ''" autocomplete="off">
             <div class="companylogo">{$LOGIN_IMAGE}</div>
         <span class="error" id="browser_warning" style="display:none">
@@ -116,7 +116,7 @@
             </div>
         </form>
         
-        <form class="form-signin passform" role="form" action="index.php" method="post" name="DetailView" id="form" name="fp_form" id="fp_form" autocomplete="off">
+        <form class="form-signin passform" role="form" action="index.php" method="post" name="DetailView" id="form-signin2" name="fp_form" id="fp_form" autocomplete="off">
             <div id="forgot_password_dialog" style="display:none">
                 <input type="hidden" name="entryPoint" value="GeneratePassword">
                 <div id="generate_success" class='error' style="display:inline;"></div>
