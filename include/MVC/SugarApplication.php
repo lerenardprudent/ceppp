@@ -375,7 +375,7 @@ class SugarApplication
         
         $sys_name_cfg = 'system_name';
         if (!empty($GLOBALS['system_config']->settings[$sys_name_cfg])) {
-          $lang = explode('_', $GLOBALS['current_language'])[0];
+          $lang = explode('_', $_REQUEST['login_language'])[0];
           if ( isset($lang) && !empty($GLOBALS['system_config']->settings[$sys_name_cfg."_$lang"]) ) {
             $sys_name_cfg .= "_$lang";
           }
