@@ -633,6 +633,12 @@ function get_languages()
 {
     global $sugar_config;
     $lang = $sugar_config['languages'];
+    
+    /* HACK DMARG 20181119 */
+    foreach ( $lang as $lng => &$lngStr ) {
+      $lngStr = preg_replace('/\\s.*$/', '', $lngStr);
+    }
+    
     if (!empty($sugar_config['disabled_languages'])) {
         foreach (explode(',', $sugar_config['disabled_languages']) as $disable) {
             unset($lang[$disable]);
