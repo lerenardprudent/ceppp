@@ -75,7 +75,9 @@ $logoFileUrl = SugarThemeRegistry::current()->getImageURL($logoFile);
 $lang = explode('_', $current_language);
 if ( isset($lang[0]) ) {
   $logoFile = preg_replace('/\./', "_".$lang[0].".", $logoFile);
-  $logoFileUrl = SugarThemeRegistry::current()->getImageURL("${logoFile}_".$lang[0]);
+  if ( SugarThemeRegistry::current()->getImageURL($logoFile) ) {
+    $logoFileUrl = SugarThemeRegistry::current()->getImageURL($logoFile);
+  }
 }
 
 $login_image_url = $logoFileUrl;
