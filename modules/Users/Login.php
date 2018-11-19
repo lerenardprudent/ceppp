@@ -70,7 +70,15 @@ $login_image = is_file('custom/include/images/sugar_md.png') ?
     '<IMG src="custom/include/images/sugar_md.png" alt="Sugar" width="340" height="25">' :
     '<IMG src="include/images/sugar_md_open.png" alt="Sugar" width="340" height="25" style="margin: 5px 0;">';
 
-$login_image_url = SugarThemeRegistry::current()->getImageURL('company_logo.png');
+$logoFile = 'company_logo.png';
+$logoFileUrl = SugarThemeRegistry::current()->getImageURL($logoFile);
+$lang = explode('_', $current_language);
+if ( isset($lang[0]) ) {
+  $logoFile = preg_replace('/\./', "_".$lang[0].".", $logoFile);
+  $logoFileUrl = SugarThemeRegistry::current()->getImageURL("${logoFile}_".$lang[0]);
+}
+
+$login_image_url = $logoFileUrl;
 $login_image = '<IMG src="' . $login_image_url . '" alt="SuiteCRM" style="margin: 5px 0;">';
 
 
