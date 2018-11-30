@@ -1789,7 +1789,7 @@ EOHTML;
             $favicon = $themeObject->getImageURL($this->module . '.gif', false);
         }
         if (!is_file($favicon) || !$module_favicon) {
-            $favicon = $themeObject->getImageURL('sugar_icon.ico', false);
+            $favicon = $themeObject->getImageURL('ceppp_logo.ico', false);
         }
 
         $extension = pathinfo($favicon, PATHINFO_EXTENSION);
