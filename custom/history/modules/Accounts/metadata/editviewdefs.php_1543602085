@@ -40,7 +40,7 @@ array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL5' => 
         array (

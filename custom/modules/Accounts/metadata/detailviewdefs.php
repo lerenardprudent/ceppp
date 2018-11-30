@@ -64,7 +64,7 @@ array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
