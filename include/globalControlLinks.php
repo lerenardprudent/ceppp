@@ -57,11 +57,12 @@ if (isset($sugar_config['disc_client']) && $sugar_config['disc_client']) {
     require_once('modules/Sync/headermenu.php');
 }
 
-
-$global_control_links['employees'] = array(
-'linkinfo' => array($app_strings['LBL_EMPLOYEES']=> 'index.php?module=Employees&action=index&query=true'),
-'submenu' => ''
+if ( is_admin($current_user) ) {
+  $global_control_links['employees'] = array(
+  'linkinfo' => array($app_strings['LBL_EMPLOYEES']=> 'index.php?module=Employees&action=index&query=true'),
+  'submenu' => ''
 );
+}
 if (
         is_admin($current_user)
 
