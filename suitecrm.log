@@ -1873,3 +1873,8 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 11/30/18 17:59:08 [11920][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 11/30/18 21:29:57 [11920][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 11/30/18 22:52:31 [11920][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+12/02/18 16:35:30 [5288][-none-][FATAL] unable to load DB manager for: 
+12/02/18 16:35:52 [5288][-none-][FATAL] unable to load DB manager for: 
+12/02/18 16:36:19 [5288][-none-][FATAL] unable to load DB manager for: 
+12/02/18 16:50:37 [5288][-none-][FATAL] unable to load DB manager for: 
+12/02/18 16:50:37 [5288][-none-][FATAL] Could not connect to DB server localhost as root. port : Access denied for user 'root'@'localhost' (using password: YES)
