@@ -1878,3 +1878,8 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 12/02/18 16:36:19 [5288][-none-][FATAL] unable to load DB manager for: 
 12/02/18 16:50:37 [5288][-none-][FATAL] unable to load DB manager for: 
 12/02/18 16:50:37 [5288][-none-][FATAL] Could not connect to DB server localhost as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+02/05/19 21:09:46 [10896][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/05/19 21:11:40 [10896][-none-][FATAL] SECURITY: User authentication for gp failed
+02/05/19 21:11:40 [10896][-none-][FATAL] FAILED LOGIN:attempts[1], ip[127.0.0.1], username[gp]
+02/05/19 21:38:01 [10896][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Error: Module pat_Patients does not exist.
+02/06/19 15:09:35 [10896][66440dcf-8fc6-1c13-c7af-5ba56af6c0b4][FATAL] Error: Module pat_Patients does not exist.
