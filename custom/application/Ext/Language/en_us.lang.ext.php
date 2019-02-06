@@ -3984,5 +3984,12 @@ $app_list_strings['account_type_dom']['Press'] = 'Press';
 $app_list_strings['account_type_dom']['Prospect'] = 'Prospect';
 $app_list_strings['account_type_dom']['Reseller'] = 'Reseller';
 $app_list_strings['account_type_dom']['Other'] = 'Other';
+$app_list_strings['relation_patient_list']['parent'] = 'Parent';
+$app_list_strings['relation_patient_list']['enfant'] = 'Child';
+$app_list_strings['relation_patient_list']['conjoint'] = 'Partner';
+$app_list_strings['relation_patient_list']['famille_elargie'] = 'Extended family';
+$app_list_strings['relation_patient_list']['autre'] = 'Other';
+$app_list_strings['yes_no_list']['oui'] = 'Yes';
+$app_list_strings['yes_no_list']['non'] = 'No';
 
 ?>
