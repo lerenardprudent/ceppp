@@ -58,6 +58,26 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
+        'LBL_EDITVIEW_PANEL9' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL10' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
           'newTab' => false,
@@ -466,6 +486,197 @@ array (
           array (
             'name' => 'duree_experience',
             'label' => 'LBL_DUREE_EXPERIENCE',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'exp_sante',
+            'studio' => 'visible',
+            'label' => 'LBL_EXP_SANTE',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'descr_exp',
+            'label' => 'LBL_DESCR_EXP',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'formation_pp',
+            'studio' => 'visible',
+            'label' => 'LBL_FORMATION_PP',
+          ),
+          1 => 
+          array (
+            'name' => 'formation_oui',
+            'label' => 'LBL_FORMATION_OUI',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'formation_qui',
+            'label' => 'LBL_FORMATION_QUI',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'competences_pp',
+            'studio' => 'visible',
+            'label' => 'LBL_COMPETENCES_PP',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'competences_ppc',
+            'studio' => 'visible',
+            'label' => 'LBL_COMPETENCES_PPC',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'competences_pr',
+            'studio' => 'visible',
+            'label' => 'LBL_COMPETENCES_PR',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'habiletes_pp',
+            'studio' => 'visible',
+            'label' => 'LBL_HABILETES_PP',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel9' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'patient_ajout',
+            'studio' => 'visible',
+            'label' => 'LBL_PATIENT_AJOUT',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'comm_recruteur',
+            'studio' => 'visible',
+            'label' => 'LBL_COMM_RECRUTEUR',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel10' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'langue_parlee',
+            'studio' => 'visible',
+            'label' => 'LBL_LANGUE_PARLEE',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'langue_corresp',
+            'studio' => 'visible',
+            'label' => 'LBL_LANGUE_CORRESP',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'niveau_mob',
+            'studio' => 'visible',
+            'label' => 'LBL_NIVEAU_MOB',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'niveau_aud',
+            'studio' => 'visible',
+            'label' => 'LBL_NIVEAU_AUD',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'niveau_vue',
+            'studio' => 'visible',
+            'label' => 'LBL_NIVEAU_VUE',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'niveau_fatigabilite',
+            'studio' => 'visible',
+            'label' => 'LBL_NIVEAU_FATIGABILITE',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'niveau_autre',
+            'label' => 'LBL_NIVEAU_AUTRE',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'association_etablissement_recr',
+            'studio' => 'visible',
+            'label' => 'LBL_ASSOCIATION_ETABLISSEMENT_RECR',
           ),
           1 => '',
         ),
