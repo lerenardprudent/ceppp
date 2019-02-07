@@ -4,6 +4,8 @@
  $hook_version = 1; 
 $hook_array = Array(); 
 // position, file, function 
+$hook_array['before_save'] = Array(); 
+$hook_array['before_save'][] = Array(1, 'Update Fist Name field', 'custom/modules/pat_Patients/Patients_Hook.php','Patients_Hook', 'update_default_name_fields'); 
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(1, 'AOD Index Changes', 'modules/AOD_Index/AOD_LogicHooks.php','AOD_LogicHooks', 'saveModuleChanges'); 
 $hook_array['after_save'][] = Array(30, 'popup_select', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'popup_select'); 

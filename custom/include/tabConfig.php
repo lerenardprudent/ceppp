@@ -1,5 +1,5 @@
 <?php
-// created: 2019-02-05 21:55:46
+// created: 2019-02-07 16:05:44
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_COLLABORATION' => 
   array (
@@ -7,6 +7,7 @@ $GLOBALS['tabStructure'] = array (
     'modules' => 
     array (
       0 => 'pat_Patients',
+      1 => 'Contacts',
     ),
   ),
 );

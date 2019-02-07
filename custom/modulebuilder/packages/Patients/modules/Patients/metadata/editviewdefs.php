@@ -23,15 +23,20 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION' => 
+        'LBL_EDITVIEW_PANEL13' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_CONTACT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
@@ -41,7 +46,7 @@ array (
         'LBL_EDITVIEW_PANEL4' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
@@ -51,7 +56,7 @@ array (
         'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL7' => 
         array (
@@ -61,7 +66,7 @@ array (
         'LBL_EDITVIEW_PANEL9' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL10' => 
         array (
@@ -73,11 +78,52 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
+        'LBL_EDITVIEW_PANEL12' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
+      'lbl_editview_panel13' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'code_ident',
+            'label' => 'LBL_CODE_IDENT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'genre',
+            'studio' => 'visible',
+            'label' => 'LBL_GENRE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etat',
+            'studio' => 'visible',
+            'label' => 'LBL_ETAT',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_contact_information' => 
       array (
         0 => 
@@ -97,11 +143,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'code_ident',
-            'label' => 'LBL_CODE_IDENT',
-          ),
-          1 => 
-          array (
             'name' => 'salutation',
             'comment' => 'Contact salutation (e.g., Mr, Ms)',
             'label' => 'LBL_SALUTATION',
@@ -114,7 +155,6 @@ array (
             'name' => 'email_perso',
             'label' => 'LBL_EMAIL_PERSO',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -123,7 +163,6 @@ array (
             'name' => 'tel_dom_perso',
             'label' => 'LBL_TEL_DOM_PERSO',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -194,7 +233,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EXPERIENCE_MALADIE',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -216,7 +254,6 @@ array (
             'name' => 'domaine_soin_3',
             'label' => 'LBL_DOMAINE_SOIN_3',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -226,14 +263,17 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT',
           ),
-          1 => 
+        ),
+        4 => 
+        array (
+          0 => 
           array (
             'name' => 'prob_sant_2',
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_2',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -241,9 +281,8 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_3',
           ),
-          1 => '',
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -258,7 +297,7 @@ array (
             'label' => 'LBL_MED_2',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -266,9 +305,8 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MED_3',
           ),
-          1 => '',
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -276,9 +314,8 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DOUL_CHRON',
           ),
-          1 => '',
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -286,9 +323,8 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SOMM',
           ),
-          1 => '',
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -296,27 +332,24 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_RESP',
           ),
-          1 => '',
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
             'name' => 'etabl_sante',
             'label' => 'LBL_ETABL_SANTE',
           ),
-          1 => '',
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
             'name' => 'etabl_prem_ligne',
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
-          1 => '',
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -324,7 +357,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EXP_DECISION',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel4' => 
@@ -337,7 +369,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EXPERIENCE_MALADIE_PROCHE',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -347,7 +378,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_REL_PATIENT',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -369,7 +399,6 @@ array (
             'name' => 'domaine_soin_pa_3',
             'label' => 'LBL_DOMAINE_SOIN_PA_3',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -379,14 +408,17 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA',
           ),
-          1 => 
+        ),
+        5 => 
+        array (
+          0 => 
           array (
             'name' => 'prob_sant_pa_2',
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA_2',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -394,25 +426,22 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA_3',
           ),
-          1 => '',
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
             'name' => 'etabl_sante_pa_',
             'label' => 'LBL_ETABL_SANTE_PA_',
           ),
-          1 => '',
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
             'name' => 'etabl_prem_ligne_pa_',
             'label' => 'LBL_ETABL_PREM_LIGNE_PA_',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -439,7 +468,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONFLIT_INTERET',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -448,7 +476,6 @@ array (
             'name' => 'motivations_implication',
             'label' => 'LBL_MOTIVATIONS_IMPLICATION',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -458,7 +485,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DISPONIBILITES',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -468,7 +494,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PREFERENCES',
           ),
-          1 => '',
         ),
         5 => 
         array (
@@ -477,7 +502,6 @@ array (
             'name' => 'duree_experience',
             'label' => 'LBL_DUREE_EXPERIENCE',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel6' => 
@@ -490,7 +514,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EXP_SANTE',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -499,7 +522,6 @@ array (
             'name' => 'descr_exp',
             'label' => 'LBL_DESCR_EXP',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -522,7 +544,6 @@ array (
             'name' => 'formation_qui',
             'label' => 'LBL_FORMATION_QUI',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel7' => 
@@ -535,7 +556,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_COMPETENCES_PP',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -545,7 +565,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_COMPETENCES_PPC',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -555,7 +574,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_COMPETENCES_PR',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -565,7 +583,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_HABILETES_PP',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel9' => 
@@ -578,7 +595,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PATIENT_AJOUT',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -588,7 +604,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_COMM_RECRUTEUR',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel10' => 
@@ -601,7 +616,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_LANGUE_PARLEE',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -611,7 +625,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_LANGUE_CORRESP',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -621,7 +634,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_NIVEAU_MOB',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -649,7 +661,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_NIVEAU_FATIGABILITE',
           ),
-          1 => '',
         ),
         6 => 
         array (
@@ -658,7 +669,6 @@ array (
             'name' => 'niveau_autre',
             'label' => 'LBL_NIVEAU_AUTRE',
           ),
-          1 => '',
         ),
         7 => 
         array (
@@ -668,7 +678,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ASSOCIATION_ETABLISSEMENT_RECR',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel2' => 
@@ -680,7 +689,6 @@ array (
             'name' => 'naissance_perso',
             'label' => 'LBL_NAISSANCE_PERSO',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -690,7 +698,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EMPLOI_PERSO',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -713,6 +720,96 @@ array (
             'name' => 'groupe_designe',
             'studio' => 'visible',
             'label' => 'LBL_GROUPE_DESIGNE',
+          ),
+        ),
+      ),
+      'lbl_editview_panel11' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_entrevue',
+            'label' => 'LBL_DATE_ENTREVUE',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'recruteur',
+            'label' => 'LBL_RECRUTEUR',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'personne_reference_recrut',
+            'label' => 'LBL_PERSONNE_REFERENCE_RECRUT',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'comment_refere',
+            'label' => 'LBL_COMMENT_REFERE',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'org_ref_recrut',
+            'label' => 'LBL_ORG_REF_RECRUT',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel12' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_dcpp_recrut',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_DCPP_RECRUT',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_recherche',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_RECHERCHE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_usage_donnees',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_USAGE_DONNEES',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_miseajour',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_MISEAJOUR',
           ),
           1 => '',
         ),

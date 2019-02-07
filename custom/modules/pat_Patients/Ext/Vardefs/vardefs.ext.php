@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2019-02-06 21:15:01
+// created: 2019-02-07 18:55:44
 $dictionary["pat_Patients"]["fields"]["pat_partenariats_pat_patients"] = array (
   'name' => 'pat_partenariats_pat_patients',
   'type' => 'link',
@@ -36,7 +36,7 @@ $dictionary["pat_Patients"]["fields"]["pat_partenariats_pat_patientspat_partenar
 );
 
 
-// created: 2019-02-06 21:15:02
+// created: 2019-02-07 18:55:45
 $dictionary["pat_Patients"]["fields"]["pat_patients_accounts"] = array (
   'name' => 'pat_patients_accounts',
   'type' => 'link',
@@ -70,7 +70,7 @@ $dictionary["pat_Patients"]["fields"]["pat_patients_accountsaccounts_idb"] = arr
 );
 
 
-// created: 2019-02-06 21:15:02
+// created: 2019-02-07 18:55:45
 $dictionary["pat_Patients"]["fields"]["pat_patients_pat_partenariats"] = array (
   'name' => 'pat_patients_pat_partenariats',
   'type' => 'link',
