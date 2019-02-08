@@ -241,13 +241,16 @@ array (
             'name' => 'domaine_soin',
             'label' => 'LBL_DOMAINE_SOIN',
           ),
-          1 => 
+        ),
+        2 => 
+        array (
+          0 => 
           array (
             'name' => 'domaine_soin_2',
             'label' => 'LBL_DOMAINE_SOIN_2',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -255,7 +258,7 @@ array (
             'label' => 'LBL_DOMAINE_SOIN_3',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -264,7 +267,7 @@ array (
             'label' => 'LBL_PROB_SANT',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -273,7 +276,7 @@ array (
             'label' => 'LBL_PROB_SANT_2',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -282,7 +285,7 @@ array (
             'label' => 'LBL_PROB_SANT_3',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -290,14 +293,17 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_MED_1',
           ),
-          1 => 
+        ),
+        8 => 
+        array (
+          0 => 
           array (
             'name' => 'med_2',
             'studio' => 'visible',
             'label' => 'LBL_MED_2',
           ),
         ),
-        7 => 
+        9 => 
         array (
           0 => 
           array (
@@ -306,7 +312,7 @@ array (
             'label' => 'LBL_MED_3',
           ),
         ),
-        8 => 
+        10 => 
         array (
           0 => 
           array (
@@ -315,7 +321,7 @@ array (
             'label' => 'LBL_DOUL_CHRON',
           ),
         ),
-        9 => 
+        11 => 
         array (
           0 => 
           array (
@@ -324,7 +330,7 @@ array (
             'label' => 'LBL_PROB_SOMM',
           ),
         ),
-        10 => 
+        12 => 
         array (
           0 => 
           array (
@@ -333,7 +339,7 @@ array (
             'label' => 'LBL_PROB_RESP',
           ),
         ),
-        11 => 
+        13 => 
         array (
           0 => 
           array (
@@ -341,7 +347,7 @@ array (
             'label' => 'LBL_ETABL_SANTE',
           ),
         ),
-        12 => 
+        14 => 
         array (
           0 => 
           array (
@@ -349,7 +355,7 @@ array (
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
         ),
-        13 => 
+        15 => 
         array (
           0 => 
           array (
@@ -386,13 +392,16 @@ array (
             'name' => 'domaine_soin_pa',
             'label' => 'LBL_DOMAINE_SOIN_PA',
           ),
-          1 => 
+        ),
+        3 => 
+        array (
+          0 => 
           array (
             'name' => 'domaine_soin_pa_2',
             'label' => 'LBL_DOMAINE_SOIN_PA_2',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -400,7 +409,7 @@ array (
             'label' => 'LBL_DOMAINE_SOIN_PA_3',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -409,7 +418,7 @@ array (
             'label' => 'LBL_PROB_SANT_PA',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -418,7 +427,7 @@ array (
             'label' => 'LBL_PROB_SANT_PA_2',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -427,7 +436,7 @@ array (
             'label' => 'LBL_PROB_SANT_PA_3',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -435,7 +444,7 @@ array (
             'label' => 'LBL_ETABL_SANTE_PA_',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (

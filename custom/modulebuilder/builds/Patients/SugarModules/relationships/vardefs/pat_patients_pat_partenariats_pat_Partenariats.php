@@ -1,5 +1,5 @@
 <?php
-// created: 2019-02-07 18:55:45
+// created: 2019-02-08 17:28:13
 $dictionary["pat_Partenariats"]["fields"]["pat_patients_pat_partenariats"] = array (
   'name' => 'pat_patients_pat_partenariats',
   'type' => 'link',

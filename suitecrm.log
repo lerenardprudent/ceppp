@@ -1892,3 +1892,5 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 02/07/19 18:18:27 [11864][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
 02/07/19 18:18:27 [11864][1][FATAL] Failed to load original or custom subpanel data for eapm in 
 02/07/19 18:24:28 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/08/19 17:26:56 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/08/19 17:31:25 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

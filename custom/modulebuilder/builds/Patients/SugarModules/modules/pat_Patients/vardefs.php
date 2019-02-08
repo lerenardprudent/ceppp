@@ -466,7 +466,7 @@ $dictionary['pat_Patients'] = array(
   ),
   'code_ident' => 
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'code_ident',
     'vname' => 'LBL_CODE_IDENT',
     'type' => 'varchar',
