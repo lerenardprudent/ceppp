@@ -52,4 +52,9 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL10' => 'Conditions pratiques',
   'LBL_EDITVIEW_PANEL11' => 'Entrevue',
   'LBL_EDITVIEW_PANEL12' => 'Consentement',
+    'LBL_ADRESSE_PERSO' => 'Adresse',
+  'LBL_ADRESSE_PERSO_CITY' => 'Ville',
+  'LBL_ADRESSE_PERSO_STATE' => 'Province',
+  'LBL_ADRESSE_PERSO_POSTALCODE' => 'Code postal',
+  'LBL_ADRESSE_PERSO_COUNTRY' => 'Pays',
 );

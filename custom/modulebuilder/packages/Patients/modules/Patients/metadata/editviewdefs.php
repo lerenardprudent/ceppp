@@ -477,6 +477,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONFLIT_INTERET',
           ),
+          1 => 
+          array (
+            'name' => 'conflit_interet_detail',
+            'label' => 'LBL_CONFLIT_INTERET_DETAIL',
+          ),
         ),
         2 => 
         array (

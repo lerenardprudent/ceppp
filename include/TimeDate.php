@@ -937,6 +937,9 @@ class TimeDate
      */
     public function tzUser(DateTime $date, User $user = null)
     {
+      if (gettype($date) === 'boolean') {
+        return false;
+      }
         $userTZ = $this->_getUserTZ($user);
         $ret = $date->setTimezone($userTZ);
         return $ret;
