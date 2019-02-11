@@ -86,6 +86,7 @@ class Sugar_Smarty extends Smarty
         $this->plugins_dir = $plugins_dir;
 
         $this->assign("VERSION_MARK", getVersionedPath(''));
+        //$this->debugging = true;
     }
 
     /**

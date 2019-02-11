@@ -512,6 +512,7 @@ function loadFieldHTML(field, module, id) {
             'to_pdf': true
         }
     );
+    console.log(field, result.responseText);
     $.ajaxSetup({"async": true});
     if(result.responseText){
         try {
