@@ -613,6 +613,23 @@ class EditView
                     // the list's name, but the list itself (the developper comment show us that developper expected to
                     // retrieve list's name and not the options array)
                     $this->fieldDefs[$name]['options'] = $app_list_strings[$this->fieldDefs[$name]['options']];
+                    
+                    /* HACK DMARG */
+                    if ( $this->fieldDefs[$name]['type'] == 'enum' ) {
+                      $tmp = array();
+                      $need_to_flatten = false;
+                      foreach ( $this->fieldDefs[$name]['options'] as $i => $j ) {
+                        if ( is_array($j) ) {
+                          $need_to_flatten = true;
+                        } else {
+                          $j = array($j);
+                        }
+                        $tmp = array_merge( $tmp,  $j );
+                      }
+                      if ( $need_to_flatten ) {
+                        $this->fieldDefs[$name]['options'] = $tmp;
+                      }
+                    }
                 }
 
                 if (
