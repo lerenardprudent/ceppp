@@ -614,8 +614,8 @@ class EditView
                     // retrieve list's name and not the options array)
                     $this->fieldDefs[$name]['options'] = $app_list_strings[$this->fieldDefs[$name]['options']];
                     
-                    /* HACK DMARG */
-                    if ( $this->fieldDefs[$name]['type'] == 'enum' ) {
+                    /* HACK DMARG 20190212 */
+                    if ( $this->fieldDefs[$name]['type'] == 'enum' && $this->view == 'DetailView' ) {
                       $tmp = array();
                       $need_to_flatten = false;
                       foreach ( $this->fieldDefs[$name]['options'] as $i => $j ) {
