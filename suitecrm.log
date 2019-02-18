@@ -1898,3 +1898,14 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 02/11/19 21:37:40 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 02/11/19 21:39:38 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 02/11/19 21:42:10 [11864][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/13/19 20:26:18 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:26:18 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:26:41 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:26:41 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:01 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:01 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:22 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:22 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:40 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/13/19 20:27:41 [11864][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+02/18/19 21:07:15 [6880][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

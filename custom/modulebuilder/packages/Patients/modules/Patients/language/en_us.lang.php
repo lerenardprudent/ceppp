@@ -220,4 +220,9 @@ $mod_strings = array (
   'LBL_ETAT' => 'Status',
   'LBL_GENRE' => 'Gender',
   'LBL_CONFLIT_INTERET_DETAIL' => 'Specify',
+  'LBL_HELLO_CITY' => 'hello City',
+  'LBL_HELLO_STATE' => 'hello State',
+  'LBL_HELLO_POSTALCODE' => 'hello PostalCode',
+  'LBL_HELLO_COUNTRY' => 'hello Country',
+  'LBL_HELLO' => 'hello',
 );

@@ -1,5 +1,9 @@
 silentAjax = false;
 
+$(document).ready(function() {
+  console.log("GO SILVER SOVEREIGN", $('[id^=prob_sant]').length);
+});
+
 $(document).on({
     ajaxStart: function() { if ( !silentAjax ) {
       showAjaxSpinner();

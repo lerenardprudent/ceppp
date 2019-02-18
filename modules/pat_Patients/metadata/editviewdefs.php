@@ -6,6 +6,9 @@ array (
   array (
     'templateMeta' => 
     array (
+      'includes' => array(
+        array('file' => 'modules/pat_Patients/edit_test.js'),
+      ),
       'maxColumns' => '2',
       'widths' => 
       array (
