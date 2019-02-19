@@ -6,9 +6,6 @@ array (
   array (
     'templateMeta' => 
     array (
-      'includes' => array(
-            array('file' => 'modules/pat_Patients/spinner.js'),
-        ),
       'form' => 
       array (
         'buttons' => 
@@ -124,7 +121,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_GENRE',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -134,7 +130,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ETAT',
           ),
-          1 => '',
         ),
       ),
       'lbl_contact_information' => 
@@ -759,7 +754,6 @@ array (
             'name' => 'date_entrevue',
             'label' => 'LBL_DATE_ENTREVUE',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -768,7 +762,6 @@ array (
             'name' => 'recruteur',
             'label' => 'LBL_RECRUTEUR',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -777,7 +770,6 @@ array (
             'name' => 'personne_reference_recrut',
             'label' => 'LBL_PERSONNE_REFERENCE_RECRUT',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -786,7 +778,6 @@ array (
             'name' => 'comment_refere',
             'label' => 'LBL_COMMENT_REFERE',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -795,7 +786,6 @@ array (
             'name' => 'org_ref_recrut',
             'label' => 'LBL_ORG_REF_RECRUT',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel12' => 
@@ -808,7 +798,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONSENTEMENT_DCPP_RECRUT',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -818,7 +807,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONSENTEMENT_RECHERCHE',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -828,7 +816,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONSENTEMENT_USAGE_DONNEES',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -838,7 +825,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONSENTEMENT_MISEAJOUR',
           ),
-          1 => '',
         ),
       ),
     ),

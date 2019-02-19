@@ -225,4 +225,5 @@ $mod_strings = array (
   'LBL_HELLO_POSTALCODE' => 'hello PostalCode',
   'LBL_HELLO_COUNTRY' => 'hello Country',
   'LBL_HELLO' => 'hello',
+  'LBL_AUTOCOMPLTEST' => 'Testy',
 );
