@@ -1978,6 +1978,12 @@ $dictionary['pat_Patients'] = array(
     'len' => '255',
     'size' => '20',
     'dbType' => 'varchar',
+    'autocomplete_text__key' => 'foobar789',
+    'autocomplete_text__min_chars' => 3,
+    'autocomplete_text' => 
+    array (
+      'key' => 'fruit',
+    ),
   ),
 ),
     'relationships' => array (

@@ -1916,3 +1916,25 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 02/19/19 18:00:27 [6880][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 02/19/19 18:15:41 [6880][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 02/19/19 18:19:16 [16820][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/19/19 21:59:06 [16820][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/20/19 14:36:52 [16820][1][FATAL] Mysqli_query failed.
+02/20/19 14:36:52 [16820][1][FATAL]  Query Failed: SELECT parent_id, parent_type FROM favorites WHERE assigned_user_id = '1' AND deleted = 0 ORDER BY date_entered DESC: MySQL error 2006: MySQL server has gone away
+02/20/19 14:36:52 [16820][1][FATAL] Mysqli_query failed.
+02/20/19 14:36:52 [16820][1][FATAL] SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '1' AND deleted = 0 AND visible = 1) Query Failed: SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '1' AND deleted = 0 AND visible = 1) LIMIT 0,50: MySQL error 2006: MySQL server has gone away
+02/20/19 14:36:52 [16820][1][FATAL] Exception handling in C:\wamp64\www\ceppp\include\MVC\Controller\SugarController.php:400
+02/20/19 14:36:52 [16820][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+02/20/19 14:36:52 [16820][1][FATAL] backtrace:
+#0 C:\wamp64\www\ceppp\include\database\DBManager.php(353): sugar_die('Database failur...')
+#1 C:\wamp64\www\ceppp\include\database\DBManager.php(328): DBManager->registerError('SELECT item_id,...', 'MySQL error 200...', true)
+#2 C:\wamp64\www\ceppp\include\database\MysqliManager.php(179): DBManager->checkError('SELECT item_id,...', true)
+#3 C:\wamp64\www\ceppp\include\database\MysqlManager.php(285): MysqliManager->query('SELECT item_id,...', true, 'SELECT item_id,...')
+#4 C:\wamp64\www\ceppp\modules\Trackers\Tracker.php(124): MysqlManager->limitQuery('SELECT item_id,...', 0, 50, true, 'SELECT item_id,...')
+#5 C:\wamp64\www\ceppp\include\MVC\View\SugarView.php(562): Tracker->get_recently_viewed('1')
+#6 C:\wamp64\www\ceppp\include\MVC\View\SugarView.php(203): SugarView->displayHeader()
+#7 C:\wamp64\www\ceppp\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#8 C:\wamp64\www\ceppp\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#9 C:\wamp64\www\ceppp\include\MVC\SugarApplication.php(113): SugarController->execute()
+#10 C:\wamp64\www\ceppp\index.php(53): SugarApplication->execute()
+#11 {main}
+02/20/19 15:19:55 [8544][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/20/19 16:23:55 [8544][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

@@ -49,7 +49,7 @@ $dictionary["Account"]["fields"]["ent_entrevues_accounts"] = array (
 );
 
 
-// created: 2019-02-19 19:32:25
+// created: 2019-02-20 21:23:00
 $dictionary["Account"]["fields"]["pat_patients_accounts"] = array (
   'name' => 'pat_patients_accounts',
   'type' => 'link',

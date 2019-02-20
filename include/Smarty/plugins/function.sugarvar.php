@@ -72,7 +72,14 @@ function smarty_function_sugarvar($params, &$smarty)
         $smarty->trigger_error("sugarvar: missing 'key' parameter");
         return;
     }
-
+    
+    $substr = 'autocomplete';
+    $key = $params['key'];
+    if ( substr( $key, 0, strlen($substr) ) === $substr ) {
+      $_contents = '$APP_STRINGS.cim10_list';
+      return $_contents;
+    }
+    
     $object = (empty($params['objectName']))?$smarty->get_template_vars('parentFieldArray'): $params['objectName'];
     $displayParams = $smarty->get_template_vars('displayParams');
 
