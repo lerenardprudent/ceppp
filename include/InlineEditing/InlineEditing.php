@@ -337,8 +337,11 @@ function saveField($field, $id, $module, $value)
             } else {
                 $bean->$field = $value;
             }
+        } elseif ($bean->field_defs[$field]['type'] == "AutocompleteText") {
+          $value = implode('&', $value);
+          $bean->$field = $value;
         } else {
-            $bean->$field = $value;
+          $bean->$field = $value;
         }
 
         $check_notify = false;

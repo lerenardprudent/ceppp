@@ -1976,10 +1976,7 @@ $vardefs = array (
       'dbType' => 'varchar',
       'autocomplete_text__key' => 'foobar789',
       'autocomplete_text__min_chars' => 3,
-      'autocomplete_text' => 
-      array (
-        'key' => 'fruit',
-      ),
+      'options' => 'cim10_list',
     ),
   ),
   'relationships' => 

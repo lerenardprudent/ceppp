@@ -1938,3 +1938,4 @@ Mon Oct 22 19:27:09 2018 [9484][-none-][FATAL] SugarDateTime: unknowm method set
 #11 {main}
 02/20/19 15:19:55 [8544][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
 02/20/19 16:23:55 [8544][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set
+02/21/19 18:49:32 [8544][1][FATAL] log call at: modules/Administration/index.tpl:53 - MY_FRAME is not set

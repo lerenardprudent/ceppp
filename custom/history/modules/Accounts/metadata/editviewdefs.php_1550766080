@@ -40,12 +40,12 @@ array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL3' => 
+        'LBL_EDITVIEW_PANEL5' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
@@ -191,18 +191,16 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETABL_SANTE',
+            'name' => 'etabl_sante_pp_c',
+            'label' => 'LBL_ETABL_SANTE_PP',
           ),
         ),
         11 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETABL_PREM_LIGNE',
+            'name' => 'etabl_prem_ligne_pp_c',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PP',
           ),
         ),
         12 => 
@@ -298,28 +296,16 @@ array (
         array (
           0 => 
           array (
-            'name' => 'etabl_sante_pa_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETABL_SANTE_PA',
-          ),
-          1 => 
-          array (
-            'name' => 'etabl_sante_pa_autre__prec_c',
-            'label' => 'LBL_ETABL_SANTE_PA_AUTRE__PREC',
+            'name' => 'etabl_sante_pa__c',
+            'label' => 'LBL_ETABL_SANTE_PA_',
           ),
         ),
         9 => 
         array (
           0 => 
           array (
-            'name' => 'etabl_prem_ligne_pa_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PA',
-          ),
-          1 => 
-          array (
-            'name' => 'etabl_prem_ligne_pa_autre__p_c',
-            'label' => 'LBL_ETABL_PREM_LIGNE_PA_AUTRE__P',
+            'name' => 'etabl_prem_ligne_pa__c',
+            'label' => 'LBL_ETABL_PREM_LIGNE_PA_',
           ),
         ),
       ),
