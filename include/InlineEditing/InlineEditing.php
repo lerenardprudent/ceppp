@@ -536,6 +536,20 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
     if ($vardef['type'] == "date" && $method == "save") {
         $value = substr($value, 0, strlen($value) - 6);
     }
+    
+    if ($vardef['type'] == "AutocompleteText") {
+      $html = "<select multiple disabled>";
+      $vals = explode('&', $value);
+      $options = $app_list_strings[$vardef['options']];
+      foreach ( $vals as $val ) {  
+        $label = array_column($options, $val);
+        if ( $label ) {
+          $html .= "<option value=\"$val\">".$label[0]."</option>";
+        }
+      }
+      $html .= "</select>";
+      return $html;
+    }
     return $value;
 }
 
