@@ -8,10 +8,18 @@
 {/if}
 {assign var="opts" value={{sugarvar key='options' string=true foo=bar}} }
 {assign var="value" value='&'|explode:$value }
-
-<select multiple disabled>
-          {foreach from=$value item=v}
-            {assign var="label" value=$opts|@array_column:$v }
-            <option value="{$v}">{$label[0]}</option>
-          {/foreach}
-        </select>
+{if count($value) > 1}
+  <select multiple disabled>
+    {foreach from=$value item=v}
+      {assign var="label" value=$opts|@array_column:$v }
+      <option>{$label[0]}</option>
+    {/foreach}
+  </select>
+{else}
+  <span disabled>
+  {foreach from=$value item=v}
+    {assign var="label" value=$opts|@array_column:$v }
+    {$label[0]}
+  {/foreach}
+  </span>
+{/if}
