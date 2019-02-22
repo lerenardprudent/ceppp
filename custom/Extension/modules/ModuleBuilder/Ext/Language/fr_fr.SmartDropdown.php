@@ -1,2 +1,2 @@
 <?php
-$mod_strings['fieldTypes']['AutocompleteText'] = 'Completion de texte automatique';
+$mod_strings['fieldTypes']['SmartDropdown'] = 'Menu déroulant intelligent';

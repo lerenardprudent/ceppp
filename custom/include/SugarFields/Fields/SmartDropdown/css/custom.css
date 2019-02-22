@@ -1,7 +1,7 @@
-span[type="AutocompleteText"], select[type="AutocompleteText"] {
+span[type="SmartDropdown"], select[type="SmartDropdown"] {
   /* Nothing needed */
 }
 
-select[type="AutocompleteText"] + div.chosen-container {
+select[type="SmartDropdown"] + div.chosen-container {
   max-width: 100%;
 }

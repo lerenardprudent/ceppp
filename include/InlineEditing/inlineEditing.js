@@ -339,7 +339,7 @@ function getInputValue(field,type){
                     return $('input[name='+field+']:checked').val();
                 }
                 break;
-              case 'AutocompleteText':
+              case 'SmartDropdown':
                 $select = $('select[name='+field+']');
                 if ( $select.length ) {
                   return $select.find('option:selected').map(function() { return $(this).val(); }).get().join('&');
@@ -686,7 +686,7 @@ function clickedawaysavehandler(e)
           date_compare = true;
         }
       } else
-      if ( type == 'AutocompleteText' ) {
+      if ( type == 'SmartDropdown' ) {
         $outer = $(output_value);
         if ( $outer.is('span') ) {
           output_value_compare = $outer.attr('value');

@@ -1,7 +1,7 @@
 
-<script src="custom/include/SugarFields/Fields/AutocompleteText/js/chosen.jquery.min.js"></script>
-<link rel="stylesheet" href="custom/include/SugarFields/Fields/AutocompleteText/css/chosen.min.css">
-<link rel="stylesheet" href="custom/include/SugarFields/Fields/AutocompleteText/css/custom.css">
+<script src="custom/include/SugarFields/Fields/SmartDropdown/js/chosen.jquery.min.js"></script>
+<link rel="stylesheet" href="custom/include/SugarFields/Fields/SmartDropdown/css/chosen.min.css">
+<link rel="stylesheet" href="custom/include/SugarFields/Fields/SmartDropdown/css/custom.css">
 
 {if strlen({{sugarvar key='value' string=true}}) <= 0}
     {assign var="value" value={{sugarvar key='default_value' string=true}} }
@@ -11,7 +11,7 @@
 
 {assign var="opts" value={{sugarvar key='options' string=true}} }
 {assign var="value" value='&'|explode:$value string=true}
-{if strlen({{sugarvar key='autocomplete_text__multiselect' string=true}}) == 1}
+{if strlen({{sugarvar key='smart_dropdown__multiselect' string=true}}) == 1}
     {assign var="mult" value="multiple" }
     {assign var="chosen_placeholder" value=$APP.LBL_CHOSEN_JS_PLACEHOLDER_MULTIPLE }
 {else}

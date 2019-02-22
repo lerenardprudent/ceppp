@@ -2,8 +2,8 @@
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 require_once('modules/DynamicFields/templates/Fields/TemplateField.php');
-class TemplateAutocompleteText extends TemplateField{
-    var $type='AutocompleteText';
+class TemplateSmartDropdown extends TemplateField{
+    var $type='SmartDropdown';
 
     function get_field_def(){
         $def = parent::get_field_def();

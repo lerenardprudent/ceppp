@@ -337,7 +337,7 @@ function saveField($field, $id, $module, $value)
             } else {
                 $bean->$field = $value;
             }
-        } elseif ($bean->field_defs[$field]['type'] == "AutocompleteText") {
+        } elseif ($bean->field_defs[$field]['type'] == "SmartDropdown") {
           if ( !is_array($value) ) {
             $value = [$value];
           }
@@ -540,7 +540,7 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
         $value = substr($value, 0, strlen($value) - 6);
     }
     
-    if ($vardef['type'] == "AutocompleteText") {
+    if ($vardef['type'] == "SmartDropdown") {
       $vals = explode('&', $value);
       $options = $app_list_strings[$vardef['options']];
       if ( count($vals) > 1 ) {
