@@ -16,10 +16,8 @@
     {/foreach}
   </select>
 {else}
-  <span disabled>
   {foreach from=$value item=v}
     {assign var="label" value=$opts|@array_column:$v }
-    {$label[0]}
+    <span disabled value="{$v}">{$label[0]}</span>
   {/foreach}
-  </span>
 {/if}

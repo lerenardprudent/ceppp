@@ -53,4 +53,4 @@ $dictionary['pat_Partenariats'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('pat_Partenariats', 'pat_Partenariats', array('basic','assignable','security_groups'));
+VardefManager::createVardef('pat_Partenariats', 'pat_Partenariats', array('basic','assignable','security_groups'));

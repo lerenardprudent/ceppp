@@ -45,7 +45,7 @@ var inlineEditSaveButtonImg = "themes/"+SUGAR.themes.theme_name+"/images/inline_
 if($("#inline_edit_icon").length) {
     var inlineEditIcon = $("#inline_edit_icon")[0].outerHTML;
 } else {
-    var inlineEditIcon = "";
+    var inlineEditIcon = "<span class=\"suitepicon suitepicon-action-edit\"></span>";
 }
 
 var view = action_sugar_grp1;
@@ -176,7 +176,8 @@ function buildEditField(){
                 $(".inlineEdit").off('dblclick');
 
                 //Call the click away function to handle if the user has clicked off the field, if they have it will close the form.
-                clickedawayclose(field,id,module, type);
+                //clickedawayclose(field,id,module, type);
+                clickedawaysave(field, id, module, type);
 
                 //Make sure the data is valid and save the details to the bean.
                 validateFormAndSave(field,id,module,type);
@@ -265,76 +266,15 @@ function clickedawayclose(field,id,module, type){
     clickListenerActive = true;
 }
 
-$(document).on('click', function (e) {
-    if (clickListenerActive) {
-        var field = ie_field;
-        var id = ie_id;
-        var module = ie_module;
-        var type = ie_type;
-        var message_field = ie_message_field;
+$(document).on('click', clickedawaysavehandler);
 
-        if (!$(e.target).parents().is(".inlineEditActive, .cal_panel") && !$(e.target).hasClass("inlineEditActive")) {
-            var output_value = loadFieldHTMLValue(field, id, module);
-
-            // Resolve issues with telephone number throwing exception.
-            if (/<[a-z][\s\S]*>/i.test(output_value)) {
-                var outputValueParse = $(output_value).text();
-            } else {
-                var outputValueParse = output_value;
-            }
-
-            var user_value = getInputValue(field, type);
-
-            /**
-             * A flag to fix Issue 2545, some parts of the site were comparing HTML to plain text, this flag checks
-             * against Plain Text and normal HTML to trigger the alert/confirm dialogue box.
-             */
-
-            // Return user value to empty string for comparison if undefined at this stage (empty field check fix)
-            if (typeof user_value === "undefined") {
-                user_value = '';
-            }
-
-            // QS Fields have '_display' in their field names. An additional check for the this field name pattern.
-            if (outputValueParse != user_value && output_value != user_value) {
-                var fieldName = field + '_display';
-                var replacementUserValue = $("#" + fieldName).val();
-
-                // Parsing empty text returns undefined, if the string returns anything other than undefined, replace
-                // user_value with this value.
-                if (replacementUserValue != undefined) {
-                    user_value = replacementUserValue;
-                }
-            }
-
-            var date_compare = false;
-            var output_value_compare = '';
-            if (type == 'datetimecombo' || type == 'datetime' || type == 'date') {
-                if (output_value == user_value) {
-                    output_value_compare = user_value;
-                    date_compare = true;
-                }
-            } else {
-                output_value_compare = $(output_value).text();
-            }
-            if (user_value != output_value_compare) {
-                message_field = message_field != 'undefined' ? message_field : '';
-                var r = confirm(SUGAR.language.translate('app_strings', 'LBL_CONFIRM_CANCEL_INLINE_EDITING') + ' ' + message_field);
-                if (r == true) {
-                    var output = setValueClose(output_value);
-                    clickListenerActive = false;
-                } else {
-                    $("#" + field).focus();
-                    e.preventDefault();
-                }
-            } else {
-                // user hasn't changed value so can close field without warning them first
-                var output = date_compare ? setValueClose(user_value) : setValueClose(output_value);
-                clickListenerActive = false;
-            }
-        }
-    }
-});
+function clickedawaysave(field, id, module, type){
+  ie_field = field;
+  ie_id = id;
+  ie_module = module;
+  ie_type = type;
+  clickListenerActive = true;
+}
 
 /**
  * Depending on what type of field we are editing the parts of the field may differ and need different jquery to pickup the values
@@ -399,6 +339,11 @@ function getInputValue(field,type){
                     return $('input[name='+field+']:checked').val();
                 }
                 break;
+              case 'AutocompleteText':
+                $select = $('select[name='+field+']');
+                if ( $select.length ) {
+                  return $select.find('option:selected').map(function() { return $(this).val(); }).get().join('&');
+                }
             default:
                 if($('#'+ field).val().length > 0) {
                     return $('#'+ field).val();
@@ -617,4 +562,148 @@ function getRelateFieldJS(field, module, id) {
     SUGAR.util.evalScript(result.responseText);
 
     return result.responseText;
+}
+
+function clickedawayclosehandler(e)
+{
+  if (clickListenerActive) {
+        var field = ie_field;
+        var id = ie_id;
+        var module = ie_module;
+        var type = ie_type;
+        var message_field = ie_message_field;
+
+        if (!$(e.target).parents().is(".inlineEditActive, .cal_panel") && !$(e.target).hasClass("inlineEditActive")) {
+            var output_value = loadFieldHTMLValue(field, id, module);
+
+            // Resolve issues with telephone number throwing exception.
+            if (/<[a-z][\s\S]*>/i.test(output_value)) {
+                var outputValueParse = $(output_value).text();
+            } else {
+                var outputValueParse = output_value;
+            }
+
+            var user_value = getInputValue(field, type);
+
+            /**
+             * A flag to fix Issue 2545, some parts of the site were comparing HTML to plain text, this flag checks
+             * against Plain Text and normal HTML to trigger the alert/confirm dialogue box.
+             */
+
+            // Return user value to empty string for comparison if undefined at this stage (empty field check fix)
+            if (typeof user_value === "undefined") {
+                user_value = '';
+            }
+
+            // QS Fields have '_display' in their field names. An additional check for the this field name pattern.
+            if (outputValueParse != user_value && output_value != user_value) {
+                var fieldName = field + '_display';
+                var replacementUserValue = $("#" + fieldName).val();
+
+                // Parsing empty text returns undefined, if the string returns anything other than undefined, replace
+                // user_value with this value.
+                if (replacementUserValue != undefined) {
+                    user_value = replacementUserValue;
+                }
+            }
+
+            var date_compare = false;
+            var output_value_compare = '';
+            if (type == 'datetimecombo' || type == 'datetime' || type == 'date') {
+                if (output_value == user_value) {
+                    output_value_compare = user_value;
+                    date_compare = true;
+                }
+            } else {
+                output_value_compare = $(output_value).text();
+            }
+            if (user_value != output_value_compare) {
+                message_field = message_field != 'undefined' ? message_field : '';
+                var r = confirm(SUGAR.language.translate('app_strings', 'LBL_CONFIRM_CANCEL_INLINE_EDITING') + ' ' + message_field);
+                if (r == true) {
+                    var output = setValueClose(output_value);
+                    clickListenerActive = false;
+                } else {
+                    $("#" + field).focus();
+                    e.preventDefault();
+                }
+            } else {
+                // user hasn't changed value so can close field without warning them first
+                var output = date_compare ? setValueClose(user_value) : setValueClose(output_value);
+                clickListenerActive = false;
+            }
+        }
+    }
+}
+
+function clickedawaysavehandler(e)
+{
+  if (clickListenerActive) {
+    var field = ie_field;
+    var id = ie_id;
+    var module = ie_module;
+    var type = ie_type;
+
+    if (!$(e.target).parents().is(".inlineEditActive, .cal_panel") && !$(e.target).hasClass("inlineEditActive")) {
+      var output_value = loadFieldHTMLValue(field, id, module);
+
+      // Resolve issues with telephone number throwing exception.
+      if (/<[a-z][\s\S]*>/i.test(output_value)) {
+        var outputValueParse = $(output_value).text();
+      } else {
+        var outputValueParse = output_value;
+      }
+
+      var user_value = getInputValue(field, type);
+
+      /**
+       * A flag to fix Issue 2545, some parts of the site were comparing HTML to plain text, this flag checks
+       * against Plain Text and normal HTML to trigger the alert/confirm dialogue box.
+       */
+
+      // Return user value to empty string for comparison if undefined at this stage (empty field check fix)
+      if (typeof user_value === "undefined") {
+          user_value = '';
+      }
+
+      // QS Fields have '_display' in their field names. An additional check for the this field name pattern.
+      if (outputValueParse != user_value && output_value != user_value) {
+        var fieldName = field + '_display';
+        var replacementUserValue = $("#" + fieldName).val();
+
+        // Parsing empty text returns undefined, if the string returns anything other than undefined, replace
+        // user_value with this value.
+        if (replacementUserValue != undefined) {
+          user_value = replacementUserValue;
+        }
+      }
+
+      var date_compare = false;
+      var output_value_compare = '';
+      if (type == 'datetimecombo' || type == 'datetime' || type == 'date') {
+        if (output_value == user_value) {
+          output_value_compare = user_value;
+          date_compare = true;
+        }
+      } else
+      if ( type == 'AutocompleteText' ) {
+        $outer = $(output_value);
+        if ( $outer.is('span') ) {
+          output_value_compare = $outer.attr('value');
+        } else {
+          output_value_compare = $outer.find('option').map(function() { return $(this).val(); }).get().join('&');
+        }
+      }
+       else {
+        output_value_compare = $(output_value).text();
+      }
+      if (user_value != output_value_compare) {
+        $('#inlineEditSaveButton').click();
+      } else {
+        // user hasn't changed value so can close field without warning them first
+        var output = date_compare ? setValueClose(user_value) : setValueClose(output_value);
+        clickListenerActive = false;
+      }
+    }
+  }
 }

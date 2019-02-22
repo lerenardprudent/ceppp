@@ -553,14 +553,15 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
         }
         $html .= "</select>";
       } else {
-        $html = "<span disabled>";
+        
         foreach ( $vals as $val ) {  
+          $html = "<span disabled value=\"$val\">";
           $label = array_column($options, $val);
           if ( $label ) {
             $html .= $label[0];
           }
+          $html .= "</span>";
         }
-        $html .= "</span>";
       }
       return $html;
     }
