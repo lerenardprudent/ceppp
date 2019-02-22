@@ -120,11 +120,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ETAT',
           ),
-          1 => 
-          array (
-            'name' => 'autocompltest',
-            'label' => 'LBL_AUTOCOMPLTEST',
-          ),
         ),
       ),
       'lbl_contact_information' => 

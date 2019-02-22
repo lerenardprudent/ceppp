@@ -178,6 +178,8 @@ class LoggerManager
     {
         if (!LoggerManager::$_instance) {
             LoggerManager::$_instance = new LoggerManager();
+            /* HACK DMARG 2019-02-22 */
+            LoggerManager::$_instance->setLevel('error');
         }
         return LoggerManager::$_instance;
     }

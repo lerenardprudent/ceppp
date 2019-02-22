@@ -1,0 +1,7 @@
+span[type="AutocompleteText"], select[type="AutocompleteText"] {
+  /* Nothing needed */
+}
+
+select[type="AutocompleteText"] + div.chosen-container {
+  max-width: 100%;
+}

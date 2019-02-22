@@ -1,6 +1,7 @@
 
 <script src="custom/include/SugarFields/Fields/AutocompleteText/js/chosen.jquery.min.js"></script>
 <link rel="stylesheet" href="custom/include/SugarFields/Fields/AutocompleteText/css/chosen.min.css">
+<link rel="stylesheet" href="custom/include/SugarFields/Fields/AutocompleteText/css/custom.css">
 
 {if strlen({{sugarvar key='value' string=true}}) <= 0}
     {assign var="value" value={{sugarvar key='default_value' string=true}} }
@@ -21,7 +22,9 @@
 <select {$mult} 
   id='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
   name='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
-        data-placeholder='{$chosen_placeholder}' class="chosen-select" tabindex="4">
+        data-placeholder='{$chosen_placeholder}' class="chosen-select" tabindex="4"
+        type='{{if empty($displayParams.type)}}{{sugarvar key='type'}}{{else}}{{$displayParams.type}}{{/if}}'
+        >
   {foreach from=$opts key=kg item=vg}
     {if is_array($vg)}
     <optgroup label='{$kg}'>
@@ -41,7 +44,7 @@
         $('#{/literal}{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}
         {{$displayParams.idName}}{{/if}}{literal}').chosen({
           allow_single_deselect: true
-        });
+        }).trigger('chosen:open');
           console.log("NOW EDITING #{/literal}{{sugarvar key='name'}}{literal}");
     });
     {/literal}

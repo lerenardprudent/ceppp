@@ -209,10 +209,13 @@ class Zend_Search_Lucene_Storage_Directory_Filesystem extends Zend_Search_Lucene
         global $php_errormsg;
         $trackErrors = ini_get('track_errors');
         ini_set('track_errors', '1');
-        if (!@unlink($this->_dirPath . '/' . $filename)) {
+        
+        /* HACK DMARG 2019-02-22 (Log error instead of displaying it to screen */
+        if ( !@unlink($this->_dirPath . '/' . $filename) ) {
             ini_set('track_errors', $trackErrors);
             require_once 'Zend/Search/Lucene/Exception.php';
-            throw new Zend_Search_Lucene_Exception('Can\'t delete file: ' . $php_errormsg);
+            $exc = new Zend_Search_Lucene_Exception('Can\'t delete file: "' . $this->_dirPath . '/' . $filename . '"');
+            $GLOBALS['log']->error($exc->getMessage().PHP_EOL.$exc->getTraceAsString());
         }
         ini_set('track_errors', $trackErrors);
     }
