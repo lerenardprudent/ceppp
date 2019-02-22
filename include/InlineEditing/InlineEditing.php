@@ -338,6 +338,9 @@ function saveField($field, $id, $module, $value)
                 $bean->$field = $value;
             }
         } elseif ($bean->field_defs[$field]['type'] == "AutocompleteText") {
+          if ( !is_array($value) ) {
+            $value = [$value];
+          }
           $value = implode('&', $value);
           $bean->$field = $value;
         } else {
@@ -538,16 +541,27 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
     }
     
     if ($vardef['type'] == "AutocompleteText") {
-      $html = "<select multiple disabled>";
       $vals = explode('&', $value);
       $options = $app_list_strings[$vardef['options']];
-      foreach ( $vals as $val ) {  
-        $label = array_column($options, $val);
-        if ( $label ) {
-          $html .= "<option value=\"$val\">".$label[0]."</option>";
+      if ( count($vals) > 1 ) {
+        $html = "<select multiple disabled>";
+        foreach ( $vals as $val ) {  
+          $label = array_column($options, $val);
+          if ( $label ) {
+            $html .= "<option value=\"$val\">".$label[0]."</option>";
+          }
         }
+        $html .= "</select>";
+      } else {
+        $html = "<span disabled>";
+        foreach ( $vals as $val ) {  
+          $label = array_column($options, $val);
+          if ( $label ) {
+            $html .= $label[0];
+          }
+        }
+        $html .= "</span>";
       }
-      $html .= "</select>";
       return $html;
     }
     return $value;

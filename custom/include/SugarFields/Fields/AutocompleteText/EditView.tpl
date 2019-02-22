@@ -10,10 +10,18 @@
 
 {assign var="opts" value={{sugarvar key='options' string=true}} }
 {assign var="value" value='&'|explode:$value string=true}
-{assign var="mult" value={{sugarvar key='autocomplete_text__multiselect' string=true}} }
+{if strlen({{sugarvar key='autocomplete_text__multiselect' string=true}}) == 1}
+    {assign var="mult" value="multiple" }
+    {assign var="chosen_placeholder" value=$APP.LBL_CHOSEN_JS_PLACEHOLDER_MULTIPLE }
+{else}
+    {assign var="mult" value="" }
+    {assign var="chosen_placeholder" value=$APP.LBL_CHOSEN_JS_PLACEHOLDER_SINGLE }
+{/if}
 
-<select fooz='{$mult}' id='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
-        data-placeholder="Choose a Country..." class="chosen-select" tabindex="4">
+<select {$mult} 
+  id='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
+  name='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
+        data-placeholder='{$chosen_placeholder}' class="chosen-select" tabindex="4">
   {foreach from=$opts key=kg item=vg}
     {if is_array($vg)}
     <optgroup label='{$kg}'>
@@ -21,6 +29,8 @@
         <option value="{$k}" {if in_array($k, $value)} selected {/if}>{$v}</option>
       {/foreach}
     </optgroup>
+    {else}
+      <option value="{$kg}">{$vg}</option>
     {/if}
   {/foreach}
 </select>

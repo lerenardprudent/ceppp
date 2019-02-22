@@ -1974,8 +1974,6 @@ $vardefs = array (
       'len' => '255',
       'size' => '20',
       'dbType' => 'varchar',
-      'autocomplete_text__key' => 'foobar789',
-      'autocomplete_text__min_chars' => 3,
       'options' => 'cim10_list',
     ),
   ),

@@ -1978,8 +1978,6 @@ $dictionary['pat_Patients'] = array(
     'len' => '255',
     'size' => '20',
     'dbType' => 'varchar',
-    'autocomplete_text__key' => 'foobar789',
-    'autocomplete_text__min_chars' => 3,
     'options' => 'cim10_list',
   ),
 ),
@@ -1991,4 +1989,4 @@ $dictionary['pat_Patients'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
+VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));

@@ -1,5 +1,5 @@
 <?php
-// created: 2019-02-21 16:21:16
+// created: 2019-02-22 05:22:56
 $dictionary["pat_partenariats_pat_patients"] = array (
   'true_relationship_type' => 'one-to-one',
   'relationships' => 
