@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2019-02-22 22:43:23
+// created: 2019-02-25 16:07:18
 $dictionary["pat_Partenariats"]["fields"]["pat_partenariats_pat_patients"] = array (
   'name' => 'pat_partenariats_pat_patients',
   'type' => 'link',
@@ -41,7 +41,7 @@ $dictionary["pat_Partenariats"]["fields"]["pat_partenariats_pat_patientspat_pati
 );
 
 
-// created: 2019-02-22 22:43:25
+// created: 2019-02-25 16:07:20
 $dictionary["pat_Partenariats"]["fields"]["pat_patients_pat_partenariats"] = array (
   'name' => 'pat_patients_pat_partenariats',
   'type' => 'link',

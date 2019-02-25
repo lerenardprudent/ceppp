@@ -11,7 +11,7 @@
 
 {assign var="opts" value={{sugarvar key='options' string=true}} }
 {assign var="value" value='&'|explode:$value string=true}
-{if strlen({{sugarvar key='smart_dropdown__multiselect' string=true}}) == 1}
+{if strlen({{sugarvar key='isMultiSelect' string=true}}) == 1}
     {assign var="mult" value="multiple" }
     {assign var="chosen_placeholder" value=$APP.LBL_CHOSEN_JS_PLACEHOLDER_MULTIPLE }
 {else}
@@ -33,7 +33,7 @@
       {/foreach}
     </optgroup>
     {else}
-      <option value="{$kg}">{$vg}</option>
+      <option value="{$kg}" {if in_array($kg, $value)} selected {/if}>{$vg}</option>
     {/if}
   {/foreach}
 </select>

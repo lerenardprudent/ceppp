@@ -17,17 +17,25 @@
     class="chosen-select"
     multiple disabled>
     {foreach from=$value item=v}
-      {assign var="label" value=$opts|@array_column:$v }
-      <option>{$label[0]}</option>
+      {assign var="label" value=$opts.$v }
+      {if empty($label)}
+        {assign var="column" value=$opts|@array_column:$v }
+        {assign var="label" value=$column.0 }
+      {/if}
+      <option>{$label}</option>
     {/foreach}
   </select>
 {else}
   {foreach from=$value item=v}
-    {assign var="label" value=$opts|@array_column:$v }
+    {assign var="label" value=$opts.$v }
+    {if empty($label)}
+      {assign var="column" value=$opts|@array_column:$v }
+      {assign var="label" value=$column.0 }
+    {/if}
     <span
       id='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
       name='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
       type='{{if empty($displayParams.type)}}{{sugarvar key='type'}}{{else}}{{$displayParams.type}}{{/if}}'
-      disabled value="{$v}">{$label[0]}</span>
+      disabled value="{$v}">{$label}</span>
   {/foreach}
 {/if}

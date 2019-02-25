@@ -546,10 +546,14 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
       if ( count($vals) > 1 ) {
         $html = "<select multiple disabled>";
         foreach ( $vals as $val ) {  
-          $label = array_column($options, $val);
-          if ( $label ) {
-            $html .= "<option value=\"$val\">".$label[0]."</option>";
+          $label = $options[$val];
+          if ( empty($label) ) {
+            $col = array_column($options, $val);
+            if ( !empty($col) ) {
+              $label = $col[0];
+            }
           }
+          $html .= "<option value=\"$val\">$label</option>";
         }
         $html .= "</select>";
       } else {

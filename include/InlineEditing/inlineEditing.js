@@ -644,7 +644,7 @@ function clickedawaysavehandler(e)
     var module = ie_module;
     var type = ie_type;
 
-    if (!$(e.target).parents().is(".inlineEditActive, .cal_panel") && !$(e.target).hasClass("inlineEditActive")) {
+    if (!$(e.target).parents().is(".inlineEditActive, .cal_panel, .ui-dialog") && !$(e.target).hasClass("inlineEditActive")) {
       var output_value = loadFieldHTMLValue(field, id, module);
 
       // Resolve issues with telephone number throwing exception.
@@ -698,7 +698,34 @@ function clickedawaysavehandler(e)
         output_value_compare = $(output_value).text();
       }
       if (user_value != output_value_compare) {
-        $('#inlineEditSaveButton').click();
+        var buttons = {};
+        var dialogId = field + '-dialog';
+        buttons[SUGAR.language.translate('app_strings', 'LBL_INLINE_EDITING_CONTINUE')] = function() {
+          $("#" + field).focus();
+          e.preventDefault();
+          $('#' + dialogId).dialog('close');
+        };
+        buttons[SUGAR.language.translate('app_strings', 'LBL_INLINE_EDITING_SAVE')] = function() {
+          $('#inlineEditSaveButton').click();
+          $('#' + dialogId).dialog('close');
+        };
+        buttons[SUGAR.language.translate('app_strings', 'LBL_INLINE_EDITING_CANCEL')] = function() {
+          clickListenerActive = false;
+          setValueClose( date_compare ? user_value : output_value);
+          $('#' + dialogId).dialog('close');
+        };
+        
+        if ( !$('#' + dialogId).length ) {
+          var dialogHtml = "<div id='" + dialogId + "' title='" + SUGAR.language.translate('app_strings', 'LBL_CONFIRM_INLINE_EDITING_IN_PROCESS') + "'>";
+          dialogHtml += "<p><span>" + SUGAR.language.translate('app_strings', 'LBL_CONFIRM_INLINE_EDITING_INTENT') + "</p></span></div>";
+          $(dialogHtml).dialog({
+            buttons: buttons,
+            width: 500
+          });
+        } else {
+          $('#' + dialogId).dialog('open');
+        }
+        
       } else {
         // user hasn't changed value so can close field without warning them first
         var output = date_compare ? setValueClose(user_value) : setValueClose(output_value);

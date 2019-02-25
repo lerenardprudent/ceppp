@@ -3516,7 +3516,11 @@ $app_list_strings['collection_temp_list'] = array(
 $app_list_strings['moduleList']['TemplateEditor'] = 'Template Part Editor';
 $app_strings['LBL_CONFIRM_CANCEL_INLINE_EDITING'] = "You have clicked away from the field you were editing without saving it. Click ok if you're happy to lose your change, or cancel if you would like to continue editing";
 $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "There was an error loading the field. Your session may have timed out. Please log in again to fix this";
-
+$app_strings['LBL_CONFIRM_INLINE_EDITING_INTENT'] = "Would you like to continue editing, save, or cancel?";
+$app_strings['LBL_CONFIRM_INLINE_EDITING_IN_PROCESS'] = "Edit in process";
+$app_strings['LBL_INLINE_EDITING_CONTINUE'] = "Continue";
+$app_strings['LBL_INLINE_EDITING_SAVE'] = "Save";
+$app_strings['LBL_INLINE_EDITING_CANCEL'] = "Cancel";
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Sales',

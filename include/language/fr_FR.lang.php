@@ -3522,6 +3522,11 @@ $app_list_strings['collection_temp_list'] = array(
 $app_list_strings['moduleList']['TemplateEditor'] = 'Editeur de modèles';
 $app_strings['LBL_CONFIRM_CANCEL_INLINE_EDITING'] = "Vous avez cliqué en dehors du champ que vous éditiez sans l’enregistrer. Cliquez sur ok si vous voulez perdre vos modifications, ou sur annuler si vous souhaitez continuer l’édition";
 $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Il y a eu une erreur lors du chargement du champ. Votre session peut avoir expiré. Veuillez vous connecter à nouveau pour résoudre ce problème";
+$app_strings['LBL_CONFIRM_INLINE_EDITING_INTENT'] = "Voulez-vous poursuivre l'édition, enregistrer les changements, ou annuler ?";
+$app_strings['LBL_CONFIRM_INLINE_EDITING_IN_PROCESS'] = "Édition en cours";
+$app_strings['LBL_INLINE_EDITING_CONTINUE'] = "Poursuivre";
+$app_strings['LBL_INLINE_EDITING_SAVE'] = "Enregistrer";
+$app_strings['LBL_INLINE_EDITING_CANCEL'] = "Annuler";
 
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
