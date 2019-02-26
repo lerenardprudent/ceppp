@@ -2,10 +2,10 @@
 
 CONFIG=../config.php
 DBDUMP_DIR=.
-ALL_PARAMS=$(echo "$(cat $CONFIG)echo \$sugar_config['dbconfig']['db_name'].\" \".\$sugar_config['dbconfig']['db_user_name'].\" \".\$sugar_config['dbconfig']['db_password'] ;" | php)
-DBNAME=$(echo $ALL_PARAMS | awk '{print $1}')
-DBUSER=$(echo $ALL_PARAMS | awk '{print $2}')
-DBPWD=$(echo $ALL_PARAMS | awk '{print $3}')
+read DBNAME DBUSER DBPWD <<< $(echo "$(cat $CONFIG)echo \$sugar_config['dbconfig']['db_name'].\" \".\$sugar_config['dbconfig']['db_user_name'].\" \".\$sugar_config['dbconfig']['db_password'] ;" | php)
+#DBNAME=$(echo $ALL_PARAMS | awk '{print $1}')
+#DBUSER=$(echo $ALL_PARAMS | awk '{print $2}')
+#DBPWD=$(echo $ALL_PARAMS | awk '{print $3}')
 LATEST_DBDUMP_CMD="for filename in "\`"ls -r $DBDUMP_DIR"\`"; do if [[ "\$"filename =~ \.sql$ ]]; then echo "\$"filename; break; fi; done"
 LATEST_DBDUMP_FILENAME=$(eval $LATEST_DBDUMP_CMD)
 MYSQL_BASE_CMD="mysql -u $DBUSER" && [ ! -z $DBPWD ] && MYSQL_BASE_CMD="$MYSQL_BASE_CMD -p\"$DBPWD\""
