@@ -31,4 +31,9 @@ include('custom/metadata/pat_patients_accountsMetaData.php');
 include('custom/metadata/pat_patients_pat_partenariatsMetaData.php');
 
 
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/pat_patients_pat_perspectivepatientMetaData.php');
+
+
 ?>

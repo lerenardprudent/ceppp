@@ -226,4 +226,5 @@ $mod_strings = array (
   'LBL_HELLO_COUNTRY' => 'hello Country',
   'LBL_HELLO' => 'hello',
   'LBL_AUTOCOMPLTEST' => 'TestyWesty',
+  'LBL_EDITVIEW_PANEL14' => 'Patient Perspective',
 );
