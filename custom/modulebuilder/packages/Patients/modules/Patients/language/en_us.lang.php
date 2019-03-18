@@ -228,4 +228,6 @@ $mod_strings = array (
   'LBL_AUTOCOMPLTEST' => 'TestyWesty',
   'LBL_EDITVIEW_PANEL14' => 'Patient Perspective',
   'LBL_PERSPECTIVE' => 'perspective',
+  'LBL_CENTRE_RECRUTEMENT' => 'Centre de recrutement assigné',
+  'LBL_ID_RECRUTEUR' => 'id recruteur',
 );

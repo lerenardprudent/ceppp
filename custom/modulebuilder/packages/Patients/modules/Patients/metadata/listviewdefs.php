@@ -23,13 +23,11 @@ array (
       2 => 'salutation',
     ),
   ),
-  'EMAIL1' => 
+  'CENTRE_RECRUTEMENT' => 
   array (
-    'width' => '15%',
-    'label' => 'LBL_EMAIL_ADDRESS',
-    'sortable' => false,
-    'link' => true,
-    'customCode' => '{$EMAIL1_LINK}',
+    'type' => 'varchar',
+    'label' => 'LBL_CENTRE_RECRUTEMENT',
+    'width' => '10%',
     'default' => true,
   ),
   'DO_NOT_CALL' => 

@@ -6,7 +6,10 @@ $hook_array = Array();
 // position, file, function 
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(1, 'Update First Name field', 'modules/pat_Patients/Patients_Hook.php','Patients_Hook', 'update_default_name_fields'); 
-$hook_array['after_save'] = Array(); 
+$hook_array['before_save'][] = Array(1, 'Set Security Group Field', 'modules/pat_Patients/Patients_Hook.php','Patients_Hook', 'set_security_group_field'); 
+$hook_array['process_record'] = Array(); 
+$hook_array['process_record'][] = Array(1, 'Set Security Group Field', 'modules/pat_Patients/Patients_Hook.php','Patients_Hook', 'set_security_group_field'); 
+/*$hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(1, 'AOD Index Changes', 'modules/AOD_Index/AOD_LogicHooks.php','AOD_LogicHooks', 'saveModuleChanges'); 
 $hook_array['after_save'][] = Array(30, 'popup_select', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'popup_select'); 
 $hook_array['after_delete'] = Array(); 
@@ -17,7 +20,7 @@ $hook_array['after_ui_footer'] = Array();
 $hook_array['after_ui_footer'][] = Array(10, 'popup_onload', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'popup_onload'); 
 $hook_array['after_ui_frame'] = Array(); 
 $hook_array['after_ui_frame'][] = Array(20, 'mass_assign', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'mass_assign'); 
-$hook_array['after_ui_frame'][] = Array(1, 'Load Social JS', 'include/social/hooks.php','hooks', 'load_js'); 
+$hook_array['after_ui_frame'][] = Array(1, 'Load Social JS', 'include/social/hooks.php','hooks', 'load_js'); */
 
 
 

@@ -221,4 +221,6 @@ $mod_strings = array (
   'LBL_HELLO' => 'hello',
   'LBL_AUTOCOMPLTEST' => 'Testy',
   'LBL_PERSPECTIVE' => 'perspective',
+  'LBL_CENTRE_RECRUTEMENT' => 'Centre de recrutement',
+  'LBL_ID_RECRUTEUR' => 'id recruteur',
 );

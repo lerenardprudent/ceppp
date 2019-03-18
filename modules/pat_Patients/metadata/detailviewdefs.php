@@ -136,6 +136,15 @@ array (
             'label' => 'LBL_ETAT',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_contact_information' => 
       array (

@@ -717,6 +717,24 @@ class SecurityGroup extends SecurityGroup_sugar
 
         return $group_array;
     }
+    
+    public function getRecordSecurityGroups($record_id)
+    {
+        $db = DBManagerFactory::getInstance();
+        $query = 'select securitygroups.id, securitygroups.name from securitygroups_records '
+            . 'inner join securitygroups on securitygroups_records.securitygroup_id = securitygroups.id '
+            . '      and securitygroups.deleted = 0 '
+            . "where securitygroups_records.record_id='$record_id' "
+            . 'order by securitygroups.name asc ';
+        $result = $db->query($query, true, 'Error finding the full membership list for a record: ');
+
+        $group_array = array();
+        while (($row = $db->fetchByAssoc($result)) != null) {
+            $group_array[$row['id']] = $row;
+        }
+
+        return $group_array;
+    }
 
     /**
      * Return a list of all groups.
