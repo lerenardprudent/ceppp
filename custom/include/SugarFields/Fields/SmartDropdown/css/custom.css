@@ -3,5 +3,5 @@ span[type="SmartDropdown"], select[type="SmartDropdown"] {
 }
 
 select[type="SmartDropdown"] + div.chosen-container {
-  max-width: 100%;
+  width: 100% !important;
 }

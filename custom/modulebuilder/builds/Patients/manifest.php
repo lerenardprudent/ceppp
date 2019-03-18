@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Patients',
-  'published_date' => '2019-02-26 21:25:27',
+  'published_date' => '2019-03-18 15:22:10',
   'type' => 'module',
-  'version' => 1551216327,
+  'version' => 1552922531,
   'remove_tables' => 'prompt',
 );
 
@@ -76,19 +76,12 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'module' => 'pat_Partenariats',
-      'class' => 'pat_Partenariats',
-      'path' => 'modules/pat_Partenariats/pat_Partenariats.php',
-      'tab' => true,
-    ),
-    1 => 
-    array (
       'module' => 'pat_Patients',
       'class' => 'pat_Patients',
       'path' => 'modules/pat_Patients/pat_Patients.php',
       'tab' => true,
     ),
-    2 => 
+    1 => 
     array (
       'module' => 'pat_PerspectivePatient',
       'class' => 'pat_PerspectivePatient',
@@ -103,18 +96,6 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/pat_partenariats_pat_patientsMetaData.php',
-    ),
-    1 => 
-    array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/pat_patients_accountsMetaData.php',
-    ),
-    2 => 
-    array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/pat_patients_pat_partenariatsMetaData.php',
-    ),
-    3 => 
-    array (
       'meta_data' => '<basepath>/SugarModules/relationships/relationships/pat_patients_pat_perspectivepatientMetaData.php',
     ),
   ),
@@ -123,15 +104,10 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/pat_Partenariats',
-      'to' => 'modules/pat_Partenariats',
-    ),
-    1 => 
-    array (
       'from' => '<basepath>/SugarModules/modules/pat_Patients',
       'to' => 'modules/pat_Patients',
     ),
-    2 => 
+    1 => 
     array (
       'from' => '<basepath>/SugarModules/modules/pat_PerspectivePatient',
       'to' => 'modules/pat_PerspectivePatient',
@@ -141,107 +117,35 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
+      'from' => '<basepath>/SugarModules/relationships/language/pat_PerspectivePatient.php',
+      'to_module' => 'pat_PerspectivePatient',
       'language' => 'en_us',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
+      'from' => '<basepath>/SugarModules/relationships/language/pat_PerspectivePatient.php',
+      'to_module' => 'pat_PerspectivePatient',
       'language' => 'fr_FR',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
+      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
+      'to_module' => 'pat_Patients',
       'language' => 'en_us',
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
+      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
+      'to_module' => 'pat_Patients',
       'language' => 'fr_FR',
     ),
     4 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Accounts.php',
-      'to_module' => 'Accounts',
-      'language' => 'en_us',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/Accounts.php',
-      'to_module' => 'Accounts',
-      'language' => 'fr_FR',
-    ),
-    6 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'en_us',
-    ),
-    7 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'fr_FR',
-    ),
-    8 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
-      'language' => 'en_us',
-    ),
-    9 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
-      'language' => 'fr_FR',
-    ),
-    10 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'en_us',
-    ),
-    11 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'fr_FR',
-    ),
-    12 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_PerspectivePatient.php',
-      'to_module' => 'pat_PerspectivePatient',
-      'language' => 'en_us',
-    ),
-    13 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_PerspectivePatient.php',
-      'to_module' => 'pat_PerspectivePatient',
-      'language' => 'fr_FR',
-    ),
-    14 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'en_us',
-    ),
-    15 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/language/pat_Patients.php',
-      'to_module' => 'pat_Patients',
-      'language' => 'fr_FR',
-    ),
-    16 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
       'to_module' => 'application',
       'language' => 'en_us',
     ),
-    17 => 
+    5 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/fr_FR.lang.php',
       'to_module' => 'application',
@@ -252,40 +156,10 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_partenariats_pat_patients_pat_Patients.php',
-      'to_module' => 'pat_Patients',
-    ),
-    1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_partenariats_pat_patients_pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
-    ),
-    2 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_accounts_Accounts.php',
-      'to_module' => 'Accounts',
-    ),
-    3 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_accounts_pat_Patients.php',
-      'to_module' => 'pat_Patients',
-    ),
-    4 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_pat_partenariats_pat_Partenariats.php',
-      'to_module' => 'pat_Partenariats',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_pat_partenariats_pat_Patients.php',
-      'to_module' => 'pat_Patients',
-    ),
-    6 => 
-    array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_pat_perspectivepatient_pat_PerspectivePatient.php',
       'to_module' => 'pat_PerspectivePatient',
     ),
-    7 => 
+    1 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/pat_patients_pat_perspectivepatient_pat_Patients.php',
       'to_module' => 'pat_Patients',
@@ -294,25 +168,6 @@ $installdefs = array (
   'layoutfields' => 
   array (
     0 => 
-    array (
-      'additional_fields' => 
-      array (
-      ),
-    ),
-    1 => 
-    array (
-      'additional_fields' => 
-      array (
-        'Accounts' => 'pat_patients_accounts_name',
-      ),
-    ),
-    2 => 
-    array (
-      'additional_fields' => 
-      array (
-      ),
-    ),
-    3 => 
     array (
       'additional_fields' => 
       array (

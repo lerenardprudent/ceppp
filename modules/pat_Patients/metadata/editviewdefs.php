@@ -88,6 +88,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
+        'LBL_EDITVIEW_PANEL14' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -798,23 +803,17 @@ array (
             'label' => 'LBL_CONSENTEMENT_RECHERCHE',
           ),
         ),
-        2 => 
+      ),
+      'lbl_editview_panel14' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
-            'name' => 'consentement_usage_donnees',
-            'studio' => 'visible',
-            'label' => 'LBL_CONSENTEMENT_USAGE_DONNEES',
+            'name' => 'pat_patients_pat_perspectivepatient_name',
+            'label' => 'LBL_PAT_PATIENTS_PAT_PERSPECTIVEPATIENT_FROM_PAT_PERSPECTIVEPATIENT_TITLE',
           ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'consentement_miseajour',
-            'studio' => 'visible',
-            'label' => 'LBL_CONSENTEMENT_MISEAJOUR',
-          ),
+          1 => '',
         ),
       ),
     ),

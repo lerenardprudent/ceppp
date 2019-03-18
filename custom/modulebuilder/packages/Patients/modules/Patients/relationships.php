@@ -38,32 +38,6 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
-  'pat_patients_accounts' => 
-  array (
-    'lhs_module' => 'pat_Patients',
-    'rhs_module' => 'Accounts',
-    'relationship_type' => 'one-to-one',
-    'readonly' => false,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => false,
-    'relationship_name' => 'pat_patients_accounts',
-  ),
-  'pat_patients_pat_partenariats' => 
-  array (
-    'lhs_module' => 'pat_Patients',
-    'rhs_module' => 'pat_Partenariats',
-    'relationship_type' => 'one-to-one',
-    'readonly' => false,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => false,
-    'relationship_name' => 'pat_patients_pat_partenariats',
-  ),
   'pat_patients_pat_perspectivepatient' => 
   array (
     'lhs_module' => 'pat_Patients',

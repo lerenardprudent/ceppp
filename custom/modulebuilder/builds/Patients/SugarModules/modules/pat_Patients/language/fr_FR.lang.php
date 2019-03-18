@@ -220,4 +220,5 @@ $mod_strings = array (
   'LBL_CONFLIT_INTERET_DETAIL' => 'Lequel',
   'LBL_HELLO' => 'hello',
   'LBL_AUTOCOMPLTEST' => 'Testy',
+  'LBL_PERSPECTIVE' => 'perspective',
 );
