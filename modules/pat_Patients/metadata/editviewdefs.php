@@ -48,12 +48,12 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
-        'LBL_EDITVIEW_PANEL5' => 
+        'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
-        'LBL_EDITVIEW_PANEL6' => 
+        'LBL_EDITVIEW_PANEL5' => 
         array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
@@ -328,38 +328,11 @@ array (
         array (
           0 => 
           array (
-            'name' => 'doul_chron',
-            'studio' => 'visible',
-            'label' => 'LBL_DOUL_CHRON',
-          ),
-        ),
-        11 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_somm',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_SOMM',
-          ),
-        ),
-        12 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_resp',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_RESP',
-          ),
-        ),
-        13 => 
-        array (
-          0 => 
-          array (
             'name' => 'etabl_sante',
             'label' => 'LBL_ETABL_SANTE',
           ),
         ),
-        14 => 
+        11 => 
         array (
           0 => 
           array (
@@ -367,7 +340,7 @@ array (
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
         ),
-        15 => 
+        12 => 
         array (
           0 => 
           array (
@@ -465,6 +438,48 @@ array (
           ),
         ),
       ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'descr_exp',
+            'label' => 'LBL_DESCR_EXP',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'formation_pp',
+            'studio' => 'visible',
+            'label' => 'LBL_FORMATION_PP',
+          ),
+          1 => 
+          array (
+            'name' => 'formation_oui',
+            'label' => 'LBL_FORMATION_OUI',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'formation_qui',
+            'label' => 'LBL_FORMATION_QUI',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'exp_sante',
+            'studio' => 'visible',
+            'label' => 'LBL_EXP_SANTE',
+          ),
+        ),
+      ),
       'lbl_editview_panel5' => 
       array (
         0 => 
@@ -527,48 +542,6 @@ array (
           array (
             'name' => 'duree_experience',
             'label' => 'LBL_DUREE_EXPERIENCE',
-          ),
-        ),
-      ),
-      'lbl_editview_panel6' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'exp_sante',
-            'studio' => 'visible',
-            'label' => 'LBL_EXP_SANTE',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'descr_exp',
-            'label' => 'LBL_DESCR_EXP',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'formation_pp',
-            'studio' => 'visible',
-            'label' => 'LBL_FORMATION_PP',
-          ),
-          1 => 
-          array (
-            'name' => 'formation_oui',
-            'label' => 'LBL_FORMATION_OUI',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'formation_qui',
-            'label' => 'LBL_FORMATION_QUI',
           ),
         ),
       ),
