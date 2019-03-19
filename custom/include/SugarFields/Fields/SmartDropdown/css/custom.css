@@ -7,7 +7,7 @@ select[type="SmartDropdown"] + div.chosen-container {
 }
 
 div.help-text[attr-content="1"]:before {
-  content: "Q:";
+  content: attr(prefix) ": ";
   font-weight: bold;
   color: green;
 }

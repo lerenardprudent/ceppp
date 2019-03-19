@@ -58,7 +58,8 @@ cols="{{if !empty($displayParams.cols)}}{{$displayParams.cols}}{{elseif !empty($
 tabindex="{{$tabindex}}" {{$displayParams.field}}
 {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}} >{$value}</textarea>
 
-<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}'> 
+{assign var="last_char" value='{{$vardef.help|substr:-1}}' }
+<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}' prefix='{if $last_char == '?'}{{"Q"}}{else}{{"C"}}{/if}' title='{if $last_char == '?'}{{"Question à laquelle répondre"}}{else}{{"Conseil relatif à la réponse"}}{/if}'> 
   {{$vardef.help}}
 </div>
 

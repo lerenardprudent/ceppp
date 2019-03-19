@@ -688,6 +688,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_NIVEAU_AUD',
           ),
+          1 => 
+          array (
+            'name' => 'assistance_audition',
+            'studio' => 'visible',
+            'label' => 'LBL_ASSISTANCE_AUDITION',
+          ),
         ),
         4 => 
         array (
@@ -696,6 +702,12 @@ array (
             'name' => 'niveau_vue',
             'studio' => 'visible',
             'label' => 'LBL_NIVEAU_VUE',
+          ),
+          1 => 
+          array (
+            'name' => 'assistance_vision',
+            'studio' => 'visible',
+            'label' => 'LBL_ASSISTANCE_VISION',
           ),
         ),
         5 => 

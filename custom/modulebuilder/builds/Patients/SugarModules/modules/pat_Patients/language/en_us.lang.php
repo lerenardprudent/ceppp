@@ -203,7 +203,7 @@ $mod_strings = array (
   'LBL_NIVEAU_AUD' => 'Impaired hearing',
   'LBL_NIVEAU_VUE' => 'Impaired vision',
   'LBL_NIVEAU_FATIGABILITE' => 'Fatigue',
-  'LBL_NIVEAU_AUTRE' => 'Other',
+  'LBL_NIVEAU_AUTRE' => 'Other needs',
   'LBL_ASSOCIATION_ETABLISSEMENT_RECR' => 'Recruteur institution',
   'LBL_EDITVIEW_PANEL11' => 'Interview',
   'LBL_DATE_ENTREVUE' => 'Interview date',
@@ -232,4 +232,6 @@ $mod_strings = array (
   'LBL_ID_RECRUTEUR' => 'id recruteur',
   'LBL_ASSISTANCE_MOB' => 'Aides à la mobilité',
   'LBL_ROLE_PP' => 'Rôle',
+  'LBL_ASSISTANCE_AUDITION' => 'Besoin d&#039;assistance',
+  'LBL_ASSISTANCE_VISION' => 'Besoin d&#039;assistance',
 );
