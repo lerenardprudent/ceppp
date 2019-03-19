@@ -37,6 +37,10 @@
     {/if}
   {/foreach}
 </select>
+
+<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}'> 
+  {{$vardef.help}}
+</div>
         
 <script>
     {literal}

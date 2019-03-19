@@ -49,3 +49,7 @@
     {{if isset($displayParams.maxlength)}}maxlength='{{$displayParams.maxlength}}'{{elseif isset($vardef.len)}}maxlength='{{$vardef.len}}'{{/if}} 
     value='{$value}' title='{{$vardef.help}}' {{if !empty($tabindex)}} tabindex='{{$tabindex}}' {{/if}}
     {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}} {{$displayParams.field}}>
+
+<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}'> 
+  {{$vardef.help}}
+</div>

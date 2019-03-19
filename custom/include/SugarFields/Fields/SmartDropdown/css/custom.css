@@ -6,7 +6,7 @@ select[type="SmartDropdown"] + div.chosen-container {
   width: 100% !important;
 }
 
-div.help-text:before {
+div.help-text[attr-content="1"]:before {
   content: "Q:";
   font-weight: bold;
   color: green;

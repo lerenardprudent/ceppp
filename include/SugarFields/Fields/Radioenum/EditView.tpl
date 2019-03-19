@@ -54,3 +54,7 @@
 {else}
 	{html_radios id="$idname" {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}}  name="$idname" title="{{$vardef.help}}" options={{sugarvar key='options' string=true}} selected={{sugarvar key='default' string=true}} separator="{{$vardef.separator}}"}
 {/if}
+
+<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}'> 
+  {{$vardef.help}}
+</div>

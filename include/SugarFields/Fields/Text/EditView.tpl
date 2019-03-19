@@ -57,9 +57,9 @@ rows="{{if !empty($displayParams.rows)}}{{$displayParams.rows}}{{elseif !empty($
 cols="{{if !empty($displayParams.cols)}}{{$displayParams.cols}}{{elseif !empty($vardef.cols)}}{{$vardef.cols}}{{else}}{{60}}{{/if}}"
 tabindex="{{$tabindex}}" {{$displayParams.field}}
 {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}} >{$value}</textarea>
-<div class='help-text'>
+
+<div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}'> 
   {{$vardef.help}}
 </div>
-
 
 {literal}{{$tinymce}}{/literal}
