@@ -4023,5 +4023,9 @@ $app_list_strings['genre_list']['homme'] = 'Male';
 $app_list_strings['genre_list']['femme'] = 'Female';
 $app_list_strings['genre_list']['trans'] = 'Transgender';
 $app_list_strings['genre_list']['autre'] = 'Other';
+$app_list_strings['role_pp_list']['patient_partenaire'] = 'Patient partenaire';
+$app_list_strings['role_pp_list']['patient_ressource'] = 'Patient ressource';
+$app_list_strings['role_pp_list']['patient_aviseur'] = 'Patient aviseur';
+$app_list_strings['role_pp_list']['patient_accompagnateur'] = 'Patient accompagnateur';
 
 ?>

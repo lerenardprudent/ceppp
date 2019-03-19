@@ -23,6 +23,11 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
+        'LBL_EDITVIEW_PANEL12' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
         'LBL_EDITVIEW_PANEL13' => 
         array (
           'newTab' => false,
@@ -83,11 +88,6 @@ array (
           'newTab' => false,
           'panelDefault' => 'collapsed',
         ),
-        'LBL_EDITVIEW_PANEL12' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'collapsed',
-        ),
         'LBL_EDITVIEW_PANEL14' => 
         array (
           'newTab' => false,
@@ -98,6 +98,27 @@ array (
     ),
     'panels' => 
     array (
+      'lbl_editview_panel12' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_dcpp_recrut',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_DCPP_RECRUT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consentement_recherche',
+            'studio' => 'visible',
+            'label' => 'LBL_CONSENTEMENT_RECHERCHE',
+          ),
+        ),
+      ),
       'lbl_editview_panel13' => 
       array (
         0 => 
@@ -241,12 +262,22 @@ array (
         array (
           0 => 
           array (
+            'name' => 'role_pp',
+            'studio' => 'visible',
+            'label' => 'LBL_ROLE_PP',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'experience_maladie',
             'studio' => 'visible',
             'label' => 'LBL_EXPERIENCE_MALADIE',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -254,7 +285,7 @@ array (
             'label' => 'LBL_DOMAINE_SOIN',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -262,7 +293,7 @@ array (
             'label' => 'LBL_DOMAINE_SOIN_2',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -270,7 +301,7 @@ array (
             'label' => 'LBL_DOMAINE_SOIN_3',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -279,7 +310,7 @@ array (
             'label' => 'LBL_PROB_SANT',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -288,7 +319,7 @@ array (
             'label' => 'LBL_PROB_SANT_2',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -297,7 +328,7 @@ array (
             'label' => 'LBL_PROB_SANT_3',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -306,7 +337,7 @@ array (
             'label' => 'LBL_MED_1',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -315,7 +346,7 @@ array (
             'label' => 'LBL_MED_2',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -324,7 +355,7 @@ array (
             'label' => 'LBL_MED_3',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -332,7 +363,7 @@ array (
             'label' => 'LBL_ETABL_SANTE',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
@@ -340,7 +371,7 @@ array (
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -633,6 +664,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_NIVEAU_MOB',
           ),
+          1 => 
+          array (
+            'name' => 'assistance_mob',
+            'label' => 'LBL_ASSISTANCE_MOB',
+          ),
         ),
         3 => 
         array (
@@ -656,20 +692,11 @@ array (
         array (
           0 => 
           array (
-            'name' => 'niveau_fatigabilite',
-            'studio' => 'visible',
-            'label' => 'LBL_NIVEAU_FATIGABILITE',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
             'name' => 'niveau_autre',
             'label' => 'LBL_NIVEAU_AUTRE',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -762,27 +789,6 @@ array (
           array (
             'name' => 'org_ref_recrut',
             'label' => 'LBL_ORG_REF_RECRUT',
-          ),
-        ),
-      ),
-      'lbl_editview_panel12' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'consentement_dcpp_recrut',
-            'studio' => 'visible',
-            'label' => 'LBL_CONSENTEMENT_DCPP_RECRUT',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'consentement_recherche',
-            'studio' => 'visible',
-            'label' => 'LBL_CONSENTEMENT_RECHERCHE',
           ),
         ),
       ),
