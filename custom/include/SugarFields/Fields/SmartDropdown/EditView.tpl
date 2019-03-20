@@ -69,6 +69,7 @@
         console.log($target.val());
         var val = $target.val();
         if ( typeof(val) === "object" ) {
+          val = val.filter(function(x) { return $.trim(x).length > 0; });
           val = val.join("&");
         }
         $hidden.val(val);

@@ -579,8 +579,9 @@ $dictionary['pat_Patients'] = array(
     'name' => 'prob_sant',
     'vname' => 'LBL_PROB_SANT',
     'type' => 'SmartDropdown',
+    'isMultiSelect' => true,
     'options' => 'cim10_list',
-    'len' => 1024,
+    'len' => '1024',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -596,6 +597,7 @@ $dictionary['pat_Patients'] = array(
     'size' => '20',
     'studio' => 'visible',
     'dependency' => false,
+    'dbType' => 'varchar',
   ),
   'prob_sant_2' => 
   array (
@@ -665,10 +667,11 @@ $dictionary['pat_Patients'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => 100,
+    'len' => '100',
     'size' => '20',
     'studio' => 'visible',
     'dependency' => false,
+    'dbType' => 'varchar',
   ),
   'med_2' => 
   array (
@@ -980,8 +983,9 @@ $dictionary['pat_Patients'] = array(
     'name' => 'prob_sant_pa',
     'vname' => 'LBL_PROB_SANT_PA',
     'type' => 'SmartDropdown',
+    'isMultiSelect' => true,
     'options' => 'cim10_list',
-    'len' => 1024,
+    'len' => '1024',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -997,6 +1001,7 @@ $dictionary['pat_Patients'] = array(
     'size' => '20',
     'studio' => 'visible',
     'dependency' => false,
+    'dbType' => 'varchar',
   ),
   'prob_sant_pa_2' => 
   array (
@@ -2014,7 +2019,7 @@ $dictionary['pat_Patients'] = array(
     'required' => false,
     'name' => 'role_pp',
     'vname' => 'LBL_ROLE_PP',
-    'type' => 'enum',
+    'type' => 'SmartDropdown',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -2092,4 +2097,4 @@ $dictionary['pat_Patients'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
+VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));

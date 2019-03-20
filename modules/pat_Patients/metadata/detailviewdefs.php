@@ -299,46 +299,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'domaine_soin_2',
-            'label' => 'LBL_DOMAINE_SOIN_2',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'domaine_soin_3',
-            'label' => 'LBL_DOMAINE_SOIN_3',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
             'name' => 'prob_sant',
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT',
           ),
         ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_sant_2',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_SANT_2',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_sant_3',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_SANT_3',
-          ),
-        ),
-        8 => 
+        4 => 
         array (
           0 => 
           array (
@@ -347,25 +313,7 @@ array (
             'label' => 'LBL_MED_1',
           ),
         ),
-        9 => 
-        array (
-          0 => 
-          array (
-            'name' => 'med_2',
-            'studio' => 'visible',
-            'label' => 'LBL_MED_2',
-          ),
-        ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'med_3',
-            'studio' => 'visible',
-            'label' => 'LBL_MED_3',
-          ),
-        ),
-        11 => 
+        5 => 
         array (
           0 => 
           array (
@@ -373,7 +321,7 @@ array (
             'label' => 'LBL_ETABL_SANTE',
           ),
         ),
-        12 => 
+        6 => 
         array (
           0 => 
           array (
@@ -381,7 +329,7 @@ array (
             'label' => 'LBL_ETABL_PREM_LIGNE',
           ),
         ),
-        13 => 
+        7 => 
         array (
           0 => 
           array (
@@ -423,46 +371,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'domaine_soin_pa_2',
-            'label' => 'LBL_DOMAINE_SOIN_PA_2',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'domaine_soin_pa_3',
-            'label' => 'LBL_DOMAINE_SOIN_PA_3',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
             'name' => 'prob_sant_pa',
             'studio' => 'visible',
             'label' => 'LBL_PROB_SANT_PA',
           ),
         ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_sant_pa_2',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_SANT_PA_2',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'prob_sant_pa_3',
-            'studio' => 'visible',
-            'label' => 'LBL_PROB_SANT_PA_3',
-          ),
-        ),
-        8 => 
+        4 => 
         array (
           0 => 
           array (
@@ -470,7 +384,7 @@ array (
             'label' => 'LBL_ETABL_SANTE_PA_',
           ),
         ),
-        9 => 
+        5 => 
         array (
           0 => 
           array (

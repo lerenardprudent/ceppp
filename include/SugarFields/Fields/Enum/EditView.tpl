@@ -73,6 +73,7 @@
 			{html_options options={{sugarvar key='options' string=true}} selected={{sugarvar key='default' string=true}}}
 		{/if}
 		</select>
+
 	{{else}}
 		<input type="hidden"
 		    id="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}"
