@@ -43,17 +43,22 @@
 <div class='help-text' attr-content='{if {{$vardef.help|count_characters}} > 0}{1}{else}{0}{/if}' prefix='{if $last_char == '?'}{{"Q"}}{else}{{"C"}}{/if}' title='{if $last_char == '?'}{{"Question à laquelle répondre"}}{else}{{"Conseil relatif à la réponse"}}{/if}'> 
   {{$vardef.help}}
 </div>
+{if strlen({{sugarvar key='isMultiSelect' string=true}}) == 1}
 <input type="hidden" id='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}'
-  name='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}' value="666" />
+  name='{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}' value="{{$value}}" />
+{/if}
         
 <script>
     {literal}
     $(document).ready(function(){
-        $('#{/literal}{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}
-        {{$displayParams.idName}}{{/if}}{literal}').chosen({
+        var chosenOptions = {
           allow_single_deselect: true
-        }).trigger('chosen:open');
-          console.log("NOW EDITING #{/literal}{{sugarvar key='name'}}{literal}");
+        };
+        $('#{/literal}{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}
+        {{$displayParams.idName}}{{/if}}{literal}').chosen(chosenOptions).trigger('chosen:open');
+          
+        console.log("Chosen options", chosenOptions);
+        console.log("NOW EDITING #{/literal}{{sugarvar key='name'}}{literal}");
     });
     
     function updateHidden(event) {
@@ -61,9 +66,13 @@
       var name = $target.prop('name');
       $hidden = $('[name="' + name + '"][type="hidden"]' );
       if ( $hidden.length ) {
-        var val = $target.val().join('&');
+        console.log($target.val());
+        var val = $target.val();
+        if ( typeof(val) === "object" ) {
+          val = val.join("&");
+        }
         $hidden.val(val);
-        console.log("Hidden field updated");
+        console.log("Hidden field updated to ", val);
       }
     }
     {/literal}

@@ -425,7 +425,7 @@ $dictionary['pat_Patients'] = array(
     'required' => false,
     'name' => 'groupe_designe',
     'vname' => 'LBL_GROUPE_DESIGNE',
-    'type' => 'enum',
+    'type' => 'SmartDropdown',
     'massupdate' => 0,
     'no_default' => false,
     'comments' => '',
@@ -2092,4 +2092,4 @@ $dictionary['pat_Patients'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
+VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
