@@ -68,7 +68,21 @@ function unzip_file($zip_archive, $archive_file, $zip_dir)
             $GLOBALS['log']->fatal(sprintf("ZIP Error #1(%d): Status(%s): Archive(%s): Directory(%s)", $res, $zip->status, $zip_archive, $zip_dir));
             return false;
         }
-        die(sprintf("ZIP Error #2(%d): Status(%s): Archive(%s): Directory(%s)", $res, $zip->status, $zip_archive, $zip_dir));
+        die(sprintf("ZIP Error #2(%d): Status(%s): Archive(%s): Directory(%s) %d %d %d %d %d %d %d %d %d %d %d %d %d", $res, $zip->status, $zip_archive, $zip_dir,
+                ZipArchive::ER_OK,
+                ZipArchive::ER_MULTIDISK,
+                ZipArchive::ER_RENAME, 
+                ZipArchive::ER_CLOSE, 
+                ZipArchive::ER_SEEK, 
+                ZipArchive::ER_READ, 
+                ZipArchive::ER_WRITE, 
+                ZipArchive::ER_CRC, 
+                ZipArchive::ER_ZIPCLOSED, 
+                ZipArchive::ER_NOENT, 
+                ZipArchive::ER_EXISTS, 
+                ZipArchive::ER_OPEN, 
+                ZipArchive::ER_TMPOPEN
+                ));
     }
 
     if ($archive_file !== null) {
