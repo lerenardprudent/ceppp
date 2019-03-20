@@ -3,7 +3,7 @@
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Expérience maladie - Partenariat patient',
   'LBL_EXPERIENCE_MALADIE' => 'Expérience du PP avec la maladie',
-  'LBL_DOMAINE_SOIN' => 'Spécialité domaine de soins #1',
+  'LBL_DOMAINE_SOIN' => 'Spécialités de soin',
   'LBL_MED_1' => 'Médicaments #1',
   'LBL_DOMAINE_SOIN_2' => 'Spécialité domaine de soins #2',
   'LBL_DOMAINE_SOIN_3' => 'Spécialité domaine de soins #3',
@@ -23,7 +23,7 @@ $mod_strings = array (
   'LBL_PROB_SANT_PA' => 'Problématique de santé #1',
   'LBL_PROB_SANT_PA_2' => 'Problématique de santé #2',
   'LBL_PROB_SANT_PA_3' => 'Problématique de santé #3',
-  'LBL_DOMAINE_SOIN_PA' => 'Spécialité domaine de soins #1',
+  'LBL_DOMAINE_SOIN_PA' => 'Spécialités de soin',
   'LBL_DOMAINE_SOIN_PA_2' => 'Spécialité domaine de soins #2',
   'LBL_DOMAINE_SOIN_PA_3' => 'Spécialité domaine de soins #3',
   'LBL_ETABL_PREM_LIGNE_PA' => '!! Établissement de première ligne',
