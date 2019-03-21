@@ -74,5 +74,7 @@ class pat_PatientsViewEdit extends ViewEdit
 
             echo '<script>$(document).ready(function(){' . $script . '})</script>';
         }
+        
+        echo "<script type='text/javascript' src='modules/pat_Patients/custom.js'>";
     }
 }

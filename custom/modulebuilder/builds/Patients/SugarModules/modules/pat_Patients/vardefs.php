@@ -2109,4 +2109,4 @@ $dictionary['pat_Patients'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
+VardefManager::createVardef('pat_Patients', 'pat_Patients', array('basic','assignable','security_groups','person'));
