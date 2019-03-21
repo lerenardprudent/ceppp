@@ -1,3 +1,4 @@
-console.log("Adding custom here");
-
-
+function undef(x)
+{
+  return typeof x === 'undefined';
+}

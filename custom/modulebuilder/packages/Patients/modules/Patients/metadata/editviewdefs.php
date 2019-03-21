@@ -26,7 +26,7 @@ array (
         'LBL_EDITVIEW_PANEL12' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL13' => 
         array (

@@ -23,8 +23,3 @@ $(document).on({
       $('#loading-ajax').hide();
     }
   }
-  
-  function undef(x)
-  {
-    return typeof x === 'undefined';
-  }
