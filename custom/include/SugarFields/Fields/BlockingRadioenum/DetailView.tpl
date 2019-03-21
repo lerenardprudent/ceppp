@@ -44,7 +44,7 @@
 
 {assign var="val" value={{sugarvar key='value' string=true}} }
 
-<span consentwithdrawn='{if $val == "0" || $val == "non"}{1}{else}{0}{/if}' class="sugar_field blocking-radioenum" id="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}">
+<span value='{$val}' consentwithdrawn='{if $val == "0" || $val == "non"}{1}{else}{0}{/if}' class="sugar_field blocking-radioenum" id="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}"  name="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}">
 { {{sugarvar  key='options' string=true}}[{{sugarvar key='value' string=true}}]}
 </span>
 {{if !empty($displayParams.enableConnectors)}}

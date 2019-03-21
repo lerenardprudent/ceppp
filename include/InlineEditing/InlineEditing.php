@@ -493,7 +493,7 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
       } else {
         $lbl = $val;
       }
-      $value = "<span consent-withdrawn='" . (in_array($value, array("0","non")) !== false ? 1 : 0) . "' class='sugar_field blocking-radioenum' id='" . $vardef['name'] . "'>$lbl</span>";
+      $value = "<span value='$value' consent-withdrawn='" . (in_array($value, array("0","non")) !== false ? 1 : 0) . "' class='sugar_field blocking-radioenum' id='" . $vardef['name'] . "' name='" . $vardef['name'] . "'>$lbl</span>";
     }
 
     //if field is of type relate.
