@@ -31,7 +31,7 @@ array (
         'LBL_EDITVIEW_PANEL13' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_CONTACT_INFORMATION' => 
         array (
@@ -91,7 +91,7 @@ array (
         'LBL_EDITVIEW_PANEL14' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
       ),
       'syncDetailEditViews' => true,

@@ -56,9 +56,6 @@
         };
         $('#{/literal}{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}
         {{$displayParams.idName}}{{/if}}{literal}').chosen(chosenOptions).trigger('chosen:open');
-          
-        console.log("Chosen options", chosenOptions);
-        console.log("NOW EDITING #{/literal}{{sugarvar key='name'}}{literal}");
     });
     
     function updateHidden(event) {

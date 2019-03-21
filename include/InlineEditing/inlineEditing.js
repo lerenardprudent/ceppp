@@ -335,6 +335,7 @@ function getInputValue(field,type){
                 }
                 break;
             case 'radioenum':
+            case 'BlockingRadioenum':
                 if($('input[name='+field+']:checked').val()){
                     return $('input[name='+field+']:checked').val();
                 }

@@ -482,6 +482,19 @@ function formatDisplayValue($bean, $value, $vardef, $method = "save")
         $value = $val;
       }
     }
+    
+    if ($vardef['type'] == "BlockingRadioenum") {
+      $val = $app_list_strings[$vardef['options']][$value];
+      if ( $val == null ) {
+        $ac = array_column($app_list_strings[$vardef['options']], $value);
+        if ( is_array($ac) && count($ac) == 1 ) {
+          $lbl = $ac[0];
+        }
+      } else {
+        $lbl = $val;
+      }
+      $value = "<span consent-withdrawn='" . (in_array($value, array("0","non")) !== false ? 1 : 0) . "' class='sugar_field blocking-radioenum' id='" . $vardef['name'] . "'>$lbl</span>";
+    }
 
     //if field is of type relate.
     if ($vardef['type'] == "relate" || $vardef['type'] == "parent") {
