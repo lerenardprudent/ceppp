@@ -58,10 +58,13 @@
 {else}
   {assign var="consentwithdrawn" value='0' }
 {/if}
+
+{assign var="blockedlabel" value="{{$APP.LBL_CONSENT__EDIT_BLOCKED}}" }
+
 {if isset({{sugarvar key='value' string=true}}) && {{sugarvar key='value' string=true}} != ''}
-	{html_radios id="$idname" class='blocking-radioenum' consentwithdrawn="$consentwithdrawn" onclick="consent_change(event)" {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}}   name="$idname" title="{{$vardef.help}}" options={{sugarvar key='options' string=true}} selected={{sugarvar key='value' string=true}} separator="{{$vardef.separator}}"}
+	{html_radios id="$idname" class='blocking-radioenum' consentwithdrawn="$consentwithdrawn" onclick="consent_change(event)" {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}}   name="$idname" title="{{$vardef.help}}" options={{sugarvar key='options' string=true}} selected={{sugarvar key='value' string=true}} separator="{{$vardef.separator}}" blockedlabel="$blockedlabel" }
 {else}
-	{html_radios id="$idname" class='blocking-radioenum' consentwithdrawn="$consentwithdrawn"  onclick="consent_change(event)" {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}}  name="$idname" title="{{$vardef.help}}" options={{sugarvar key='options' string=true}} selected={{sugarvar key='default' string=true}} separator="{{$vardef.separator}}"}
+	{html_radios id="$idname" class='blocking-radioenum' consentwithdrawn="$consentwithdrawn"  onclick="consent_change(event)" {{if !empty($displayParams.accesskey)}} accesskey='{{$displayParams.accesskey}}' {{/if}}  name="$idname" title="{{$vardef.help}}" options={{sugarvar key='options' string=true}} selected={{sugarvar key='default' string=true}} separator="{{$vardef.separator}}" blockedlabel="$blockedlabel" }
 {/if}
 
 {assign var="last_char" value='{{$vardef.help|substr:-1}}' }

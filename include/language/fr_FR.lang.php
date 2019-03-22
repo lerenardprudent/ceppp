@@ -3700,3 +3700,5 @@ $app_list_strings['search_controllers'] = [
 ];
 
 $app_list_strings['LBL_REPORTS_RESTRICTED'] = 'Un rapport que vous avez sélectionné concerne un module auquel vous n’avez pas accès. Veuillez sélectionner un rapport d\'un module accessible.';
+
+$app_strings['LBL_CONSENT__EDIT_BLOCKED'] = "En raison d'un consentement n'ayant pas été accordé il est impossible de modifier le dossier du patient";

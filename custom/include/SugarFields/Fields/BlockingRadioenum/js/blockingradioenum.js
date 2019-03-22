@@ -36,40 +36,32 @@ function checkIfMustBlock($target) {
 }
 
 function setPanels(block, $consentPanel) {
+  title = $('[blockedlabel]:first').attr('blockedlabel');
   $('.panel').each(function() {
     $ph = $(this).find('.panel-heading');
+    $pb = $ph.next();
     $a = $ph.find('a');
     if ( $(this).is($consentPanel) ) {
-      if ( $a.is('.collapsed') && !$a.is('.opened') ) {
-        $a.addClass('opened');
-        $a.click();
+      if ( $a.is('.collapsed') ) {
+        $pb.addClass('in');
+        $a.addClass('in');
+        $a.removeClass('collapsed');
       }
     } else {
       if ( block ) {
         if ( !$ph.hasClass('blocked') ) {
-          $a.click();
           $ph.append($('<div class="temp-label">').append($a.text()));
           $ph.addClass('blocked');
+          $pb.removeClass('in');
+          $a.removeClass('in');
+          $a.addClass('collapsed');
+          $ph.attr('title', title);
         }
       } else { 
         $ph.removeClass('blocked');
         $ph.find(".temp-label").remove();
+        $ph.attr('title', "");
       }
-      /*if ( block ) {
-        var clickListenerAdded = false;
-        var events = $._data($a[0], "events");
-        if ( typeof(events) !== "undefined" && events.hasOwnProperty('click') ) {
-          var evt = events['click'][0];
-          if ( evt.handler == preventPanelExpansion ) {
-            clickListenerAdded = true;
-          }
-        }
-        if ( !clickListenerAdded ) {
-          $a.bind('click', preventPanelExpansion);
-        }
-      } else {
-        $a.unbind('click', preventPanelExpansion);
-      }*/
     }
   });
 }

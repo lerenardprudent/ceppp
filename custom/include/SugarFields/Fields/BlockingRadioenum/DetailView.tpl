@@ -44,7 +44,9 @@
 
 {assign var="val" value={{sugarvar key='value' string=true}} }
 
-<span value='{$val}' consentwithdrawn='{if $val == "0" || $val == "non"}{1}{else}{0}{/if}' class="sugar_field blocking-radioenum" id="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}"  name="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}">
+{assign var="blockedlabel" value="{{$APP.LBL_CONSENT__EDIT_BLOCKED}}" }
+
+<span value='{$val}' consentwithdrawn='{if $val == "0" || $val == "non"}{1}{else}{0}{/if}' class="sugar_field blocking-radioenum" id="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}"  name="{{if empty($displayParams.idName)}}{{sugarvar key='name'}}{{else}}{{$displayParams.idName}}{{/if}}" blockedlabel="{$blockedlabel}"  >
 { {{sugarvar  key='options' string=true}}[{{sugarvar key='value' string=true}}]}
 </span>
 {{if !empty($displayParams.enableConnectors)}}
