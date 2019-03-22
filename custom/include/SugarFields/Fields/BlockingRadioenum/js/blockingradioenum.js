@@ -19,7 +19,7 @@ function checkIfMustBlock($target) {
     var consent = true;
     if ( $inp.length ) {
       var value = $inp.attr('value');
-      consent = value == "1" || value == "oui";
+      consent = value != "0" && value != "non";
     }
     return consent;
   }).get();
