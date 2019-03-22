@@ -1312,9 +1312,18 @@ class SearchForm
                                                 }
                                             }
                                         }
-
-                                        //field is not last name or this is not from global unified search, so do normal where clause
-                                        $where .= $db_field . " like " . $this->seed->db->quoted(sql_like_string($field_value, $like_char));
+                                        
+                                        if ( $type == "SmartDropdown" ) {
+                                          $vals = array_filter(explode('&', $field_value), function($v) { return !empty($v); });
+                                          $parts = array_map(function($v) use ($db_field, $like_char) {
+                                            return "($db_field like " . $this->seed->db->quoted(sql_like_string($v, $like_char)) . ")";
+                                          }, $vals);
+                                          $where .= implode(" AND ", $parts);
+                                          $foo = 1;
+                                        } else {
+                                          //field is not last name or this is not from global unified search, so do normal where clause
+                                          $where .= $db_field . " like " . $this->seed->db->quoted(sql_like_string($field_value, $like_char));
+                                        }
                                     }
                                 }
                                 break;

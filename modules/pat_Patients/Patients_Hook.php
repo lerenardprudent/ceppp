@@ -30,6 +30,10 @@ class Patients_Hook {
 
       $secG = new SecurityGroup();
       $groups = $secG->getRecordSecurityGroups($bean->id);
+      if ( empty($groups) ) {
+        $groups = $secG->getUserSecurityGroups($user_id);
+      }
+      
       $secGroupName = "";
       foreach ( $groups as $secgid => $secgroup ) {
         $secGroupName = $secgroup['name'];
