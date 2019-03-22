@@ -12,12 +12,12 @@ function checkIfMustBlock($target) {
   var consentVals = $('div[type="BlockingRadioenum"]').map(function() {
     var field = $(this).attr('field');
     var selector = '[name="' + field + '"]';
-    if ( $(this).is('.edit-view-field') || $(this).is('.inlineEditActive') ) {
+    if ( $(this).find('input:radio').length ) {
       selector += ':checked';
     }
     $inp = $(this).find(selector);
     var consent = true;
-    if ( $inp.length ) {
+    if ( $inp.length == 1 ) {
       var value = $inp.attr('value');
       consent = value != "0" && value != "non";
     }

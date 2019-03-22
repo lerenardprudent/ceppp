@@ -472,7 +472,7 @@ class SugarFieldBase
         $this->ss->assign('parentFieldArray', $parentFieldArray);
         $this->ss->assign('vardef', $vardef);
         $this->ss->assign('tabindex', $tabindex);
-
+        
         //for adding attributes to the field
 
         if (!empty($displayParams['field'])) {

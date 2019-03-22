@@ -586,6 +586,9 @@ class Smarty
      */
     public function assign($tpl_var, $value = null)
     {
+      if ( $tpl_var == 'vardef') {
+        $foo = 1;
+      }
         if (is_array($tpl_var)) {
             foreach ($tpl_var as $key => $val) {
                 if ($key != '') {

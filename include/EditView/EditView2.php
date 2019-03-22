@@ -825,7 +825,14 @@ class EditView
             isset($this->defs['templateMeta']['tabDefs']) ? $this->defs['templateMeta']['tabDefs'] : false
         );
         $this->th->ss->assign('VERSION_MARK', getVersionedPath(''));
+        
+        /* HACK DMARG 2019-03-22 */
+        $lang = substr($GLOBALS['current_language'], 0, 2);
+        if ( isset($lang) ) {
+          $this->th->ss->assign('lang', $lang);
+        }
 
+        
         global $js_custom_version;
         global $sugar_version;
 

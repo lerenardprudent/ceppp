@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Patients',
-  'published_date' => '2019-03-22 17:26:51',
+  'published_date' => '2019-03-22 21:59:08',
   'type' => 'module',
-  'version' => 1553275613,
+  'version' => 1553291950,
   'remove_tables' => 'prompt',
 );
 

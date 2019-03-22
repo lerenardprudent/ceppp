@@ -1319,6 +1319,7 @@ class SearchForm
                                             return "($db_field like " . $this->seed->db->quoted(sql_like_string($v, $like_char)) . ")";
                                           }, $vals);
                                           $where .= implode(" AND ", $parts);
+                                          $GLOBALS['log']->info("Please lord: $where");
                                           $foo = 1;
                                         } else {
                                           //field is not last name or this is not from global unified search, so do normal where clause
