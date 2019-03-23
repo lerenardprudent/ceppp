@@ -586,7 +586,7 @@ class Smarty
      */
     public function assign($tpl_var, $value = null)
     {
-      if ( $tpl_var == 'vardef') {
+      if ( $value === 'consentement_dcpp_recrut') {
         $foo = 1;
       }
         if (is_array($tpl_var)) {

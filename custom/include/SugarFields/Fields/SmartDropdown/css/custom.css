@@ -5,15 +5,3 @@ span[type="SmartDropdown"], select[type="SmartDropdown"] {
 select[type="SmartDropdown"] + div.chosen-container {
   width: 100% !important;
 }
-
-div.help-text[attr-content="1"]:before {
-  content: attr(prefix) ": ";
-  font-weight: bold;
-  color: green;
-}
-
-div.help-text {
-  font-style: italic;
-  font-size: small;
-  color: dodgerblue;
-}

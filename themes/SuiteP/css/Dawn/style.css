@@ -27033,3 +27033,9 @@ body > .le_panel .le_edit, #toolbox .le_panel .le_edit {
 
 .jstree-default-large .jstree-ellipsis.jstree-no-icons .jstree-anchor {
   width: calc(100% - 5px); }
+
+div.help-text {
+  font-style: italic;
+  font-size: small;
+  color: dodgerblue;
+}
